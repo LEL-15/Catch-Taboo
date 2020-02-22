@@ -1,5 +1,6 @@
 package com.example.catch_taboo;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -14,6 +15,11 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.CollectionReference;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 import androidx.drawerlayout.widget.DrawerLayout;
 
@@ -21,6 +27,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.Menu;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class HomeActivity extends AppCompatActivity {
     String TAG = "testing";
@@ -60,5 +71,35 @@ public class HomeActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
+    }
+
+    public void goToJoScreen(View view) {
+        Intent intent = new Intent(this, GeneralPlayActivity.class);
+        startActivity(intent);
+    }
+
+    public void updateUserName(View view){
+        EditText editText = findViewById(R.id.name);
+        final String name = editText.getText().toString();
+
+        //makes sure there is valid values for the text fields
+        if(name.length() != 0){
+            //once it meets the previous criteria, it can attempt to create a new account in Firebase
+            FirebaseFirestore rootRef = FirebaseFirestore.getInstance();
+            CollectionReference ref = rootRef.collection("users");
+            FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+            Map<String, Object> data = new HashMap<>();
+            data.put("name", name);
+
+            DocumentReference newPlayer = ref.document(user.getUid());
+            newPlayer.set(data);
+            Intent intent = new Intent(this, HomeActivity.class);
+            startActivity(intent);
+        }
+        else {
+            //if user leaves some of the fields empty
+            Toast.makeText(HomeActivity.this, "Please enter a value.",
+                    Toast.LENGTH_SHORT).show();
+        }
     }
 }

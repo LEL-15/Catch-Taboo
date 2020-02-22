@@ -32,7 +32,6 @@ public class NewUserActivity extends AppCompatActivity {
     }
 
     public void goToHomeScreen(View view) {
-
         EditText editText = findViewById(R.id.enter_text);
         final String name = editText.getText().toString();
 

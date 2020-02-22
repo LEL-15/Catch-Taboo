@@ -1,4 +1,4 @@
-package com.example.catch_taboo.ui.gallery;
+package com.example.catch_taboo.ui.user;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
