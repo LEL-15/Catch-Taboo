@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "825732687989",
+    "firebase_url": "https://catch-taboo.firebaseio.com",
+    "project_id": "catch-taboo",
+    "storage_bucket": "catch-taboo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825732687989:android:0a9c9edff8e4ebb26c303c",
+        "android_client_info": {
+          "package_name": "com.example.catch_taboo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825732687989-9uulqos8mtck17trf60h73rjc7s73jld.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.catch_taboo",
+            "certificate_hash": "6f09d976682c9ac2e0666c584201c9bb0951922d"
+          }
+        },
+        {
+          "client_id": "825732687989-94co8gfedgrfjq4uvv6skmcvaqvomqh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOdfvpd7xBJXuDwOVqCnUmGypEj_yxhS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825732687989-94co8gfedgrfjq4uvv6skmcvaqvomqh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
