@@ -106,17 +106,17 @@ public class HomeActivity extends AppCompatActivity {
         }
     }
 
-    public void signOut(View v) {
-        // Firebase sign out
-        mAuth.signOut();
-
-        // Google sign out
-        mGoogleSignInClient.signOut().addOnCompleteListener(this,
-                new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
-                        goSignIn();
-                    }
-                });
-    }
+//    public void signOut(View v) {
+//        // Firebase sign out
+//        mAuth.signOut();
+//
+//        // Google sign out
+//        mGoogleSignInClient.signOut().addOnCompleteListener(this,
+//                new OnCompleteListener<Void>() {
+//                    @Override
+//                    public void onComplete(@NonNull Task<Void> task) {
+//                        goSignIn();
+//                    }
+//                });
+//    }
 }
