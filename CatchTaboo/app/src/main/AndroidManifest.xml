@@ -28,6 +28,8 @@
         </activity>
         <activity android:name=".NewUserActivity" />
         <activity android:name=".GeneralPlayActivity" />
+        <activity android:name=".CreateGameActivity" />
+        <activity android:name=".JoinedGameActivity" />
     </application>
 
 </manifest>

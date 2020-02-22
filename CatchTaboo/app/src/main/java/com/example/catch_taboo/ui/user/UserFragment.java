@@ -28,7 +28,7 @@ public class UserFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         FirebaseFirestore db;
         FirebaseAuth mAuth;
-        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();;
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 
         galleryViewModel =
                 ViewModelProviders.of(this).get(GalleryViewModel.class);
