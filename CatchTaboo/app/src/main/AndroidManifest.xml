@@ -27,6 +27,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".NewUserActivity" />
+        <activity android:name=".GeneralPlayActivity" />
     </application>
 
 </manifest>

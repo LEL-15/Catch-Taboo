@@ -30,7 +30,7 @@
 
         <TextView
             android:id="@+id/team_two_score"
-            android:layout_width="176dp"
+            android:layout_width="200dp"
             android:layout_height="50dp"
             android:text="Team two Score"
             android:textAlignment="center"
