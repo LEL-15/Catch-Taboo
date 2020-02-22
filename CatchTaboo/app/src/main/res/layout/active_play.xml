@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/score display"
+        android:id="@+id/score_display"
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:background="@color/colorPrimary"
@@ -17,16 +17,16 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/Team one score"
+            android:id="@+id/Team_one_score"
             android:layout_width="226dp"
             android:layout_height="50dp"
             android:text="Team one Score"
-            app:layout_constraintEnd_toStartOf="@+id/team two score"
+            app:layout_constraintEnd_toStartOf="@+id/team_two_score"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/team two score"
+            android:id="@+id/team_two_score"
             android:layout_width="176dp"
             android:layout_height="50dp"
             android:text="Team two Score"

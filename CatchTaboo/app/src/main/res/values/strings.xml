@@ -13,4 +13,6 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+    <string name="hostGame">Host a Game</string>
+    <string name="joinGame">Join a Game</string>
 </resources>

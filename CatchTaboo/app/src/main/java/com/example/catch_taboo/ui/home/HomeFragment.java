@@ -24,6 +24,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QuerySnapshot;
 
 public class HomeFragment extends Fragment {
+    final String TAG = "Testing";
 
     private HomeViewModel homeViewModel;
 
@@ -32,19 +33,10 @@ public class HomeFragment extends Fragment {
         homeViewModel =
                 ViewModelProviders.of(this).get(HomeViewModel.class);
         View root = inflater.inflate(R.layout.fragment_home, container, false);
-        final TextView textView = root.findViewById(R.id.text_home);
-        homeViewModel.getText().observe(this, new Observer<String>() {
+        homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
-                FirebaseFirestore db = FirebaseFirestore.getInstance();
-                db.collection("users").document("WqGIGKODr6yQOxYH2bu8")
-                        .get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
-                    @Override
-                    public void onSuccess(DocumentSnapshot documentSnapshot) {
-                        String name = documentSnapshot.getString("name");
-                        textView.setText(name);
-                    }
-                });
+                Log.d(TAG, "onChanged: Change in home");
             }
         });
         return root;
