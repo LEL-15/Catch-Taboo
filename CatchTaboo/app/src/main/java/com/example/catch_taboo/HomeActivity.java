@@ -3,12 +3,15 @@ package com.example.catch_taboo;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
 import android.util.Log;
 import android.view.View;
 
+import androidx.annotation.NonNull;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -37,6 +40,7 @@ public class HomeActivity extends AppCompatActivity {
     String TAG = "testing";
 
     private AppBarConfiguration mAppBarConfiguration;
+    FirebaseFirestore rootRef = FirebaseFirestore.getInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,21 +89,34 @@ public class HomeActivity extends AppCompatActivity {
         //makes sure there is valid values for the text fields
         if(name.length() != 0){
             //once it meets the previous criteria, it can attempt to create a new account in Firebase
-            FirebaseFirestore rootRef = FirebaseFirestore.getInstance();
             CollectionReference ref = rootRef.collection("users");
             FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
             Map<String, Object> data = new HashMap<>();
             data.put("name", name);
 
             DocumentReference newPlayer = ref.document(user.getUid());
-            newPlayer.set(data);
-            Intent intent = new Intent(this, HomeActivity.class);
-            startActivity(intent);
+            newPlayer.update(data);
+            Toast.makeText(HomeActivity.this, "Changes saved.",
+                    Toast.LENGTH_SHORT).show();
         }
         else {
             //if user leaves some of the fields empty
             Toast.makeText(HomeActivity.this, "Please enter a value.",
                     Toast.LENGTH_SHORT).show();
         }
+    }
+
+    public void signOut(View v) {
+        // Firebase sign out
+        mAuth.signOut();
+
+        // Google sign out
+        mGoogleSignInClient.signOut().addOnCompleteListener(this,
+                new OnCompleteListener<Void>() {
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task) {
+                        goSignIn();
+                    }
+                });
     }
 }
