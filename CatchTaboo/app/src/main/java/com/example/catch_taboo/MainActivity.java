@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.d(TAG, "onCreate: Trying to login");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
@@ -160,6 +161,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void updateUI(final FirebaseUser user) {
+        Log.d(TAG, "updateUI: Here");
         final Context hold = this;
         if (user != null) {
             db.collection("users")
@@ -183,7 +185,7 @@ public class MainActivity extends AppCompatActivity {
                                 }
                                 if(!exists){
                                     Log.d(TAG, "onComplete: User doesn't exist");
-                                    Intent intent = new Intent(hold, HomeActivity.class);
+                                    Intent intent = new Intent(hold, NewUserActivity.class);
                                     startActivity(intent);
                                 }
                             }
