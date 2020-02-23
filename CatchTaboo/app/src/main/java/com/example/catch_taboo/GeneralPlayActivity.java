@@ -32,21 +32,10 @@ public class GeneralPlayActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.active_play);
 //        ((TextView)findViewById(R.id.points)).setText("10");//works
-    }
 
-//    private AppBarConfiguration mAppBarConfiguration;
-//    FirebaseFirestore rootRef = FirebaseFirestore.getInstance();
-//    CollectionReference ref = rootRef.collection("games");
-//    FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-
-    //should change the value of team_one_score on data change replicate for team_two_score if works
-    //get game name
-    private String docName = "";
-    private DocumentReference docRef = db.collection("games").document(docName);
-    public void onDataChange(DocumentReference docRef) {
-//        ((TextView) findViewById(R.id.team_one_score)).setText((CharSequence) docRef);
-
-
+        //get game name
+        String docName = "Better Game Name"; //need to pull from database
+        DocumentReference docRef = db.collection("games").document(docName);
 
 //        DocumentReference docRef = db.collection("games");
         docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
@@ -57,14 +46,16 @@ public class GeneralPlayActivity extends AppCompatActivity {
                     DocumentSnapshot snapshot = task.getResult();
                     if (snapshot.exists()) {
 //                        Log.d(TAG, "DocumentSnapshot data: " + document.getData());
-                        ((TextView) findViewById(R.id.team_one_score)).setText(snapshot.getString("teamOneScore"));
-//                        mText.setValue(snapshot.getString("word")); //change word here!
+                        ((TextView) findViewById(R.id.team_one_score)).setText(snapshot.getString("teamOneName")+": "+ String.valueOf(snapshot.getDouble("teamOneScore")));
+                        ((TextView) findViewById(R.id.team_two_score)).setText(snapshot.getString("teamTwoName")+": "+ String.valueOf(snapshot.getDouble("teamTwoScore")));
+//                        ((TextView) findViewById(R.id.team_two_score)).setText(snapshot.getString("teamTwoName")+": "+ String.valueOf(snapshot.getDouble("teamTwoScore")));
 
                     } else {
 //                        Log.d(TAG, "No such document");
 //                        mText = new MutableLiveData<>();
 //                        mText.setValue("error"); //change word here!
                         ((TextView) findViewById(R.id.team_one_score)).setText("Error");
+                        ((TextView) findViewById(R.id.team_two_score)).setText("Error");
                     }
                 } else {
                     Log.d(TAG, "get failed with ", task.getException());
@@ -73,6 +64,22 @@ public class GeneralPlayActivity extends AppCompatActivity {
 
         });
     }
+
+//    private AppBarConfiguration mAppBarConfiguration;
+//    FirebaseFirestore rootRef = FirebaseFirestore.getInstance();
+//    CollectionReference ref = rootRef.collection("games");
+//    FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+
+    //should change the value of team_one_score on data change replicate for team_two_score if works
+
+
+
+//    public void onDataChange(DocumentReference docRef) {
+////        ((TextView) findViewById(R.id.team_one_score)).setText((CharSequence) docRef);
+//
+//
+//
+//    }
 
 
 
