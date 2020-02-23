@@ -118,6 +118,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
             }
         });
     }
+
     private  void pickLayout(Map<String, Object> data){
         Log.d(TAG, "data: " + data);
         Log.d(TAG, "active player" + data.get("activePlayer"));

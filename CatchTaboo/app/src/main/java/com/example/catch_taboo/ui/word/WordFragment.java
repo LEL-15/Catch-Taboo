@@ -29,31 +29,8 @@ public class WordFragment extends Fragment {
             }
         });
 
-//        button.setOnClickListener(new View.OnClickListener() {
-//            public void onClick(View v) {
-                // Do something in response to button click = change word
-//                final TextView textView = root.findViewById(R.id.word);
-//                wordViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-//                    @Override
-//                    public void onChanged(@Nullable String s) {
-//                        button.setText(s); //change word random
-//                    }
-//                });
-
-                //change active team in database
-                //change active player
-
-                //onClick change the screen of the player to a different fragment
-//                FragmentTransaction ft = getFragmentManager().beginTransaction(); //reload fragment
-//                ft.detach(WordFragment.this).attach(WordFragment.this).commit();
-//            }
-//        });
-
         return root;
     }
 
-//    public changeWord() {
-//
-//    }
 }
 
