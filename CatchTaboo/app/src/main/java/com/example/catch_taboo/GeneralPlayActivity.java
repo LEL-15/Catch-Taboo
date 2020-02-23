@@ -173,10 +173,14 @@ public class GeneralPlayActivity extends AppCompatActivity {
         }
         //Other Team
         else if ((team.equals("team1") != (Boolean.parseBoolean(data.get("teamOneActive").toString())))) {
-            Log.d(TAG, "pickLayout: Other team active");
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-            ft.replace(R.id.fragment_container, new WaitFragment());
+
+            TabooFragment TFragment = new TabooFragment();
+            TFragment.setGameName(gameName);
+            ft.replace(R.id.fragment_container, TFragment);
             ft.commit();
+
+            Log.d(TAG, "pickLayout: Other team active");
             DocumentReference docRef = db.collection("games").document(gameName);
             if(registration != null){
                 registration.remove();
@@ -200,11 +204,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
             });
         } else {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-
-            TabooFragment TFragment = new TabooFragment();
-            TFragment.setGameName(gameName);
-            ft.replace(R.id.fragment_container, TFragment);
-
+            ft.replace(R.id.fragment_container, new WaitFragment());
             ft.commit();
             DocumentReference docRef = db.collection("games").document(gameName);
             if(registration != null){
@@ -298,6 +298,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
                     document.update("teamTwoScore", FieldValue.increment(scoreEarned));
                 }
                 pickLayout(data);
+                updateScore();
             }
             //Got buzzed
             else {
@@ -316,6 +317,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
         Log.d(TAG, "updateOtherPlayer: " + count);
         if(count > 1){
             pickLayout(data);
+            updateScore();
             count = 0;
         }
         count++;
@@ -328,5 +330,30 @@ public class GeneralPlayActivity extends AppCompatActivity {
             DocumentReference document = db.collection("games").document(gameName);
             document.update("teamTwoScore", FieldValue.increment(-1));
         }
+    }
+    public void updateScore(){
+        final DocumentReference docRef = db.collection("games").document(gameName);
+        docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                currentUserID = user.getUid();
+                if (task.isSuccessful()) {
+                    final DocumentSnapshot snapshot = task.getResult();
+                    if (snapshot.exists()) {
+//                        Log.d(TAG, "DocumentSnapshot data: " + document.getData());
+                        ((TextView) findViewById(R.id.team_one_score)).setText(snapshot.getString("teamOneName") + ": " + String.valueOf(snapshot.getDouble("teamOneScore")));
+                        ((TextView) findViewById(R.id.team_two_score)).setText(snapshot.getString("teamTwoName") + ": " + String.valueOf(snapshot.getDouble("teamTwoScore")));
+                    }
+                    else {
+                        ((TextView) findViewById(R.id.team_one_score)).setText("Error");
+                        ((TextView) findViewById(R.id.team_two_score)).setText("Error");
+                    }
+                }
+                else {
+                    Log.d(TAG, "get failed with ", task.getException());
+                }
+            }
+        });
     }
 }
