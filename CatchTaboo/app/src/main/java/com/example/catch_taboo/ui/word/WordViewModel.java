@@ -33,7 +33,8 @@ import java.util.Random;
 import static androidx.constraintlayout.widget.Constraints.TAG;
 
 public class WordViewModel extends ViewModel {
-    private int number = 9;
+    private int number = 24;
+
     public WordViewModel(String mGameName){
         Log.v("GameName: ", mGameName);
         gameName = mGameName;
@@ -41,31 +42,51 @@ public class WordViewModel extends ViewModel {
         mText = new MutableLiveData<>();
         mText.setValue( "default"); //change word here!
         Log.v("Before randNum(): ", gameName);
-        setRandNum();
-        String wordChoice = String.valueOf(randNum);
-        DocumentReference docRef = db.collection("words").document(wordChoice);
-        docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>(){
+//        setRandNum();
+//        String wordChoice = String.valueOf(randNum);
+
+        DocumentReference docRefGame = db.collection("games").document(gameName);
+        docRefGame.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>(){
 
             @Override
-            public void onComplete(@NonNull Task<DocumentSnapshot> task){
+            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
                 if (task.isSuccessful()) {
-                    DocumentSnapshot snapshot = task.getResult();
-                    if (snapshot.exists()) {
+                    DocumentSnapshot snapshotGame = task.getResult();
+                    if (snapshotGame.exists()) {
+                        randNum = snapshotGame.getDouble("word");
+                        Log.v("RandNum", String.valueOf(randNum));
+
+
+                        String wordChoice = String.valueOf(randNum);
+
+                        DocumentReference docRef = db.collection("words").document(wordChoice);
+                        docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>(){
+
+                            @Override
+                            public void onComplete(@NonNull Task<DocumentSnapshot> task){
+                                if (task.isSuccessful()) {
+                                    DocumentSnapshot snapshot = task.getResult();
+                                    if (snapshot.exists()) {
 //                        Log.d(TAG, "DocumentSnapshot data: " + document.getData());
 
-                        mText.setValue( snapshot.getString("word")); //change word here!
+                                        mText.setValue( snapshot.getString("word")); //change word here!
 
-                    } else {
+                                    } else {
 //                        Log.d(TAG, "No such document");
 //                        mText = new MutableLiveData<>();
-                        mText.setValue( "error"); //change word here!
+                                        mText.setValue( "error"); //change word here!
+
+                                    }
+                                } else {
+                                    Log.d(TAG, "get failed with ", task.getException());
+                                }
+                            }
+
+                        });
 
                     }
-                } else {
-                    Log.d(TAG, "get failed with ", task.getException());
                 }
             }
-
         });
 
     }
@@ -86,21 +107,21 @@ public class WordViewModel extends ViewModel {
         return randNum;
     }
 
-    public void setRandNum() {
-        Random rand = new Random();
-        this.randNum = rand.nextInt(number)+1.0;//range 1 to 5
-//        set in database
-//        String gameName = "Better Game Name";
-//        Intent loadIntent = getIntent();
-//        gameName = loadIntent.getStringExtra("GAME");
-        Log.v("GameName before Data: ", gameName);
-        DocumentReference docRef = db.collection("games").document(gameName);
-
-        final Map<String, Object> game = new HashMap<>();
-        game.put("word", randNum);
-        docRef.update(game);
-
-    }
+//    public void setRandNum() {
+//        Random rand = new Random();
+//        this.randNum = rand.nextInt(number)+1.0;//range 1 to 5
+////        set in database
+////        String gameName = "Better Game Name";
+////        Intent loadIntent = getIntent();
+////        gameName = loadIntent.getStringExtra("GAME");
+//        Log.v("GameName before Data: ", gameName);
+//        DocumentReference docRef = db.collection("games").document(gameName);
+//
+//        final Map<String, Object> game = new HashMap<>();
+//        game.put("word", randNum);
+//        docRef.update(game);
+//
+//    }
 
 
     public LiveData<String> getText() {
