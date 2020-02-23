@@ -18,6 +18,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 
 import com.example.catch_taboo.ui.taboo.TabooFragment;
 import com.example.catch_taboo.ui.user.GalleryViewModel;
+import com.example.catch_taboo.ui.wait.WaitFragment;
 import com.example.catch_taboo.ui.word.WordFragment;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -123,17 +124,21 @@ public class GeneralPlayActivity extends AppCompatActivity {
         Log.d(TAG, "on" +team);
         if(currentUserID.equals(data.get("activePlayer"))){
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-            ft.replace(R.id.fragment_container, new WordFragment());
+            WordFragment Fragment = new WordFragment();
+            Fragment.setGameName(gameName);
+            ft.replace(R.id.fragment_container, Fragment);
             ft.commit();
         }
         else if (team.equals(data.get("activePlayer"))){
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-            ft.replace(R.id.fragment_container, new TabooFragment());
+            ft.replace(R.id.fragment_container, new WaitFragment());
             ft.commit();
         }
         else{
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-            ft.replace(R.id.fragment_container, new TabooFragment());
+            TabooFragment TFragment = new TabooFragment();
+            TFragment.setGameName(gameName);
+            ft.replace(R.id.fragment_container, TFragment);
             ft.commit();
         }
     }
