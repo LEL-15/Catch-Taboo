@@ -240,6 +240,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
 
     //Update values when word gotten
     public void endTurn(View view) {
+        Log.d(TAG, "in endturn");
         first = !first;
         //Switch which team goes first
         final Map<String, Object> data = new HashMap<>();
@@ -285,9 +286,6 @@ public class GeneralPlayActivity extends AppCompatActivity {
         Log.d(TAG, "updateActivePlayer: count" + count);
         Log.d(TAG, "data is" + data);
         if(count > 0){
-            if(registration != null){
-                registration.remove();
-            }
             Double newScore;
             if (team.equals("team1")){
                 newScore = parseDouble(data.get("teamOneScore").toString());
