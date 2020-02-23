@@ -58,6 +58,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
     private String playerTurn;
     private int count = 0;
     private Double score;
+    private int number = 24;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) { //method gets triggered as soon as the activity is created
@@ -311,6 +312,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
                     DocumentReference document = db.collection("games").document(gameName);
                     document.update("teamTwoScore", FieldValue.increment(scoreEarned));
                 }
+                setRandNum();
                 pickLayout(data);
                 updateScore();
                 count = 0;
@@ -375,5 +377,14 @@ public class GeneralPlayActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+    public void setRandNum() {
+        Random rand = new Random();
+        Double randomNumber = rand.nextInt(number)+1.0;//range 1 to 5
+        DocumentReference docRef = db.collection("games").document(gameName);
+
+        final Map<String, Object> game = new HashMap<>();
+        game.put("word", randomNumber);
+        docRef.update(game);
     }
 }

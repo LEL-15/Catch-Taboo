@@ -33,7 +33,7 @@ import java.util.Random;
 import static androidx.constraintlayout.widget.Constraints.TAG;
 
 public class WordViewModel extends ViewModel {
-    private int number = 10;
+    private int number = 24;
     public WordViewModel(String mGameName){
         Log.v("GameName: ", mGameName);
         gameName = mGameName;
@@ -99,7 +99,6 @@ public class WordViewModel extends ViewModel {
         final Map<String, Object> game = new HashMap<>();
         game.put("word", randNum);
         docRef.update(game);
-
     }
 
 

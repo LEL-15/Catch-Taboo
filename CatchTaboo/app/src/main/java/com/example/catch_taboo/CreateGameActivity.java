@@ -87,6 +87,7 @@ public class CreateGameActivity extends AppCompatActivity {
         game.put("teamTwoName", teamTwoName);
         game.put("teamOneActive", (Math.random() < 0.5));
         game.put("activePlayer", "");
+        game.put("word", 1.0);
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         final String UID = user.getUid();
         DocumentReference users = rootRef.collection("users").document(UID);
