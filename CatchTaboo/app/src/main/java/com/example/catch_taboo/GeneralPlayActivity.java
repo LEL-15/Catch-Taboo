@@ -336,13 +336,9 @@ public class GeneralPlayActivity extends AppCompatActivity {
 
     private void updateOtherPlayer(Map<String, Object> data) {
         Log.d(TAG, "updateOtherPlayer: " + count);
-
         if(count > 0){
-            Double newWord = parseDouble(data.get("word").toString());
-            if(!word.equals(newWord)){
-                pickLayout(data);
-                updateScore();
-            }
+            pickLayout(data);
+            updateScore();
             count = 0;
         }
         count++;
