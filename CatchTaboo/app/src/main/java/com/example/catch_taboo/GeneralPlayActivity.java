@@ -6,48 +6,63 @@ import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.lifecycle.ViewModelProviders;
 import androidx.navigation.ui.AppBarConfiguration;
 
 import com.example.catch_taboo.ui.taboo.TabooFragment;
+import com.example.catch_taboo.ui.user.GalleryViewModel;
 import com.example.catch_taboo.ui.word.WordFragment;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
+import com.google.firebase.firestore.QuerySnapshot;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.Map;
 
 import static androidx.constraintlayout.widget.Constraints.TAG;
 
 public class GeneralPlayActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private FirebaseFirestore db = FirebaseFirestore.getInstance(); //variable that gives me access to the database
+    //private double timeLeft = 30;
+    private String currentUserID;
+    private String gameName;
+    private String team = "team2";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) { //method gets triggered as soon as the activity is created
         super.onCreate(savedInstanceState);
         setContentView(R.layout.active_play);
-//        ((TextView)findViewById(R.id.points)).setText("10");//works
 
         //get game name
-        final String docName = "Timer Test"; //need to pull from database
+        Intent loadIntent = getIntent();
+        //Find out what the game's id is
+        gameName = loadIntent.getStringExtra("ID");
         final Context hold  = this;
-        DocumentReference docRef = db.collection("games").document(docName);
-//      DocumentReference docRef = db.collection("games");
+        final DocumentReference docRef = db.collection("games").document(gameName);
         docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-
             @Override
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                currentUserID = user.getUid();
                 if (task.isSuccessful()) {
-                    DocumentSnapshot snapshot = task.getResult();
+                    final DocumentSnapshot snapshot = task.getResult();
                     if (snapshot.exists()) {
 //                        Log.d(TAG, "DocumentSnapshot data: " + document.getData());
                         ((TextView) findViewById(R.id.team_one_score)).setText(snapshot.getString("teamOneName")+": "+ String.valueOf(snapshot.getDouble("teamOneScore")));
@@ -64,15 +79,33 @@ public class GeneralPlayActivity extends AppCompatActivity {
                             public void onFinish() {
                                 Log.d(TAG, "onFinish: Here");
                                 Intent intent = new Intent(hold, EndGameActivity.class);
-                                intent.putExtra("ID", docName);
+                                intent.putExtra("ID", gameName);
                                 startActivity(intent);
                             }
                         }.start();
+                        CollectionReference team1 = docRef.collection("team1");
+                        team1.get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                //If succesfully accessed firebase
+                                if (task.isSuccessful()) {
+                                    ArrayList<String> names = new ArrayList<String>();
+                                    //For every plyaer in the database
+                                    for (final QueryDocumentSnapshot document : task.getResult()) {
+                                        if(currentUserID.equals(document.getString("id"))){
+                                            team = "team1";
+                                        }
+                                    }
+                                    pickLayout(snapshot.getData());
+                                }
+                                //If failed to access firebase
+                                else {
+                                    Log.d("Testing", "Problem");
+                                }
+                            }
+                        });
 
                     } else {
-//                        Log.d(TAG, "No such document");
-//                        mText = new MutableLiveData<>();
-//                        mText.setValue("error"); //change word here!
                         ((TextView) findViewById(R.id.team_one_score)).setText("Error");
                         ((TextView) findViewById(R.id.team_two_score)).setText("Error");
                     }
@@ -80,39 +113,31 @@ public class GeneralPlayActivity extends AppCompatActivity {
                     Log.d(TAG, "get failed with ", task.getException());
                 }
             }
-
         });
-
-        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-        ft.replace(R.id.fragment_container, new WordFragment());
-        ft.commit();
-
     }
-
-//    private AppBarConfiguration mAppBarConfiguration;
-//    FirebaseFirestore rootRef = FirebaseFirestore.getInstance();
-//    CollectionReference ref = rootRef.collection("games");
-//    FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-
-    //should change the value of team_one_score on data change replicate for team_two_score if works
-
-
-
-//    public void onDataChange(DocumentReference docRef) {
-////        ((TextView) findViewById(R.id.team_one_score)).setText((CharSequence) docRef);
-//
-//
-//
-//    }
-
-    public void change(View view)
+    private  void pickLayout(Map<String, Object> data){
+        Log.d(TAG, "data: " + data);
+        Log.d(TAG, "active player" + data.get("activePlayer"));
+        Log.d(TAG, "current player" + currentUserID);
+        Log.d(TAG, "on" +team);
+        if(currentUserID.equals(data.get("activePlayer"))){
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.fragment_container, new WordFragment());
+            ft.commit();
+        }
+        else if (team.equals(data.get("activePlayer"))){
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.fragment_container, new TabooFragment());
+            ft.commit();
+        }
+        else{
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.fragment_container, new TabooFragment());
+            ft.commit();
+        }
+    }
+    public void endTurn(View view)
     {
-        Log.d("Message", "More words");
-        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-        ft.replace(R.id.fragment_container, new TabooFragment());
-        ft.commit();
+
     }
-
-
-
 }

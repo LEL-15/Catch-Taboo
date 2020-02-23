@@ -86,6 +86,7 @@ public class HomeActivity extends AppCompatActivity {
 
     public void goToJoScreen(View view) {
         Intent intent = new Intent(this, GeneralPlayActivity.class);
+        intent.putExtra("ID", "Timer Test");
         startActivity(intent);
     }
 
