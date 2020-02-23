@@ -1,8 +1,11 @@
 package com.example.catch_taboo;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.catch_taboo.ui.user.GalleryViewModel;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -12,6 +15,7 @@ import android.util.Log;
 import android.view.View;
 
 import androidx.annotation.NonNull;
+import androidx.lifecycle.ViewModelProviders;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -31,6 +35,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.view.Menu;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.HashMap;
@@ -41,6 +46,8 @@ public class HomeActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     FirebaseFirestore rootRef = FirebaseFirestore.getInstance();
+    FirebaseAuth mAuth;
+    private GoogleSignInClient mGoogleSignInClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -106,17 +113,28 @@ public class HomeActivity extends AppCompatActivity {
         }
     }
 
-//    public void signOut(View v) {
-//        // Firebase sign out
-//        mAuth.signOut();
-//
-//        // Google sign out
-//        mGoogleSignInClient.signOut().addOnCompleteListener(this,
-//                new OnCompleteListener<Void>() {
-//                    @Override
-//                    public void onComplete(@NonNull Task<Void> task) {
-//                        goSignIn();
-//                    }
-//                });
-//    }
+
+    public void signOut(View v) {
+        // Firebase sign out
+        mAuth.signOut();
+        final Context hold = this;
+        // Google sign out
+        mGoogleSignInClient.signOut().addOnCompleteListener(this,
+                new OnCompleteListener<Void>() {
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task) {
+                        Intent intent = new Intent(hold, MainActivity.class);
+                        startActivity(intent);
+                    }
+                });
+    }
+    public void createGame(View v){
+        Intent intent = new Intent(this, CreateGameActivity.class);
+        startActivity(intent);
+    }
+    public void joinGame(View v){
+        Intent intent = new Intent(this, JoinGameActivity.class);
+        startActivity(intent);
+    }
+
 }
