@@ -42,11 +42,11 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/time"
+            android:id="@+id/timePassed"
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:gravity="center"
-            android:text="time left"
+            android:text="time"
             android:textAlignment="center"
             android:textSize="24sp"
             android:textStyle="bold"

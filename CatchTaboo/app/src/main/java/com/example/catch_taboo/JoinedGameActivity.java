@@ -25,6 +25,7 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
+import com.google.firebase.firestore.ListenerRegistration;
 import com.google.firebase.firestore.Query;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
@@ -45,6 +46,9 @@ public class JoinedGameActivity extends AppCompatActivity {
     private int teamChanges = 0;
     private Boolean first;
     private String gameName;
+    private ListenerRegistration registration;
+    private ListenerRegistration registration1;
+    private ListenerRegistration registration2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -124,7 +128,7 @@ public class JoinedGameActivity extends AppCompatActivity {
             }
         });
         DocumentReference docRef = db.collection("games").document(gameName);
-        docRef.addSnapshotListener(new EventListener<DocumentSnapshot>() {
+        registration = docRef.addSnapshotListener(new EventListener<DocumentSnapshot>() {
             @Override
             public void onEvent(@Nullable DocumentSnapshot snapshot,
                                 @Nullable FirebaseFirestoreException e) {
@@ -143,7 +147,7 @@ public class JoinedGameActivity extends AppCompatActivity {
             }
         });
         Query query = db.collection("games").document(gameName).collection("team1");
-        query.addSnapshotListener(new EventListener<QuerySnapshot>() {
+        registration1 = query.addSnapshotListener(new EventListener<QuerySnapshot>() {
             // [START_EXCLUDE]
             @Override
             public void onEvent(@Nullable QuerySnapshot snapshots,
@@ -152,7 +156,7 @@ public class JoinedGameActivity extends AppCompatActivity {
             }
         });
         query = db.collection("games").document(gameName).collection("team2");
-        query.addSnapshotListener(new EventListener<QuerySnapshot>() {
+        registration2 = query.addSnapshotListener(new EventListener<QuerySnapshot>() {
             // [START_EXCLUDE]
             @Override
             public void onEvent(@Nullable QuerySnapshot snapshots,
@@ -162,6 +166,7 @@ public class JoinedGameActivity extends AppCompatActivity {
         });
     }
     public void gameValueChanged(Map<String, Object> game) {
+        Log.d(TAG, "gameValueChanged");
         changes+=1;
         //You just loaded the page
         if(changes == 1){
@@ -170,12 +175,17 @@ public class JoinedGameActivity extends AppCompatActivity {
         else{
             //Somebody started the game
             if(Boolean.parseBoolean(game.get("teamOneActive").toString()) != first){
+                registration.remove();
+                registration1.remove();
+                registration2.remove();
                 Intent intent = new Intent(this, GeneralPlayActivity.class);
+                intent.putExtra("ID", gameName);
                 startActivity(intent);
             }
         }
     }
     public void teamValueChanged() {
+        Log.d(TAG, "teamValueChanged: ");
         teamChanges+=1;
         //You just loaded the page
         if(teamChanges > 2){
