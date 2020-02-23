@@ -89,29 +89,8 @@ public class GeneralPlayActivity extends AppCompatActivity {
 
     }
 
-//    private AppBarConfiguration mAppBarConfiguration;
-//    FirebaseFirestore rootRef = FirebaseFirestore.getInstance();
-//    CollectionReference ref = rootRef.collection("games");
-//    FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 
-    //should change the value of team_one_score on data change replicate for team_two_score if works
-
-
-
-//    public void onDataChange(DocumentReference docRef) {
-////        ((TextView) findViewById(R.id.team_one_score)).setText((CharSequence) docRef);
-//
-//
-//
-//    }
-
-    public void change(View view)
-    {
-        Log.d("Message", "More words");
-        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-        ft.replace(R.id.fragment_container, new TabooFragment());
-        ft.commit();
-    }
+    
 
 
 
