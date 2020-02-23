@@ -21,6 +21,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FieldValue;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
@@ -46,7 +47,7 @@ public class EndGameActivity extends AppCompatActivity {
         setContentView(R.layout.activity_end_game);
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         Log.d(TAG, "onCreate: " + gameName);
-        DocumentReference docRef = db.collection("games").document(gameName);
+        final DocumentReference docRef = db.collection("games").document(gameName);
         final CollectionReference collectionRef = docRef.collection("team1");
         collectionRef.get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
             @Override

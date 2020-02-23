@@ -226,6 +226,8 @@ public class JoinedGameActivity extends AppCompatActivity {
                         }
                         count += 1;
                     }
+                    data.put("teamOneScore", 0);
+                    data.put("teamTwoScore", 0);
                     Log.d(TAG, "data is " + data);
                     DocumentReference game = db.collection("games").document(gameName);
                     game.update(data);
