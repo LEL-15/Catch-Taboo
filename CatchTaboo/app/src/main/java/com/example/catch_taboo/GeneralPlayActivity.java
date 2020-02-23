@@ -58,6 +58,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
     private String playerTurn;
     private int count = 0;
     private Double score;
+    private Double word;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) { //method gets triggered as soon as the activity is created
@@ -182,7 +183,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
             if(registration != null){
                 registration.remove();
             }
-
+            word = parseDouble(data.get("word").toString());
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
 
             TabooFragment TFragment = new TabooFragment();
@@ -335,9 +336,13 @@ public class GeneralPlayActivity extends AppCompatActivity {
 
     private void updateOtherPlayer(Map<String, Object> data) {
         Log.d(TAG, "updateOtherPlayer: " + count);
-        if(count > 1){
-            pickLayout(data);
-            updateScore();
+
+        if(count > 0){
+            Double newWord = parseDouble(data.get("word").toString());
+            if(!word.equals(newWord)){
+                pickLayout(data);
+                updateScore();
+            }
             count = 0;
         }
         count++;
