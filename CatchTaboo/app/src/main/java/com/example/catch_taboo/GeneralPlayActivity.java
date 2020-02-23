@@ -322,6 +322,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
                 Log.d(TAG, "updateActivePlayer: got buzzed");
                 Log.d(TAG, "score" + score);
                 Log.d(TAG, "newScore" + newScore);
+                setRandNum();
                 pickLayout(data);
                 updateScore();
                 count = 0;
