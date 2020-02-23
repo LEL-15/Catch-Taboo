@@ -102,15 +102,6 @@ public class WordViewModel extends ViewModel {
 
     }
 
-//    public WordViewModel(){
-
-
-
-
-//        DocumentSnapshot snapshot = db.collection("words").document("1");
-//        mText = new MutableLiveData<>();
-//        mText.setValue( snapshot.getString("word")); //change word here!
-//    }
 
     public LiveData<String> getText() {
 
