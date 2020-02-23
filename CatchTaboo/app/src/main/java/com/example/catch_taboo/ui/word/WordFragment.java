@@ -40,8 +40,8 @@ public class WordFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
 //        CryptoTrackerViewModelFactory factory = new CryptoTrackerViewModelFactory(this.getApplication(), 5);
 //        cryptoViewModel = ViewModelProviders.of(this, factory).get(CryptoTrackerViewModel.class);
-        WordModelFactory wordFactory = new WordModelFactory(gameName);
         Log.v("Game name in Frag: ", gameName);
+        WordModelFactory wordFactory = new WordModelFactory(gameName);
         wordViewModel = ViewModelProviders.of(this, wordFactory).get(WordViewModel.class);
 
 // TestPassingGameName

@@ -141,6 +141,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
         first = Boolean.parseBoolean(data.get("teamOneActive").toString());
         playerTurn = data.get("activePlayer").toString();
         if (currentUserID.equals(playerTurn)) {
+
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             WordFragment Fragment = new WordFragment();
             Fragment.setGameName(gameName);
@@ -301,7 +302,9 @@ public class GeneralPlayActivity extends AppCompatActivity {
             //Got buzzed
             else {
                 FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-                ft.replace(R.id.fragment_container, new WordFragment());
+                WordFragment Fragment = new WordFragment();
+                Fragment.setGameName(gameName);
+                ft.replace(R.id.fragment_container, Fragment);
                 ft.commit();
             }
             count = 0;
