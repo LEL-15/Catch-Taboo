@@ -276,11 +276,11 @@ public class GeneralPlayActivity extends AppCompatActivity {
 
     private void updateActivePlayer(Map<String, Object> data) {
         Log.d(TAG, "updateActivePlayer: count" + count);
+        Log.d(TAG, "data is" + data);
         if(count > 0){
-            Log.d(TAG, "updateActivePlayer: ");
             //Got the word
             if (!currentUserID.equals(data.get("activePlayer"))) {
-                Log.d(TAG, "updateActivePlayer: Here");
+
                 //Change Score
                 Log.d(TAG, "updateActivePlayer: startTime" + startTime);
                 Log.d(TAG, "updateActivePlayer: End time" + System.currentTimeMillis());
@@ -307,6 +307,8 @@ public class GeneralPlayActivity extends AppCompatActivity {
                 Fragment.setGameName(gameName);
                 ft.replace(R.id.fragment_container, Fragment);
                 ft.commit();
+                Log.d(TAG, "updateActivePlayer: got buzzed");
+                count = -1;
             }
             count = 0;
         }
