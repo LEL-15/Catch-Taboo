@@ -41,5 +41,6 @@
         android:text="Testing"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:onClick="startGame" />
 </androidx.constraintlayout.widget.ConstraintLayout>

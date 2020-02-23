@@ -52,16 +52,41 @@ public class CreateGameActivity extends AppCompatActivity {
         //Get time
         Spinner timeSpinner = (Spinner) findViewById(R.id.pickTime);
         final String time = timeSpinner.getSelectedItem().toString();
+        int timeRemaining = 0;
+        if(time.equals("30 Seconds")){
+            timeRemaining = 30;
+        }
+        else if(time.equals("1 Minute")){
+            timeRemaining = 60;
+        }
+        else if(time.equals("1 Minute 30 Seconds")){
+            timeRemaining = 90;
+        }
+        else if(time.equals("2 Minutes")){
+            timeRemaining = 120;
+        }
+        else if(time.equals("3 Minutes")){
+            timeRemaining = 180;
+        }
+        else if(time.equals("4 Minutes")){
+            timeRemaining = 240;
+        }
+        else if(time.equals("5 Minutes")){
+            timeRemaining = 300;
+        }
+
 
         final Context hold = this;
 
         final Map<String, Object> game = new HashMap<>();
         game.put("name", gameName);
-        game.put("time", time);
+        game.put("timeRemaining", timeRemaining);
         game.put("teamOneScore", 0);
         game.put("teamTwoScore", 0);
         game.put("teamOneName", teamOneName);
         game.put("teamTwoName", teamTwoName);
+        game.put("teamOneActive", (Math.random() < 0.5));
+        game.put("active player", "");
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         final String UID = user.getUid();
         DocumentReference users = rootRef.collection("users").document(UID);
