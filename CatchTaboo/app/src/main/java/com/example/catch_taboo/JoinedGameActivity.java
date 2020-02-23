@@ -192,6 +192,7 @@ public class JoinedGameActivity extends AppCompatActivity {
             Intent intent = new Intent(this, JoinedGameActivity.class);
             intent.putExtra("ID", gameName);
             startActivity(intent);
+            teamChanges = 0;
         }
     }
     public void startGame(View v){
@@ -201,7 +202,7 @@ public class JoinedGameActivity extends AppCompatActivity {
         data.put("teamOneActive", !first);
         //Switch active player
         String teamFirst = "team2";
-        if(first){
+        if(!first){
             teamFirst = "team1";
         }
         CollectionReference team2 = db.collection("games").document(gameName).collection(teamFirst);
