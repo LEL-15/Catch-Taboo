@@ -44,6 +44,7 @@ import java.util.Map;
 import java.util.Random;
 
 import static androidx.constraintlayout.widget.Constraints.TAG;
+import static java.lang.Double.parseDouble;
 
 public class GeneralPlayActivity extends AppCompatActivity {
     private FirebaseFirestore db = FirebaseFirestore.getInstance(); //variable that gives me access to the database
@@ -56,6 +57,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
     private Long startTime;
     private String playerTurn;
     private int count = 0;
+    private Double score;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) { //method gets triggered as soon as the activity is created
@@ -140,15 +142,23 @@ public class GeneralPlayActivity extends AppCompatActivity {
         Log.d(TAG, "on" + team);
         first = Boolean.parseBoolean(data.get("teamOneActive").toString());
         playerTurn = data.get("activePlayer").toString();
+        //Your turn
         if (currentUserID.equals(playerTurn)) {
             if(registration != null){
                 registration.remove();
+            }
+            if (team.equals("team1")){
+                score = parseDouble(data.get("teamOneScore").toString());
+            }
+            else{
+                score = parseDouble(data.get("teamTwoScore").toString());
             }
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             WordFragment Fragment = new WordFragment();
             Fragment.setGameName(gameName);
             ft.replace(R.id.fragment_container, Fragment);
             ft.commit();
+
             DocumentReference docRef = db.collection("games").document(gameName);
             startTime = System.currentTimeMillis();
             registration = docRef.addSnapshotListener(new EventListener<DocumentSnapshot>() {
@@ -281,6 +291,13 @@ public class GeneralPlayActivity extends AppCompatActivity {
             if(registration != null){
                 registration.remove();
             }
+            Double newScore;
+            if (team.equals("team1")){
+                newScore = parseDouble(data.get("teamOneScore").toString());
+            }
+            else{
+                newScore = parseDouble(data.get("teamTwoScore").toString());
+            }
             //Got the word
             if (!currentUserID.equals(data.get("activePlayer"))) {
                 //Change Score
@@ -304,7 +321,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
                 count = 0;
             }
             //Got buzzed
-            else {
+            else if(score != newScore){
                 pickLayout(data);
                 updateScore();
                 count = 0;
