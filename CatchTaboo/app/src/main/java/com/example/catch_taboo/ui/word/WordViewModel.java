@@ -33,7 +33,7 @@ import java.util.Random;
 import static androidx.constraintlayout.widget.Constraints.TAG;
 
 public class WordViewModel extends ViewModel {
-
+    private int number = 6;
     public WordViewModel(String mGameName){
         Log.v("GameName: ", mGameName);
         gameName = mGameName;
@@ -88,7 +88,7 @@ public class WordViewModel extends ViewModel {
 
     public void setRandNum() {
         Random rand = new Random();
-        this.randNum = rand.nextInt(5)+1.0;//range 1 to 5
+        this.randNum = rand.nextInt(number)+1.0;//range 1 to 5
 //        set in database
 //        String gameName = "Better Game Name";
 //        Intent loadIntent = getIntent();

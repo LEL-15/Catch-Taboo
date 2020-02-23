@@ -278,6 +278,9 @@ public class GeneralPlayActivity extends AppCompatActivity {
         Log.d(TAG, "updateActivePlayer: count" + count);
         Log.d(TAG, "data is" + data);
         if(count > 0){
+            if(registration != null){
+                registration.remove();
+            }
             //Got the word
             if (!currentUserID.equals(data.get("activePlayer"))) {
 
@@ -299,18 +302,14 @@ public class GeneralPlayActivity extends AppCompatActivity {
                 }
                 pickLayout(data);
                 updateScore();
+                count = 0;
             }
             //Got buzzed
             else {
-                FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-                WordFragment Fragment = new WordFragment();
-                Fragment.setGameName(gameName);
-                ft.replace(R.id.fragment_container, Fragment);
-                ft.commit();
-                Log.d(TAG, "updateActivePlayer: got buzzed");
+                pickLayout(data);
+                updateScore();
                 count = -1;
             }
-            count = 0;
         }
         count++;
     }
