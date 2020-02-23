@@ -142,7 +142,9 @@ public class GeneralPlayActivity extends AppCompatActivity {
         playerTurn = data.get("activePlayer").toString();
         if (currentUserID.equals(playerTurn)) {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-            ft.replace(R.id.fragment_container, new WordFragment());
+            WordFragment Fragment = new WordFragment();
+            Fragment.setGameName(gameName);
+            ft.replace(R.id.fragment_container, Fragment);
             ft.commit();
             DocumentReference docRef = db.collection("games").document(gameName);
             if(registration != null){
@@ -172,7 +174,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
         else if ((team.equals("team1") != (Boolean.parseBoolean(data.get("teamOneActive").toString())))) {
             Log.d(TAG, "pickLayout: Other team active");
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-            ft.replace(R.id.fragment_container, new TabooFragment());
+            ft.replace(R.id.fragment_container, new WaitFragment());
             ft.commit();
             DocumentReference docRef = db.collection("games").document(gameName);
             if(registration != null){
@@ -197,7 +199,11 @@ public class GeneralPlayActivity extends AppCompatActivity {
             });
         } else {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-            ft.replace(R.id.fragment_container, new WaitFragment());
+
+            TabooFragment TFragment = new TabooFragment();
+            TFragment.setGameName(gameName);
+            ft.replace(R.id.fragment_container, TFragment);
+
             ft.commit();
             DocumentReference docRef = db.collection("games").document(gameName);
             if(registration != null){

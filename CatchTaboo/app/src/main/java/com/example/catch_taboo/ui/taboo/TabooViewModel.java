@@ -28,7 +28,13 @@ public class TabooViewModel extends ViewModel {
     private FirebaseFirestore db = FirebaseFirestore.getInstance(); //variable that gives me access to the database
     private FirebaseFirestore rootRef = db.getInstance();
     private double randNum;
-    private String wordChoice;
+//    private String wordChoice;
+
+    private String gameName;
+    public void setGameName(String gameName) {
+        this.gameName = gameName;
+    }
+
 
     public TabooViewModel() {
         mTaboo1 = new MutableLiveData<>();
@@ -37,7 +43,8 @@ public class TabooViewModel extends ViewModel {
         mTaboo4 = new MutableLiveData<>();
         mTaboo5 = new MutableLiveData<>();
 
-        String gameName = "Better Game Name";
+//        String
+        gameName = "Better Game Name";
 //        Intent loadIntent = getIntent();
 //        gameName = loadIntent.getStringExtra("GAME");
         DocumentReference docRefGame = db.collection("games").document(gameName);

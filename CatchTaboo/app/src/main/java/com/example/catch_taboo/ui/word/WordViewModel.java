@@ -33,38 +33,14 @@ import java.util.Random;
 import static androidx.constraintlayout.widget.Constraints.TAG;
 
 public class WordViewModel extends ViewModel {
-    private MutableLiveData<String> mText;
-    private FirebaseAuth mAuth;
-    private FirebaseFirestore db = FirebaseFirestore.getInstance(); //variable that gives me access to the database
 
-    private FirebaseFirestore rootRef = db.getInstance();
-    private CollectionReference ref = rootRef.collection("words");
+    public WordViewModel(String mGameName){
+        Log.v("GameName: ", mGameName);
+        gameName = mGameName;
 
-    private double randNum = 1.0;
-
-    public double getRandNum() {
-        return randNum;
-    }
-
-    public void setRandNum() {
-        Random rand = new Random();
-        this.randNum = rand.nextInt(5)+1.0;//range 1 to 5
-//        set in database
-        String gameName = "Better Game Name";
-//        Intent loadIntent = getIntent();
-//        gameName = loadIntent.getStringExtra("GAME");
-        DocumentReference docRef = db.collection("games").document(gameName);
-
-        final Map<String, Object> game = new HashMap<>();
-        game.put("word", randNum);
-        docRef.update(game);
-
-    }
-
-    public WordViewModel(){
         mText = new MutableLiveData<>();
         mText.setValue( "default"); //change word here!
-
+        Log.v("Before randNum(): ", gameName);
         setRandNum();
         String wordChoice = String.valueOf(randNum);
         DocumentReference docRef = db.collection("words").document(wordChoice);
@@ -92,12 +68,49 @@ public class WordViewModel extends ViewModel {
 
         });
 
+    }
+
+
+    private MutableLiveData<String> mText;
+    private FirebaseAuth mAuth;
+    private FirebaseFirestore db = FirebaseFirestore.getInstance(); //variable that gives me access to the database
+
+    private FirebaseFirestore rootRef = db.getInstance();
+    private CollectionReference ref = rootRef.collection("words");
+
+    private String gameName;
+
+    private double randNum = 1.0;
+
+    public double getRandNum() {
+        return randNum;
+    }
+
+    public void setRandNum() {
+        Random rand = new Random();
+        this.randNum = rand.nextInt(5)+1.0;//range 1 to 5
+//        set in database
+//        String gameName = "Better Game Name";
+//        Intent loadIntent = getIntent();
+//        gameName = loadIntent.getStringExtra("GAME");
+        Log.v("GameName before Data: ", gameName);
+        DocumentReference docRef = db.collection("games").document(gameName);
+
+        final Map<String, Object> game = new HashMap<>();
+        game.put("word", randNum);
+        docRef.update(game);
+
+    }
+
+//    public WordViewModel(){
+
+
 
 
 //        DocumentSnapshot snapshot = db.collection("words").document("1");
 //        mText = new MutableLiveData<>();
 //        mText.setValue( snapshot.getString("word")); //change word here!
-    }
+//    }
 
     public LiveData<String> getText() {
 

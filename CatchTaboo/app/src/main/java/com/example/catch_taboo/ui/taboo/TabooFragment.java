@@ -19,12 +19,24 @@ import com.example.catch_taboo.ui.slideshow.SlideshowViewModel;
 public class TabooFragment extends Fragment {
     private TabooViewModel tabooViewModel;
 
+    private String gameName;
+    public String getGameName() {
+        return gameName;
+    }
+    public void setGameName(String gameName) {
+        this.gameName = gameName;
+    }
+
+
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
+
         tabooViewModel =
                 ViewModelProviders.of(this).get(TabooViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_taboo, container, false);
 
+//        tabooViewModel.setGameName(gameName);
+
+        View root = inflater.inflate(R.layout.fragment_taboo, container, false);
         final TextView taboo1 = root.findViewById(R.id.taboo1);
         tabooViewModel.getmTaboo1().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
