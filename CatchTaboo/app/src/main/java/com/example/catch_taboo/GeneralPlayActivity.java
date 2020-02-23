@@ -136,10 +136,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
     }
 
     private void pickLayout(Map<String, Object> data) {
-        Log.d(TAG, "data: " + data);
-        Log.d(TAG, "active player" + data.get("activePlayer"));
-        Log.d(TAG, "current player" + currentUserID);
-        Log.d(TAG, "on" + team);
+        Log.d(TAG, "picking layout");
         first = Boolean.parseBoolean(data.get("teamOneActive").toString());
         playerTurn = data.get("activePlayer").toString();
         //Your turn
@@ -321,13 +318,21 @@ public class GeneralPlayActivity extends AppCompatActivity {
                 count = 0;
             }
             //Got buzzed
-            else if(score != newScore){
+            else if(!score.equals(newScore)){
+                Log.d(TAG, "updateActivePlayer: got buzzed");
+                Log.d(TAG, "score" + score);
+                Log.d(TAG, "newScore" + newScore);
                 pickLayout(data);
                 updateScore();
                 count = 0;
             }
+            else{
+                Log.d(TAG, "updateActivePlayer: Here");
+            }
         }
-        count++;
+        else{
+            count++;
+        }
     }
 
     private void updateOtherPlayer(Map<String, Object> data) {
