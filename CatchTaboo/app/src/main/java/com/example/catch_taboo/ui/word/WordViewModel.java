@@ -107,6 +107,7 @@ public class WordViewModel extends ViewModel {
         return randNum;
     }
 
+
 //    public void setRandNum() {
 //        Random rand = new Random();
 //        this.randNum = rand.nextInt(number)+1.0;//range 1 to 5
