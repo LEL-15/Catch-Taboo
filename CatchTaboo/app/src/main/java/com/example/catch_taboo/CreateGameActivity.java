@@ -47,7 +47,7 @@ public class CreateGameActivity extends AppCompatActivity {
         EditText oneBox = findViewById(R.id.teamOneName);
         final String teamOneName = oneBox.getText().toString();
         //Get team two name
-        EditText twoBox = findViewById(R.id.teamOneName);
+        EditText twoBox = findViewById(R.id.teamTwoName);
         final String teamTwoName = twoBox.getText().toString();
         //Get time
         Spinner timeSpinner = (Spinner) findViewById(R.id.pickTime);
@@ -74,11 +74,17 @@ public class CreateGameActivity extends AppCompatActivity {
                 player.put("id", UID);
                 DocumentReference newGame = games.document(gameName);
                 CollectionReference team1 = newGame.collection("team1");
+                CollectionReference team2 = newGame.collection("team2");
                 DocumentReference newPlayer = team1.document(UID);
                 newPlayer.set(player);
-                newGame.set(game);
-                Intent intent = new Intent(hold, JoinedGameActivity.class);
-                startActivity(intent);
+                newGame.set(game).addOnSuccessListener(new OnSuccessListener<Void>() {
+                    @Override
+                    public void onSuccess(Void aVoid) {
+                        Intent intent = new Intent(hold, JoinedGameActivity.class);
+                        intent.putExtra("ID", gameName);
+                        startActivity(intent);
+                    }
+                });
             }
         });
     }
