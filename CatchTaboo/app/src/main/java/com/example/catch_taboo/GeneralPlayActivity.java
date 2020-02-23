@@ -85,7 +85,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
                             final TextView _tv = (TextView) findViewById(R.id.timePassed);
 
                             public void onTick(long millisUntilFinished) {
-                                _tv.setText("Seconds Left: " + new SimpleDateFormat("ss").format(new Date(millisUntilFinished)));
+                                _tv.setText("Seconds Left: " + (int) millisUntilFinished/1000);
                             }
 
                             public void onFinish() {
@@ -148,6 +148,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
             if(registration != null){
                 registration.remove();
             }
+            startTime = System.currentTimeMillis();
             registration = docRef.addSnapshotListener(new EventListener<DocumentSnapshot>() {
                 @Override
                 public void onEvent(@Nullable DocumentSnapshot snapshot,
@@ -160,7 +161,6 @@ public class GeneralPlayActivity extends AppCompatActivity {
                     String source = snapshot != null && snapshot.getMetadata().hasPendingWrites()
                             ? "Local" : "Server";
                     if (snapshot != null && snapshot.exists()) {
-                        startTime = System.currentTimeMillis();
                         updateActivePlayer(snapshot.getData());
                     } else {
                         Log.d(TAG, source + " data: null");
@@ -170,6 +170,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
         }
         //Other Team
         else if ((team.equals("team1") != (Boolean.parseBoolean(data.get("teamOneActive").toString())))) {
+            Log.d(TAG, "pickLayout: Other team active");
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.fragment_container, new TabooFragment());
             ft.commit();
@@ -234,8 +235,8 @@ public class GeneralPlayActivity extends AppCompatActivity {
         if (first) {
             teamFirst = "team1";
         }
-        CollectionReference team2 = db.collection("games").document(gameName).collection(teamFirst);
-        team2.get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+        CollectionReference teamNext = db.collection("games").document(gameName).collection(teamFirst);
+        teamNext.get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
             @Override
             public void onComplete(@NonNull Task<QuerySnapshot> task) {
                 //If succesfully accessed firebase
@@ -267,11 +268,18 @@ public class GeneralPlayActivity extends AppCompatActivity {
     }
 
     private void updateActivePlayer(Map<String, Object> data) {
-        if(count > 1){
+        Log.d(TAG, "updateActivePlayer: count" + count);
+        if(count > 0){
+            Log.d(TAG, "updateActivePlayer: ");
             //Got the word
             if (!currentUserID.equals(data.get("activePlayer"))) {
+                Log.d(TAG, "updateActivePlayer: Here");
                 //Change Score
-                int scoreEarned = 100 - (int) (System.currentTimeMillis() - startTime);
+                Log.d(TAG, "updateActivePlayer: startTime" + startTime);
+                Log.d(TAG, "updateActivePlayer: End time" + System.currentTimeMillis());
+                Log.d(TAG, "time in seconds is " + (System.currentTimeMillis() - startTime) / 1000);
+                int scoreEarned = 100 - (int)((System.currentTimeMillis() - startTime) / 1000);
+                Log.d(TAG, "updateActivePlayer: score" + scoreEarned);
                 if (scoreEarned < 0) {
                     scoreEarned = 0;
                 }
@@ -290,14 +298,26 @@ public class GeneralPlayActivity extends AppCompatActivity {
                 ft.replace(R.id.fragment_container, new WordFragment());
                 ft.commit();
             }
+            count = 0;
         }
         count++;
     }
 
     private void updateOtherPlayer(Map<String, Object> data) {
+        Log.d(TAG, "updateOtherPlayer: " + count);
         if(count > 1){
             pickLayout(data);
+            count = 0;
         }
         count++;
+    }
+    public void buzz(View view){
+        if (first) {
+            DocumentReference document = db.collection("games").document(gameName);
+            document.update("teamOneScore", FieldValue.increment(-1));
+        } else {
+            DocumentReference document = db.collection("games").document(gameName);
+            document.update("teamTwoScore", FieldValue.increment(-1));
+        }
     }
 }
