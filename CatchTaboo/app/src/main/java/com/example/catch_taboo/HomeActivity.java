@@ -131,4 +131,8 @@ public class HomeActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CreateGameActivity.class);
         startActivity(intent);
     }
+    public void joinGame(View v){
+        Intent intent = new Intent(this, JoinGameActivity.class);
+        startActivity(intent);
+    }
 }
