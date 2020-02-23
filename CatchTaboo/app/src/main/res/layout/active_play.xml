@@ -6,25 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-<!--    <fragment-->
-<!--        android:id="@+id/fragment4"-->
-<!--        android:name="com.example.catch_taboo.ui.word.WordFragment"-->
-<!--        android:layout_width="386dp"-->
-<!--        android:layout_height="256dp"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/fragment3"-->
-<!--        app:layout_constraintEnd_toEndOf="@+id/fragment_container"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/score_display" />-->
-
-<!--    <fragment-->
-<!--        android:id="@+id/fragment3"-->
-<!--        android:name="com.example.catch_taboo.ui.taboo.TabooFragment"-->
-<!--        android:layout_width="359dp"-->
-<!--        android:layout_height="334dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="@+id/fragment_container"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent" />-->
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/score_display"
         android:layout_width="0dp"

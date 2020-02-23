@@ -11,7 +11,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@color/colorWhite"
-        android:onClick="change"
+        android:onClick="endTurn"
         android:text="word"
         android:textSize="60sp"
         android:textStyle="bold"
