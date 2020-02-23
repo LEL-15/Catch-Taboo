@@ -113,6 +113,7 @@ public class HomeActivity extends AppCompatActivity {
         }
     }
 
+
     public void signOut(View v) {
         // Firebase sign out
         mAuth.signOut();
@@ -135,4 +136,5 @@ public class HomeActivity extends AppCompatActivity {
         Intent intent = new Intent(this, JoinGameActivity.class);
         startActivity(intent);
     }
+
 }

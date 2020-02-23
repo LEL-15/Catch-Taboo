@@ -10,7 +10,7 @@
         android:id="@+id/score_display"
         android:layout_width="0dp"
         android:layout_height="100dp"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorPrimaryLight"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -19,11 +19,12 @@
 
         <TextView
             android:id="@+id/team_one_score"
-            android:text="Team one Score"
-            app:layout_constraintEnd_toStartOf="@+id/team_two_score"
             android:layout_width="200dp"
             android:layout_height="50dp"
+            android:text="Team one Score: "
             android:textAlignment="center"
+            android:gravity="center"
+            app:layout_constraintEnd_toStartOf="@+id/team_two_score"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -32,8 +33,9 @@
             android:id="@+id/team_two_score"
             android:layout_width="200dp"
             android:layout_height="50dp"
-            android:text="Team two Score"
+            android:text="Team two Score: "
             android:textAlignment="center"
+            android:gravity="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/team_one_score"
@@ -43,8 +45,9 @@
             android:id="@+id/points"
             android:layout_width="0dp"
             android:layout_height="50dp"
-            android:text="TextView"
+            android:text="points"
             android:textAlignment="center"
+            android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/time"
             app:layout_constraintHorizontal_bias="0.5"
@@ -55,13 +58,24 @@
             android:id="@+id/time"
             android:layout_width="0dp"
             android:layout_height="50dp"
-            android:text="TextView"
+            android:text="time left"
             android:textAlignment="center"
+            android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/points"
             app:layout_constraintTop_toBottomOf="@+id/team_two_score" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <fragment
+        android:id="@+id/word"
+        android:name="com.example.catch_taboo.ui.word.WordFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/score_display" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
