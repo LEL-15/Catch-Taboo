@@ -33,7 +33,9 @@ import com.google.firebase.firestore.QuerySnapshot;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 
 import static androidx.constraintlayout.widget.Constraints.TAG;
 
@@ -44,6 +46,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
     private String currentUserID;
     private String gameName;
     private String team = "team2";
+    private Boolean first;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) { //method gets triggered as soon as the activity is created
@@ -120,6 +123,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
         Log.d(TAG, "active player" + data.get("activePlayer"));
         Log.d(TAG, "current player" + currentUserID);
         Log.d(TAG, "on" +team);
+        first = Boolean.parseBoolean(data.get("teamOneFirst").toString());
         if(currentUserID.equals(data.get("activePlayer"))){
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.fragment_container, new WordFragment());
@@ -136,8 +140,49 @@ public class GeneralPlayActivity extends AppCompatActivity {
             ft.commit();
         }
     }
+    //Update values
     public void endTurn(View view)
     {
-
+        first = !first;
+        final Context hold = this;
+        //Switch which team goes first
+        final Map<String, Object> data = new HashMap<>();
+        data.put("teamOneActive", first);
+        //Switch active player
+        String teamFirst = "team2";
+        if(first){
+            teamFirst = "team1";
+        }
+        CollectionReference team2 = db.collection("games").document(gameName).collection(teamFirst);
+        team2.get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                //If succesfully accessed firebase
+                if (task.isSuccessful()) {
+                    // create instance of Random class
+                    Random rand = new Random();
+                    // Generate random integers in range 0 to 999
+                    int randomPlayer = rand.nextInt(task.getResult().size());
+                    Log.d(TAG, "random player: " + randomPlayer);
+                    //For every plyaer in the database
+                    int count = 0;
+                    for (final QueryDocumentSnapshot document : task.getResult()) {
+                        Log.d(TAG, "onComplete: per player");
+                        if(count == randomPlayer){
+                            Log.d(TAG, "onComplete: found right player with id " + document.get("id"));
+                            data.put("activePlayer", document.get("id"));
+                        }
+                        count += 1;
+                    }
+                    Log.d(TAG, "data is " + data);
+                    DocumentReference game = db.collection("games").document(gameName);
+                    game.update(data);
+                }
+                //If failed to access firebase
+                else {
+                    Log.d("Testing", "Problem");
+                }
+            }
+        });
     }
 }
