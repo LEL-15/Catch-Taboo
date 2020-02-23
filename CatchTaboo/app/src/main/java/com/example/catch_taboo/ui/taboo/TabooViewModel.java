@@ -36,7 +36,9 @@ public class TabooViewModel extends ViewModel {
     }
 
 
-    public TabooViewModel() {
+    public TabooViewModel(String mGameName){
+        Log.v("GameName Taboo: ", mGameName);
+        gameName = mGameName;
         mTaboo1 = new MutableLiveData<>();
         mTaboo2 = new MutableLiveData<>();
         mTaboo3 = new MutableLiveData<>();
@@ -44,7 +46,7 @@ public class TabooViewModel extends ViewModel {
         mTaboo5 = new MutableLiveData<>();
 
 //        String
-        gameName = "Better Game Name";
+//        gameName = "Better Game Name";
 //        Intent loadIntent = getIntent();
 //        gameName = loadIntent.getStringExtra("GAME");
         DocumentReference docRefGame = db.collection("games").document(gameName);

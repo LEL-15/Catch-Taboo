@@ -1,6 +1,7 @@
 package com.example.catch_taboo.ui.taboo;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,6 +16,8 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.catch_taboo.R;
 import com.example.catch_taboo.ui.slideshow.SlideshowViewModel;
+import com.example.catch_taboo.ui.word.WordModelFactory;
+import com.example.catch_taboo.ui.word.WordViewModel;
 
 public class TabooFragment extends Fragment {
     private TabooViewModel tabooViewModel;
@@ -30,11 +33,9 @@ public class TabooFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-
-        tabooViewModel =
-                ViewModelProviders.of(this).get(TabooViewModel.class);
-
-//        tabooViewModel.setGameName(gameName);
+        TabooModelFactory tabooFactory = new TabooModelFactory(gameName);
+        Log.v("Game in Frag Taboo: ", gameName);
+        tabooViewModel = ViewModelProviders.of(this, tabooFactory).get(TabooViewModel.class);
 
         View root = inflater.inflate(R.layout.fragment_taboo, container, false);
         final TextView taboo1 = root.findViewById(R.id.taboo1);
