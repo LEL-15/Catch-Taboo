@@ -42,29 +42,17 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/points"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:text="points"
-            android:textAlignment="center"
-            android:gravity="center"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/time"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/team_one_score" />
-
-        <TextView
             android:id="@+id/time"
             android:layout_width="0dp"
             android:layout_height="50dp"
+            android:gravity="center"
             android:text="time left"
             android:textAlignment="center"
-            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/points"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/team_two_score" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
