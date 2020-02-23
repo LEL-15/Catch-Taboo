@@ -141,16 +141,15 @@ public class GeneralPlayActivity extends AppCompatActivity {
         first = Boolean.parseBoolean(data.get("teamOneActive").toString());
         playerTurn = data.get("activePlayer").toString();
         if (currentUserID.equals(playerTurn)) {
-
+            if(registration != null){
+                registration.remove();
+            }
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             WordFragment Fragment = new WordFragment();
             Fragment.setGameName(gameName);
             ft.replace(R.id.fragment_container, Fragment);
             ft.commit();
             DocumentReference docRef = db.collection("games").document(gameName);
-            if(registration != null){
-                registration.remove();
-            }
             startTime = System.currentTimeMillis();
             registration = docRef.addSnapshotListener(new EventListener<DocumentSnapshot>() {
                 @Override
@@ -173,6 +172,10 @@ public class GeneralPlayActivity extends AppCompatActivity {
         }
         //Other Team
         else if ((team.equals("team1") != (Boolean.parseBoolean(data.get("teamOneActive").toString())))) {
+            if(registration != null){
+                registration.remove();
+            }
+
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
 
             TabooFragment TFragment = new TabooFragment();
@@ -182,9 +185,6 @@ public class GeneralPlayActivity extends AppCompatActivity {
 
             Log.d(TAG, "pickLayout: Other team active");
             DocumentReference docRef = db.collection("games").document(gameName);
-            if(registration != null){
-                registration.remove();
-            }
             registration = docRef.addSnapshotListener(new EventListener<DocumentSnapshot>() {
                 @Override
                 public void onEvent(@Nullable DocumentSnapshot snapshot,
@@ -203,13 +203,13 @@ public class GeneralPlayActivity extends AppCompatActivity {
                 }
             });
         } else {
+            if(registration != null){
+                registration.remove();
+            }
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.fragment_container, new WaitFragment());
             ft.commit();
             DocumentReference docRef = db.collection("games").document(gameName);
-            if(registration != null){
-                registration.remove();
-            }
             registration = docRef.addSnapshotListener(new EventListener<DocumentSnapshot>() {
                 @Override
                 public void onEvent(@Nullable DocumentSnapshot snapshot,
@@ -283,7 +283,6 @@ public class GeneralPlayActivity extends AppCompatActivity {
             }
             //Got the word
             if (!currentUserID.equals(data.get("activePlayer"))) {
-
                 //Change Score
                 Log.d(TAG, "updateActivePlayer: startTime" + startTime);
                 Log.d(TAG, "updateActivePlayer: End time" + System.currentTimeMillis());
@@ -308,7 +307,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
             else {
                 pickLayout(data);
                 updateScore();
-                count = -1;
+                count = 0;
             }
         }
         count++;
