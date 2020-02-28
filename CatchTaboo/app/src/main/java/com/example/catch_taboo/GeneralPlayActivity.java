@@ -36,9 +36,7 @@ import com.google.firebase.firestore.ListenerRegistration;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
@@ -54,10 +52,9 @@ public class GeneralPlayActivity extends AppCompatActivity {
     private String team = "team2";
     private Boolean first;
     private ListenerRegistration registration;
-    private Long startTime;
+    private Long startTime = Long.valueOf("0");
     private String playerTurn;
     private int count = 0;
-    private Double score;
     private int number = 24;
 
     @Override
@@ -136,106 +133,111 @@ public class GeneralPlayActivity extends AppCompatActivity {
         });
     }
 
+    private void setLayoutActive(){
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        WordFragment Fragment = new WordFragment();
+        Fragment.setGameName(gameName);
+        ft.replace(R.id.fragment_container, Fragment);
+        ft.commit();
+        Long comparison = Long.valueOf("0");
+        if(startTime.equals(comparison)){
+            Log.d(TAG, "setLayoutActive: Set start time to a value");
+            startTime = System.currentTimeMillis();
+        }
+
+        DocumentReference docRef = db.collection("games").document(gameName);
+        registration = docRef.addSnapshotListener(new EventListener<DocumentSnapshot>() {
+            @Override
+            public void onEvent(@Nullable DocumentSnapshot snapshot,
+                                @Nullable FirebaseFirestoreException e) {
+                if (e != null) {
+                    Log.w(TAG, "Listen failed.", e);
+                    return;
+                }
+                String source = snapshot != null && snapshot.getMetadata().hasPendingWrites()
+                        ? "Local" : "Server";
+                if (snapshot != null && snapshot.exists()) {
+                    updateActivePlayer(snapshot.getData());
+                } else {
+                    Log.d(TAG, source + " data: null");
+                }
+            }
+        });
+    }
+
+    private void setLayoutOther(){
+        startTime = Long.valueOf("0");
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+
+        TabooFragment TFragment = new TabooFragment();
+        TFragment.setGameName(gameName);
+        ft.replace(R.id.fragment_container, TFragment);
+        ft.commit();
+
+        DocumentReference docRef = db.collection("games").document(gameName);
+        registration = docRef.addSnapshotListener(new EventListener<DocumentSnapshot>() {
+            @Override
+            public void onEvent(@Nullable DocumentSnapshot snapshot,
+                                @Nullable FirebaseFirestoreException e) {
+                if (e != null) {
+                    Log.w(TAG, "Listen failed.", e);
+                    return;
+                }
+                String source = snapshot != null && snapshot.getMetadata().hasPendingWrites()
+                        ? "Local" : "Server";
+                if (snapshot != null && snapshot.exists()) {
+                    updateOtherPlayer(snapshot.getData());
+                } else {
+                    Log.d(TAG, source + " data: null");
+                }
+            }
+        });
+    }
+
+    private void setLayoutSame(){
+        startTime = Long.valueOf(0);
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        ft.replace(R.id.fragment_container, new WaitFragment());
+        ft.commit();
+        DocumentReference docRef = db.collection("games").document(gameName);
+        registration = docRef.addSnapshotListener(new EventListener<DocumentSnapshot>() {
+            @Override
+            public void onEvent(@Nullable DocumentSnapshot snapshot,
+                                @Nullable FirebaseFirestoreException e) {
+                if (e != null) {
+                    Log.w(TAG, "Listen failed.", e);
+                    return;
+                }
+
+                String source = snapshot != null && snapshot.getMetadata().hasPendingWrites()
+                        ? "Local" : "Server";
+                if (snapshot != null && snapshot.exists()) {
+                    updateOtherPlayer(snapshot.getData());
+                } else {
+                    Log.d(TAG, source + " data: null");
+                }
+            }
+        });
+    }
+
     private void pickLayout(Map<String, Object> data) {
+        if(registration != null){
+            registration.remove();
+        }
         Log.d(TAG, "picking layout");
         first = Boolean.parseBoolean(data.get("teamOneActive").toString());
         playerTurn = data.get("activePlayer").toString();
         //Your turn
         if (currentUserID.equals(playerTurn)) {
-            if(registration != null){
-                registration.remove();
-            }
-            if (team.equals("team1")){
-                score = parseDouble(data.get("teamOneScore").toString());
-            }
-            else{
-                score = parseDouble(data.get("teamTwoScore").toString());
-            }
-            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-            WordFragment Fragment = new WordFragment();
-            Fragment.setGameName(gameName);
-            ft.replace(R.id.fragment_container, Fragment);
-            ft.commit();
-
-            DocumentReference docRef = db.collection("games").document(gameName);
-            startTime = System.currentTimeMillis();
-            registration = docRef.addSnapshotListener(new EventListener<DocumentSnapshot>() {
-                @Override
-                public void onEvent(@Nullable DocumentSnapshot snapshot,
-                                    @Nullable FirebaseFirestoreException e) {
-                    if (e != null) {
-                        Log.w(TAG, "Listen failed.", e);
-                        return;
-                    }
-
-                    String source = snapshot != null && snapshot.getMetadata().hasPendingWrites()
-                            ? "Local" : "Server";
-                    if (snapshot != null && snapshot.exists()) {
-                        updateActivePlayer(snapshot.getData());
-                    } else {
-                        Log.d(TAG, source + " data: null");
-                    }
-                }
-            });
+            setLayoutActive();
         }
         //Other Team
         else if ((team.equals("team1") != (Boolean.parseBoolean(data.get("teamOneActive").toString())))) {
-            if(registration != null){
-                registration.remove();
-            }
-
-            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-
-            TabooFragment TFragment = new TabooFragment();
-            TFragment.setGameName(gameName);
-            ft.replace(R.id.fragment_container, TFragment);
-            ft.commit();
-
-            Log.d(TAG, "pickLayout: Other team active");
-            DocumentReference docRef = db.collection("games").document(gameName);
-            registration = docRef.addSnapshotListener(new EventListener<DocumentSnapshot>() {
-                @Override
-                public void onEvent(@Nullable DocumentSnapshot snapshot,
-                                    @Nullable FirebaseFirestoreException e) {
-                    if (e != null) {
-                        Log.w(TAG, "Listen failed.", e);
-                        return;
-                    }
-                    String source = snapshot != null && snapshot.getMetadata().hasPendingWrites()
-                            ? "Local" : "Server";
-                    if (snapshot != null && snapshot.exists()) {
-                        updateOtherPlayer(snapshot.getData());
-                    } else {
-                        Log.d(TAG, source + " data: null");
-                    }
-                }
-            });
-        } else {
-            if(registration != null){
-                registration.remove();
-            }
-            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-            ft.replace(R.id.fragment_container, new WaitFragment());
-            ft.commit();
-            DocumentReference docRef = db.collection("games").document(gameName);
-            registration = docRef.addSnapshotListener(new EventListener<DocumentSnapshot>() {
-                @Override
-                public void onEvent(@Nullable DocumentSnapshot snapshot,
-                                    @Nullable FirebaseFirestoreException e) {
-                    if (e != null) {
-                        Log.w(TAG, "Listen failed.", e);
-                        return;
-                    }
-
-                    String source = snapshot != null && snapshot.getMetadata().hasPendingWrites()
-                            ? "Local" : "Server";
-                    if (snapshot != null && snapshot.exists()) {
-                        updateOtherPlayer(snapshot.getData());
-                    } else {
-                        Log.d(TAG, source + " data: null");
-                    }
-                }
-            });
+            setLayoutOther();
+        }
+        //Same team
+        else {
+            setLayoutSame();
         }
     }
 
@@ -246,6 +248,10 @@ public class GeneralPlayActivity extends AppCompatActivity {
         //Switch which team goes first
         final Map<String, Object> data = new HashMap<>();
         data.put("teamOneActive", first);
+        //Switch to new word
+        Random rand = new Random();
+        Double randomNumber = rand.nextInt(number)+1.0;
+        data.put("word", randomNumber);
         //Switch active player
         String teamFirst = "team2";
         if (first) {
@@ -287,21 +293,13 @@ public class GeneralPlayActivity extends AppCompatActivity {
         Log.d(TAG, "updateActivePlayer: count" + count);
         Log.d(TAG, "data is" + data);
         if(count > 0){
-            Double newScore;
-            if (team.equals("team1")){
-                newScore = parseDouble(data.get("teamOneScore").toString());
-            }
-            else{
-                newScore = parseDouble(data.get("teamTwoScore").toString());
-            }
             //Got the word
             if (!currentUserID.equals(data.get("activePlayer"))) {
                 //Change Score
-                Log.d(TAG, "updateActivePlayer: startTime" + startTime);
-                Log.d(TAG, "updateActivePlayer: End time" + System.currentTimeMillis());
-                Log.d(TAG, "time in seconds is " + (System.currentTimeMillis() - startTime) / 1000);
                 int scoreEarned = 100 - (int)((System.currentTimeMillis() - startTime) / 1000);
-                Log.d(TAG, "updateActivePlayer: score" + scoreEarned);
+                Log.d(TAG, "Score earned was: " + scoreEarned);
+                Log.d(TAG, "start time: " + startTime);
+                Log.d(TAG, "now time: " + System.currentTimeMillis());
                 if (scoreEarned < 0) {
                     scoreEarned = 0;
                 }
@@ -312,23 +310,15 @@ public class GeneralPlayActivity extends AppCompatActivity {
                     DocumentReference document = db.collection("games").document(gameName);
                     document.update("teamTwoScore", FieldValue.increment(scoreEarned));
                 }
-                setRandNum();
                 pickLayout(data);
                 updateScore();
                 count = 0;
             }
             //Got buzzed
-            else if(!score.equals(newScore)){
-                Log.d(TAG, "updateActivePlayer: got buzzed");
-                Log.d(TAG, "score" + score);
-                Log.d(TAG, "newScore" + newScore);
-                setRandNum();
-                pickLayout(data);
-                updateScore();
-                count = 0;
-            }
             else{
-                Log.d(TAG, "updateActivePlayer: Here");
+                Log.d(TAG, "updateActivePlayer: got buzzed");
+                pickLayout(data);
+                count = 0;
             }
         }
         else{
@@ -346,13 +336,8 @@ public class GeneralPlayActivity extends AppCompatActivity {
         count++;
     }
     public void buzz(View view){
-        if (first) {
-            DocumentReference document = db.collection("games").document(gameName);
-            document.update("teamOneScore", FieldValue.increment(-1));
-        } else {
-            DocumentReference document = db.collection("games").document(gameName);
-            document.update("teamTwoScore", FieldValue.increment(-1));
-        }
+        setRandNum();
+        setLayoutOther();
     }
     public void updateScore(){
         final DocumentReference docRef = db.collection("games").document(gameName);
@@ -365,8 +350,10 @@ public class GeneralPlayActivity extends AppCompatActivity {
                     final DocumentSnapshot snapshot = task.getResult();
                     if (snapshot.exists()) {
 //                        Log.d(TAG, "DocumentSnapshot data: " + document.getData());
-                        ((TextView) findViewById(R.id.team_one_score)).setText(snapshot.getString("teamOneName") + ": " + String.valueOf(snapshot.getDouble("teamOneScore")));
-                        ((TextView) findViewById(R.id.team_two_score)).setText(snapshot.getString("teamTwoName") + ": " + String.valueOf(snapshot.getDouble("teamTwoScore")));
+                        String teamOneScore = snapshot.getString("teamOneName") + ": " + String.valueOf(snapshot.getDouble("teamOneScore"));
+                        String teamTwoScore = snapshot.getString("teamTwoName") + ": " + String.valueOf(snapshot.getDouble("teamTwoScore"));
+                        ((TextView) findViewById(R.id.team_one_score)).setText(teamOneScore);
+                        ((TextView) findViewById(R.id.team_two_score)).setText(teamTwoScore);
                     }
                     else {
                         ((TextView) findViewById(R.id.team_one_score)).setText("Error");
@@ -379,13 +366,15 @@ public class GeneralPlayActivity extends AppCompatActivity {
             }
         });
     }
-    public void setRandNum() {
+    public int setRandNum() {
+        //Made new thing
         Random rand = new Random();
         Double randomNumber = rand.nextInt(number)+1.0;//range 1 to 5
         DocumentReference docRef = db.collection("games").document(gameName);
-
         final Map<String, Object> game = new HashMap<>();
         game.put("word", randomNumber);
         docRef.update(game);
+
+        return 1;
     }
 }

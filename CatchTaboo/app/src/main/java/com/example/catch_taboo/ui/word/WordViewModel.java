@@ -41,7 +41,6 @@ public class WordViewModel extends ViewModel {
 
         mText = new MutableLiveData<>();
         mText.setValue( "default"); //change word here!
-        Log.v("Before randNum(): ", gameName);
 //        setRandNum();
 //        String wordChoice = String.valueOf(randNum);
 
@@ -55,8 +54,6 @@ public class WordViewModel extends ViewModel {
                     if (snapshotGame.exists()) {
                         randNum = snapshotGame.getDouble("word");
                         Log.v("RandNum", String.valueOf(randNum));
-
-
                         String wordChoice = String.valueOf(randNum);
 
                         DocumentReference docRef = db.collection("words").document(wordChoice);
@@ -67,13 +64,11 @@ public class WordViewModel extends ViewModel {
                                 if (task.isSuccessful()) {
                                     DocumentSnapshot snapshot = task.getResult();
                                     if (snapshot.exists()) {
-//                        Log.d(TAG, "DocumentSnapshot data: " + document.getData());
-
+                                        Log.d(TAG, "DocumentSnapshot data: " + snapshot.getData());
                                         mText.setValue( snapshot.getString("word")); //change word here!
 
                                     } else {
-//                        Log.d(TAG, "No such document");
-//                        mText = new MutableLiveData<>();
+                                        Log.d(TAG, "No such document");
                                         mText.setValue( "error"); //change word here!
 
                                     }
