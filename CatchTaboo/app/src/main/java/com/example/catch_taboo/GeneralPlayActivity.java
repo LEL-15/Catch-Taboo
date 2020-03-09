@@ -2,8 +2,11 @@ package com.example.catch_taboo;
 
 import android.content.Context;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.os.VibrationEffect;
+import android.os.Vibrator;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -319,6 +322,10 @@ public class GeneralPlayActivity extends AppCompatActivity {
                 Log.d(TAG, "updateActivePlayer: got buzzed");
                 pickLayout(data);
                 count = 0;
+                MediaPlayer buzz = MediaPlayer.create(this, R.raw.fail);
+                buzz.start();
+                Vibrator vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
+                vibrator.vibrate(VibrationEffect.createOneShot(600, VibrationEffect.DEFAULT_AMPLITUDE));
             }
         }
         else{

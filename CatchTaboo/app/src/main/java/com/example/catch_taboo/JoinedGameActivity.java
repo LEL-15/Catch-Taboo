@@ -16,9 +16,11 @@ import androidx.navigation.ui.AppBarConfiguration;
 
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
@@ -34,6 +36,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
+
+import static androidx.constraintlayout.widget.Constraints.TAG;
 
 public class JoinedGameActivity extends AppCompatActivity {
     String TAG = "testing";
@@ -238,5 +242,84 @@ public class JoinedGameActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+    public void leaveGame(View v){
+        registration.remove();
+        registration1.remove();
+        registration2.remove();
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        final String currentUserID = user.getUid();
+        final DocumentReference docRef = db.collection("games").document(gameName);
+        final CollectionReference collectionRef = docRef.collection("team1");
+        collectionRef.get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                //If succesfully accessed firebase
+                if (task.isSuccessful()) {
+                    ArrayList<String> names = new ArrayList<String>();
+                    //For every plyaer in the database
+                    for (final QueryDocumentSnapshot document : task.getResult()) {
+                        Log.d(TAG, "onComplete: Got here");
+                        if(currentUserID.equals(document.getString("id"))) {
+                            String documentId = document.getId();
+                            collectionRef.document(documentId)
+                                    .delete()
+                                    .addOnSuccessListener(new OnSuccessListener<Void>() {
+                                        @Override
+                                        public void onSuccess(Void aVoid) {
+                                            Log.d(TAG, "DocumentSnapshot successfully deleted!");
+                                        }
+                                    })
+                                    .addOnFailureListener(new OnFailureListener() {
+                                        @Override
+                                        public void onFailure(@NonNull Exception e) {
+                                            Log.w(TAG, "Error deleting document", e);
+                                        }
+                                    });
+                        }
+                    }
+                }
+                //If failed to access firebase
+                else {
+                    Log.d("Testing", "Problem");
+                }
+            }
+        });
+        final CollectionReference collectionRef1 = docRef.collection("team2");
+        collectionRef1.get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                //If succesfully accessed firebase
+                if (task.isSuccessful()) {
+                    ArrayList<String> names = new ArrayList<String>();
+                    //For every plyaer in the database
+                    for (final QueryDocumentSnapshot document : task.getResult()) {
+                        if(currentUserID.equals(document.getString("id"))) {
+                            String documentId = document.getId();
+                            collectionRef1.document(documentId)
+                                    .delete()
+                                    .addOnSuccessListener(new OnSuccessListener<Void>() {
+                                        @Override
+                                        public void onSuccess(Void aVoid) {
+                                            Log.d(TAG, "DocumentSnapshot successfully deleted!");
+                                        }
+                                    })
+                                    .addOnFailureListener(new OnFailureListener() {
+                                        @Override
+                                        public void onFailure(@NonNull Exception e) {
+                                            Log.w(TAG, "Error deleting document", e);
+                                        }
+                                    });
+                        }
+                    }
+                }
+                //If failed to access firebase
+                else {
+                    Log.d("Testing", "Problem");
+                }
+            }
+        });
+        Intent intent = new Intent(this, HomeActivity.class);
+        startActivity(intent);
     }
 }
