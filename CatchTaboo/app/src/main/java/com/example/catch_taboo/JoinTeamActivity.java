@@ -4,6 +4,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -53,6 +55,7 @@ public class JoinTeamActivity extends AppCompatActivity {
 
             }
         });
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     public void joinGame(View item) {
@@ -104,5 +107,18 @@ public class JoinTeamActivity extends AppCompatActivity {
             Toast.makeText(JoinTeamActivity.this, "You must pick a team.",
                     Toast.LENGTH_SHORT).show();
         }
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return true;
     }
 }

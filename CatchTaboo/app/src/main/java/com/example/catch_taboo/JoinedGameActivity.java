@@ -243,12 +243,8 @@ public class JoinedGameActivity extends AppCompatActivity {
             }
         });
     }
-    public void leaveGame(View v){
-        registration.remove();
-        registration1.remove();
-        registration2.remove();
-        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        final String currentUserID = user.getUid();
+    private void removePlayer(String pass){
+        final String currentUserID = pass;
         final DocumentReference docRef = db.collection("games").document(gameName);
         final CollectionReference collectionRef = docRef.collection("team1");
         collectionRef.get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
@@ -319,7 +315,26 @@ public class JoinedGameActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+    public void leaveGame(View v){
+        registration.remove();
+        registration1.remove();
+        registration2.remove();
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        final String currentUserID = user.getUid();
+        removePlayer(currentUserID);
         Intent intent = new Intent(this, HomeActivity.class);
+        startActivity(intent);
+    }
+    public void switchTeams(View v){
+        registration.remove();
+        registration1.remove();
+        registration2.remove();
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        final String currentUserID = user.getUid();
+        removePlayer(currentUserID);
+        Intent intent = new Intent(this, JoinTeamActivity.class);
+        intent.putExtra("GAME", gameName);
         startActivity(intent);
     }
 }
