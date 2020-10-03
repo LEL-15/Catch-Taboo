@@ -1,1189 +1,1189 @@
-data['words']['animals'].append({0: { 'word' : 'Frog',
+data['words']['animals'].append({'word' : 'Frog',
 'taboo1': 'Toad',
 'taboo2': 'Green',
 'taboo3': 'Leap',
 'taboo4': 'Prince',
 'taboo5': 'Jump'
-}})
-data['words']['animals'].append({1: { 'word' : 'Frogspawn',
+})
+data['words']['animals'].append({'word' : 'Frogspawn',
 'taboo1': 'Tadpole',
 'taboo2': 'Egg',
 'taboo3': 'Amphibian',
 'taboo4': 'Baby',
 'taboo5': 'Bullfrogs'
-}})
-data['words']['animals'].append({2: { 'word' : 'Newt',
+})
+data['words']['animals'].append({'word' : 'Newt',
 'taboo1': 'Salamander',
 'taboo2': 'Gingrich',
 'taboo3': 'Frog',
 'taboo4': 'Lizard',
 'taboo5': 'Toad'
-}})
-data['words']['animals'].append({3: { 'word' : 'Tadpole',
+})
+data['words']['animals'].append({'word' : 'Tadpole',
 'taboo1': 'Frog',
 'taboo2': 'Juvenile',
 'taboo3': 'Fish',
 'taboo4': 'Swim',
 'taboo5': 'Sperm'
-}})
-data['words']['animals'].append({4: { 'word' : 'Toad',
+})
+data['words']['animals'].append({'word' : 'Toad',
 'taboo1': 'Frog',
 'taboo2': 'Stool',
 'taboo3': 'Wart',
 'taboo4': 'Warts',
 'taboo5': 'Hole'
-}})
-data['words']['animals'].append({5: { 'word' : 'Scorpion',
+})
+data['words']['animals'].append({'word' : 'Scorpion',
 'taboo1': 'Sting',
 'taboo2': 'Spider',
 'taboo3': 'Stinger',
 'taboo4': 'Poison',
 'taboo5': 'Scorpio'
-}})
-data['words']['animals'].append({6: { 'word' : 'Spider',
+})
+data['words']['animals'].append({'word' : 'Spider',
 'taboo1': 'Web',
 'taboo2': 'Arachnid',
 'taboo3': 'Honeybee',
 'taboo4': 'Man',
 'taboo5': 'Legs'
-}})
-data['words']['animals'].append({7: { 'word' : 'Tarantula',
+})
+data['words']['animals'].append({'word' : 'Tarantula',
 'taboo1': 'Spider',
 'taboo2': 'Hairy',
 'taboo3': 'Arachnid',
 'taboo4': 'Scary',
 'taboo5': 'Scorpion'
-}})
-data['words']['animals'].append({8: { 'word' : 'Albatross',
+})
+data['words']['animals'].append({'word' : 'Albatross',
 'taboo1': 'Bird',
 'taboo2': 'Petrel',
 'taboo3': 'Pelican',
 'taboo4': 'Fish',
 'taboo5': 'Beach'
-}})
-data['words']['animals'].append({9: { 'word' : 'Biddy',
+})
+data['words']['animals'].append({'word' : 'Biddy',
 'taboo1': 'Old',
 'taboo2': 'Crony',
 'taboo3': 'Buddy',
 'taboo4': 'Chicken',
 'taboo5': 'City'
-}})
-data['words']['animals'].append({10: { 'word' : 'Blackbird',
+})
+data['words']['animals'].append({'word' : 'Blackbird',
 'taboo1': 'Black',
 'taboo2': 'Crow',
 'taboo3': 'Beatles',
 'taboo4': 'Raven',
 'taboo5': 'Pie'
-}})
-data['words']['animals'].append({11: { 'word' : 'Canary',
+})
+data['words']['animals'].append({'word' : 'Canary',
 'taboo1': 'Yellow',
 'taboo2': 'Bird',
 'taboo3': 'Islands',
 'taboo4': 'Cage',
 'taboo5': 'Sing'
-}})
-data['words']['animals'].append({12: { 'word' : 'Crow',
+})
+data['words']['animals'].append({'word' : 'Crow',
 'taboo1': 'Raven',
 'taboo2': 'Bird',
 'taboo3': 'Black',
 'taboo4': 'Caw',
 'taboo5': 'Bait'
-}})
-data['words']['animals'].append({13: { 'word' : 'Cuckoo',
+})
+data['words']['animals'].append({'word' : 'Cuckoo',
 'taboo1': 'Bird',
 'taboo2': 'Clock',
 'taboo3': 'Cuckold',
 'taboo4': 'Nest',
 'taboo5': 'Crazy'
-}})
-data['words']['animals'].append({14: { 'word' : 'Dove',
+})
+data['words']['animals'].append({'word' : 'Dove',
 'taboo1': 'Bird',
 'taboo2': 'Pigeon',
 'taboo3': 'Peace',
 'taboo4': 'White',
 'taboo5': 'Soap'
-}})
-data['words']['animals'].append({15: { 'word' : 'Pigeon',
+})
+data['words']['animals'].append({'word' : 'Pigeon',
 'taboo1': 'Bird',
 'taboo2': 'Dove',
 'taboo3': 'Poop',
 'taboo4': 'Rat',
 'taboo5': 'Shit'
-}})
-data['words']['animals'].append({16: { 'word' : 'Duck',
+})
+data['words']['animals'].append({'word' : 'Duck',
 'taboo1': 'Goose',
 'taboo2': 'Quack',
 'taboo3': 'Bird',
 'taboo4': 'Fuck',
 'taboo5': 'Pond'
-}})
-data['words']['animals'].append({17: { 'word' : 'Eagle',
+})
+data['words']['animals'].append({'word' : 'Eagle',
 'taboo1': 'Hawk',
 'taboo2': 'Bird',
 'taboo3': 'Bald',
 'taboo4': 'Scout',
 'taboo5': 'Soar'
-}})
-data['words']['animals'].append({18: { 'word' : 'Falcon',
+})
+data['words']['animals'].append({'word' : 'Falcon',
 'taboo1': 'Hawk',
 'taboo2': 'Bird',
 'taboo3': 'Eagle',
 'taboo4': 'Raven',
 'taboo5': 'Crest'
-}})
-data['words']['animals'].append({19: { 'word' : 'Finch',
+})
+data['words']['animals'].append({'word' : 'Finch',
 'taboo1': 'Bird',
 'taboo2': 'Canary',
 'taboo3': 'Gold',
 'taboo4': 'Flinch',
 'taboo5': 'Darwin'
-}})
-data['words']['animals'].append({20: { 'word' : 'Flamingo',
+})
+data['words']['animals'].append({'word' : 'Flamingo',
 'taboo1': 'Pink',
 'taboo2': 'Bird',
 'taboo3': 'Flamenco',
 'taboo4': 'Dancer',
 'taboo5': 'Legs'
-}})
-data['words']['animals'].append({21: { 'word' : 'Goose',
+})
+data['words']['animals'].append({'word' : 'Goose',
 'taboo1': 'Duck',
 'taboo2': 'Gander',
 'taboo3': 'Bird',
 'taboo4': 'Geese',
 'taboo5': 'Egg'
-}})
-data['words']['animals'].append({22: { 'word' : 'Gull',
+})
+data['words']['animals'].append({'word' : 'Gull',
 'taboo1': 'Seagull',
 'taboo2': 'Sea',
 'taboo3': 'Bird',
 'taboo4': 'Wing',
 'taboo5': 'Gullible'
-}})
-data['words']['animals'].append({23: { 'word' : 'Hawk',
+})
+data['words']['animals'].append({'word' : 'Hawk',
 'taboo1': 'Eagle',
 'taboo2': 'Bird',
 'taboo3': 'Eye',
 'taboo4': 'Tony',
 'taboo5': 'Falcon'
-}})
-data['words']['animals'].append({24: { 'word' : 'Jackdaw',
+})
+data['words']['animals'].append({'word' : 'Jackdaw',
 'taboo1': 'Bird',
 'taboo2': '5',
 'taboo3': 'Birdie',
 'taboo4': 'Bit',
 'taboo5': 'Crow'
-}})
-data['words']['animals'].append({25: { 'word' : 'Jay',
+})
+data['words']['animals'].append({'word' : 'Jay',
 'taboo1': 'Bird',
 'taboo2': 'Blue',
 'taboo3': 'Leno',
 'taboo4': 'Walk',
 'taboo5': 'Jaywalk'
-}})
-data['words']['animals'].append({26: { 'word' : 'Kestrel',
+})
+data['words']['animals'].append({'word' : 'Kestrel',
 'taboo1': 'Eagle',
 'taboo2': 'Falcon',
 'taboo3': 'Raven',
 'taboo4': 'Bird',
 'taboo5': 'Owl'
-}})
-data['words']['animals'].append({27: { 'word' : 'Kookaburra',
+})
+data['words']['animals'].append({'word' : 'Kookaburra',
 'taboo1': 'Bird',
 'taboo2': 'Sits',
 'taboo3': 'What',
 'taboo4': 'Ass',
 'taboo5': 'Aussie'
-}})
-data['words']['animals'].append({28: { 'word' : 'Mallard',
+})
+data['words']['animals'].append({'word' : 'Mallard',
 'taboo1': 'Duck',
 'taboo2': 'Bird',
 'taboo3': 'Drake',
 'taboo4': 'Green',
 'taboo5': 'Loon'
-}})
-data['words']['animals'].append({29: { 'word' : 'Nightingale',
+})
+data['words']['animals'].append({'word' : 'Nightingale',
 'taboo1': 'Bird',
 'taboo2': 'Florence',
 'taboo3': 'Nurse',
 'taboo4': 'Sing',
 'taboo5': 'Lamp'
-}})
-data['words']['animals'].append({30: { 'word' : 'Ostrich',
+})
+data['words']['animals'].append({'word' : 'Ostrich',
 'taboo1': 'Rhea',
 'taboo2': 'Egg',
 'taboo3': 'Bird',
 'taboo4': 'Emu',
 'taboo5': 'Sand'
-}})
-data['words']['animals'].append({31: { 'word' : 'Owl',
+})
+data['words']['animals'].append({'word' : 'Owl',
 'taboo1': 'Hoot',
 'taboo2': 'Bird',
 'taboo3': 'Night',
 'taboo4': 'Eagle',
 'taboo5': 'Hawk'
-}})
-data['words']['animals'].append({32: { 'word' : 'Parakeet',
+})
+data['words']['animals'].append({'word' : 'Parakeet',
 'taboo1': 'Parrot',
 'taboo2': 'Bird',
 'taboo3': 'Talking',
 'taboo4': 'Canary',
 'taboo5': 'Cage'
-}})
-data['words']['animals'].append({33: { 'word' : 'Parrot',
+})
+data['words']['animals'].append({'word' : 'Parrot',
 'taboo1': 'Bird',
 'taboo2': 'Talking',
 'taboo3': 'Squawk',
 'taboo4': 'Pirate',
 'taboo5': 'Talk'
-}})
-data['words']['animals'].append({34: { 'word' : 'Peacock',
+})
+data['words']['animals'].append({'word' : 'Peacock',
 'taboo1': 'Bird',
 'taboo2': 'Feather',
 'taboo3': 'Tail',
 'taboo4': 'Feathers',
 'taboo5': 'Ostrich'
-}})
-data['words']['animals'].append({35: { 'word' : 'Pelican',
+})
+data['words']['animals'].append({'word' : 'Pelican',
 'taboo1': 'Bird',
 'taboo2': 'Brief',
 'taboo3': 'Beak',
 'taboo4': 'Fish',
 'taboo5': 'Crossing'
-}})
-data['words']['animals'].append({36: { 'word' : 'Penguin',
+})
+data['words']['animals'].append({'word' : 'Penguin',
 'taboo1': 'Bird',
 'taboo2': 'Antarctica',
 'taboo3': 'Ice',
 'taboo4': 'Tuxedo',
 'taboo5': 'Waddle'
-}})
-data['words']['animals'].append({37: { 'word' : 'Pheasant',
+})
+data['words']['animals'].append({'word' : 'Pheasant',
 'taboo1': 'Bird',
 'taboo2': 'Quail',
 'taboo3': 'Peasant',
 'taboo4': 'Hunting',
 'taboo5': 'Pleasant'
-}})
-data['words']['animals'].append({38: { 'word' : 'Piranha',
+})
+data['words']['animals'].append({'word' : 'Piranha',
 'taboo1': 'Fish',
 'taboo2': 'Barracuda',
 'taboo3': 'Hungry',
 'taboo4': 'Teeth',
 'taboo5': 'Bite'
-}})
-data['words']['animals'].append({39: { 'word' : 'Raven',
+})
+data['words']['animals'].append({'word' : 'Raven',
 'taboo1': 'Crow',
 'taboo2': 'Bird',
 'taboo3': 'Black',
 'taboo4': 'Poe',
 'taboo5': 'Craven'
-}})
-data['words']['animals'].append({40: { 'word' : 'Robin',
+})
+data['words']['animals'].append({'word' : 'Robin',
 'taboo1': 'Hood',
 'taboo2': 'Bird',
 'taboo3': 'Batman',
 'taboo4': 'Red',
 'taboo5': 'Wren'
-}})
-data['words']['animals'].append({41: { 'word' : 'Rooster',
+})
+data['words']['animals'].append({'word' : 'Rooster',
 'taboo1': 'Cock',
 'taboo2': 'Hen',
 'taboo3': 'Chicken',
 'taboo4': 'Crow',
 'taboo5': 'Cockerel'
-}})
-data['words']['animals'].append({42: { 'word' : 'Sparrow',
+})
+data['words']['animals'].append({'word' : 'Sparrow',
 'taboo1': 'Bird',
 'taboo2': 'Jack',
 'taboo3': 'Wren',
 'taboo4': 'Hawk',
 'taboo5': 'Robin'
-}})
-data['words']['animals'].append({43: { 'word' : 'Stork',
+})
+data['words']['animals'].append({'word' : 'Stork',
 'taboo1': 'Baby',
 'taboo2': 'Bird',
 'taboo3': 'Babies',
 'taboo4': 'Deliver',
 'taboo5': 'Heron'
-}})
-data['words']['animals'].append({44: { 'word' : 'Swan',
+})
+data['words']['animals'].append({'word' : 'Swan',
 'taboo1': 'Lake',
 'taboo2': 'Bird',
 'taboo3': 'Goose',
 'taboo4': 'Duck',
 'taboo5': 'Dive'
-}})
-data['words']['animals'].append({45: { 'word' : 'Turkey',
+})
+data['words']['animals'].append({'word' : 'Turkey',
 'taboo1': 'Chicken',
 'taboo2': 'Thanksgiving',
 'taboo3': 'Gobble',
 'taboo4': 'Gobbler',
 'taboo5': 'Christmas'
-}})
-data['words']['animals'].append({46: { 'word' : 'Vulture',
+})
+data['words']['animals'].append({'word' : 'Vulture',
 'taboo1': 'Bird',
 'taboo2': 'Hawk',
 'taboo3': 'Eagle',
 'taboo4': 'Buzzard',
 'taboo5': 'Carrion'
-}})
-data['words']['animals'].append({47: { 'word' : 'Woodpecker',
+})
+data['words']['animals'].append({'word' : 'Woodpecker',
 'taboo1': 'Woody',
 'taboo2': 'Bird',
 'taboo3': 'Tree',
 'taboo4': 'Wood',
 'taboo5': 'Beak'
-}})
-data['words']['animals'].append({48: { 'word' : 'Silkworm',
+})
+data['words']['animals'].append({'word' : 'Silkworm',
 'taboo1': 'Silk',
 'taboo2': 'Kimono',
 'taboo3': 'Thread',
 'taboo4': 'Bacteriological',
 'taboo5': 'Butterfly'
-}})
-data['words']['animals'].append({49: { 'word' : 'Swallowtail',
+})
+data['words']['animals'].append({'word' : 'Swallowtail',
 'taboo1': 'Bird',
 'taboo2': 'Butterfly',
 'taboo3': 'Dick',
 'taboo4': 'Eagle',
 'taboo5': 'Eel'
-}})
-data['words']['animals'].append({50: { 'word' : 'Carp',
+})
+data['words']['animals'].append({'word' : 'Carp',
 'taboo1': 'Fish',
 'taboo2': 'Carpal',
 'taboo3': 'Diem',
 'taboo4': 'Goldfish',
 'taboo5': 'Carpet'
-}})
-data['words']['animals'].append({51: { 'word' : 'Cod',
+})
+data['words']['animals'].append({'word' : 'Cod',
 'taboo1': 'Fish',
 'taboo2': 'Piece',
 'taboo3': 'Perch',
 'taboo4': 'Cape',
 'taboo5': 'Codfish'
-}})
-data['words']['animals'].append({52: { 'word' : 'Crab',
+})
+data['words']['animals'].append({'word' : 'Crab',
 'taboo1': 'Lobster',
 'taboo2': 'Legs',
 'taboo3': 'Cakes',
 'taboo4': 'Meat',
 'taboo5': 'Cake'
-}})
-data['words']['animals'].append({53: { 'word' : 'Eel',
+})
+data['words']['animals'].append({'word' : 'Eel',
 'taboo1': 'Fish',
 'taboo2': 'Electric',
 'taboo3': 'Slippery',
 'taboo4': 'Snake',
 'taboo5': 'Slimy'
-}})
-data['words']['animals'].append({54: { 'word' : 'Goldfish',
+})
+data['words']['animals'].append({'word' : 'Goldfish',
 'taboo1': 'Bowl',
 'taboo2': 'Fish',
 'taboo3': 'Gold',
 'taboo4': 'Tank',
 'taboo5': 'Crackers'
-}})
-data['words']['animals'].append({55: { 'word' : 'Haddock',
+})
+data['words']['animals'].append({'word' : 'Haddock',
 'taboo1': 'Perch',
 'taboo2': 'Fish',
 'taboo3': 'Cod',
 'taboo4': 'Hammock',
 'taboo5': 'Salmon'
-}})
-data['words']['animals'].append({56: { 'word' : 'Halibut',
+})
+data['words']['animals'].append({'word' : 'Halibut',
 'taboo1': 'Perch',
 'taboo2': 'Fish',
 'taboo3': 'Flounder',
 'taboo4': 'Trout',
 'taboo5': 'Salmon'
-}})
-data['words']['animals'].append({57: { 'word' : 'Jellyfish',
+})
+data['words']['animals'].append({'word' : 'Jellyfish',
 'taboo1': 'Sting',
 'taboo2': 'Starfish',
 'taboo3': 'Invertebrate',
 'taboo4': 'Jelly',
 'taboo5': 'Anemone'
-}})
-data['words']['animals'].append({58: { 'word' : 'Lobster',
+})
+data['words']['animals'].append({'word' : 'Lobster',
 'taboo1': 'Crab',
 'taboo2': 'Red',
 'taboo3': 'Tail',
 'taboo4': 'Fish',
 'taboo5': 'Claw'
-}})
-data['words']['animals'].append({59: { 'word' : 'Perch',
+})
+data['words']['animals'].append({'word' : 'Perch',
 'taboo1': 'Bird',
 'taboo2': 'Cod',
 'taboo3': 'Parrot',
 'taboo4': 'Trout',
 'taboo5': 'Sit'
-}})
-data['words']['animals'].append({60: { 'word' : 'Pike',
+})
+data['words']['animals'].append({'word' : 'Pike',
 'taboo1': 'Spike',
 'taboo2': 'Zebulon',
 'taboo3': 'Fish',
 'taboo4': 'Peak',
 'taboo5': 'Spear'
-}})
-data['words']['animals'].append({61: { 'word' : 'Plaice',
+})
+data['words']['animals'].append({'word' : 'Plaice',
 'taboo1': 'Place',
 'taboo2': 'Fish',
 'taboo3': 'Cod',
 'taboo4': 'Palace',
 'taboo5': 'What'
-}})
-data['words']['animals'].append({62: { 'word' : 'Ray',
+})
+data['words']['animals'].append({'word' : 'Ray',
 'taboo1': 'Light',
 'taboo2': 'Sun',
 'taboo3': 'Charles',
 'taboo4': 'Sunshine',
 'taboo5': 'Sting'
-}})
-data['words']['animals'].append({63: { 'word' : 'Salmon',
+})
+data['words']['animals'].append({'word' : 'Salmon',
 'taboo1': 'Fish',
 'taboo2': 'Trout',
 'taboo3': 'Tuna',
 'taboo4': 'Pink',
 'taboo5': 'Fishing'
-}})
-data['words']['animals'].append({64: { 'word' : 'Sawfish',
+})
+data['words']['animals'].append({'word' : 'Sawfish',
 'taboo1': 'Butter',
 'taboo2': 'Childhood',
 'taboo3': 'Fish',
 'taboo4': 'Makeup',
-}})
-data['words']['animals'].append({65: { 'word' : 'Scallop',
+})
+data['words']['animals'].append({'word' : 'Scallop',
 'taboo1': 'Clam',
 'taboo2': 'Mussel',
 'taboo3': 'Potato',
 'taboo4': 'Oyster',
 'taboo5': 'Potatoes'
-}})
-data['words']['animals'].append({66: { 'word' : 'Shark',
+})
+data['words']['animals'].append({'word' : 'Shark',
 'taboo1': 'Fish',
 'taboo2': 'Attack',
 'taboo3': 'Dolphin',
 'taboo4': 'Bite',
 'taboo5': 'Fin'
-}})
-data['words']['animals'].append({67: { 'word' : 'Shell',
+})
+data['words']['animals'].append({'word' : 'Shell',
 'taboo1': 'Sea',
 'taboo2': 'Hard',
 'taboo3': 'Fish',
 'taboo4': 'Turtle',
 'taboo5': 'Beach'
-}})
-data['words']['animals'].append({68: { 'word' : 'Shrimp',
+})
+data['words']['animals'].append({'word' : 'Shrimp',
 'taboo1': 'Cocktail',
 'taboo2': 'Lobster',
 'taboo3': 'Prawn',
 'taboo4': 'Frozen',
 'taboo5': 'Fish'
-}})
-data['words']['animals'].append({69: { 'word' : 'Trout',
+})
+data['words']['animals'].append({'word' : 'Trout',
 'taboo1': 'Fish',
 'taboo2': 'Salmon',
 'taboo3': 'Rainbow',
 'taboo4': 'Fishing',
 'taboo5': 'Bass'
-}})
-data['words']['animals'].append({70: { 'word' : 'Insects',
+})
+data['words']['animals'].append({'word' : 'Insects',
 'taboo1': 'Bugs',
 'taboo2': 'Ants',
 'taboo3': 'Honeybee',
 'taboo4': 'Spiders',
 'taboo5': 'Worms'
-}})
-data['words']['animals'].append({71: { 'word' : 'Ant',
+})
+data['words']['animals'].append({'word' : 'Ant',
 'taboo1': 'Hill',
 'taboo2': 'Wasp',
 'taboo3': 'Honeybee',
 'taboo4': 'Bug',
 'taboo5': 'Eater'
-}})
-data['words']['animals'].append({72: { 'word' : 'Aphid',
+})
+data['words']['animals'].append({'word' : 'Aphid',
 'taboo1': 'Ant',
 'taboo2': 'Bug',
 'taboo3': 'Insect',
 'taboo4': 'What',
 'taboo5': 'Arachnid'
-}})
-data['words']['animals'].append({73: { 'word' : 'Bee',
+})
+data['words']['animals'].append({'word' : 'Bee',
 'taboo1': 'Honey',
 'taboo2': 'Wasp',
 'taboo3': 'Sting',
 'taboo4': 'Hive',
 'taboo5': 'Honeybee'
-}})
-data['words']['animals'].append({74: { 'word' : 'Beetle',
+})
+data['words']['animals'].append({'word' : 'Beetle',
 'taboo1': 'Bug',
 'taboo2': 'Juice',
 'taboo3': 'Bailey',
 'taboo4': 'Insect',
 'taboo5': 'Car'
-}})
-data['words']['animals'].append({75: { 'word' : 'Bumblebee',
+})
+data['words']['animals'].append({'word' : 'Bumblebee',
 'taboo1': 'Bee',
 'taboo2': 'Bumble',
 'taboo3': 'Honey',
 'taboo4': 'Tuna',
 'taboo5': 'Wasp'
-}})
-data['words']['animals'].append({76: { 'word' : 'Caterpillar',
+})
+data['words']['animals'].append({'word' : 'Caterpillar',
 'taboo1': 'Butterfly',
 'taboo2': 'Worm',
 'taboo3': 'Fuzzy',
 'taboo4': 'Bug',
 'taboo5': 'Moth'
-}})
-data['words']['animals'].append({77: { 'word' : 'Cockroach',
+})
+data['words']['animals'].append({'word' : 'Cockroach',
 'taboo1': 'Rat',
 'taboo2': 'Bug',
 'taboo3': 'Mouse',
 'taboo4': 'Gross',
 'taboo5': 'Insect'
-}})
-data['words']['animals'].append({78: { 'word' : 'Dragonfly',
+})
+data['words']['animals'].append({'word' : 'Dragonfly',
 'taboo1': 'Dragon',
 'taboo2': 'Bug',
 'taboo3': 'Insect',
 'taboo4': 'Damselfly',
 'taboo5': 'Pond'
-}})
-data['words']['animals'].append({79: { 'word' : 'Flea',
+})
+data['words']['animals'].append({'word' : 'Flea',
 'taboo1': 'Tick',
 'taboo2': 'Market',
 'taboo3': 'Dog',
 'taboo4': 'Bite',
 'taboo5': 'Bug'
-}})
-data['words']['animals'].append({80: { 'word' : 'Fly',
+})
+data['words']['animals'].append({'word' : 'Fly',
 'taboo1': 'Bird',
 'taboo2': 'Wings',
 'taboo3': 'Away',
 'taboo4': 'Bug',
 'taboo5': 'Plane'
-}})
-data['words']['animals'].append({81: { 'word' : 'Gadfly',
+})
+data['words']['animals'].append({'word' : 'Gadfly',
 'taboo1': 'God',
-}})
-data['words']['animals'].append({82: { 'word' : 'Grasshopper',
+})
+data['words']['animals'].append({'word' : 'Grasshopper',
 'taboo1': 'Cricket',
 'taboo2': 'Green',
 'taboo3': 'Insect',
 'taboo4': 'Bug',
 'taboo5': 'Ant'
-}})
-data['words']['animals'].append({83: { 'word' : 'Harvestman',
-}})
-data['words']['animals'].append({84: { 'word' : 'Ladybug',
+})
+data['words']['animals'].append({'word' : 'Harvestman',
+})
+data['words']['animals'].append({'word' : 'Ladybug',
 'taboo1': 'Beetle',
 'taboo2': 'Red',
 'taboo3': 'Spots',
 'taboo4': 'Ladybird',
 'taboo5': 'Lady'
-}})
-data['words']['animals'].append({85: { 'word' : 'Larva',
+})
+data['words']['animals'].append({'word' : 'Larva',
 'taboo1': 'Adult',
 'taboo2': 'Pupa',
 'taboo3': 'Mosquito',
 'taboo4': 'Butterfly',
 'taboo5': 'Caterpillar'
-}})
-data['words']['animals'].append({86: { 'word' : 'Maggot',
+})
+data['words']['animals'].append({'word' : 'Maggot',
 'taboo1': 'Fly',
 'taboo2': 'Worm',
 'taboo3': 'Faggot',
 'taboo4': 'Larva',
 'taboo5': 'Bug'
-}})
-data['words']['animals'].append({87: { 'word' : 'Midge',
+})
+data['words']['animals'].append({'word' : 'Midge',
 'taboo1': 'Midget',
 'taboo2': 'Fly',
 'taboo3': 'Fridge',
 'taboo4': 'Flea',
 'taboo5': 'Smidge'
-}})
-data['words']['animals'].append({88: { 'word' : 'Millipede',
+})
+data['words']['animals'].append({'word' : 'Millipede',
 'taboo1': 'Centipede',
 'taboo2': 'Bug',
 'taboo3': 'Legs',
 'taboo4': 'Scorpion',
 'taboo5': 'Insect'
-}})
-data['words']['animals'].append({89: { 'word' : 'Moth',
+})
+data['words']['animals'].append({'word' : 'Moth',
 'taboo1': 'Butterfly',
 'taboo2': 'Flame',
 'taboo3': 'Bug',
 'taboo4': 'Fly',
 'taboo5': 'Light'
-}})
-data['words']['animals'].append({90: { 'word' : 'Nymph',
+})
+data['words']['animals'].append({'word' : 'Nymph',
 'taboo1': 'Fairy',
 'taboo2': 'Fey',
 'taboo3': 'Dryad',
 'taboo4': 'Nympho',
 'taboo5': 'Nymphomaniac'
-}})
-data['words']['animals'].append({91: { 'word' : 'Wasp',
+})
+data['words']['animals'].append({'word' : 'Wasp',
 'taboo1': 'Bee',
 'taboo2': 'Sting',
 'taboo3': 'Hornet',
 'taboo4': 'Ant',
 'taboo5': 'Nest'
-}})
-data['words']['animals'].append({92: { 'word' : 'Mammals',
+})
+data['words']['animals'].append({'word' : 'Mammals',
 'taboo1': 'Apes',
 'taboo2': 'Humans',
 'taboo3': 'Animals',
 'taboo4': 'Elephants',
 'taboo5': 'Mammary'
-}})
-data['words']['animals'].append({93: { 'word' : 'Anteater',
+})
+data['words']['animals'].append({'word' : 'Anteater',
 'taboo1': 'Armadillo',
 'taboo2': 'Spiny',
 'taboo3': 'Aardwolf',
 'taboo4': 'Ants',
 'taboo5': 'Ant'
-}})
-data['words']['animals'].append({94: { 'word' : 'Antelope',
+})
+data['words']['animals'].append({'word' : 'Antelope',
 'taboo1': 'Deer',
 'taboo2': 'Gazelle',
 'taboo3': 'Impala',
 'taboo4': 'Hunt',
 'taboo5': 'Aardwolf'
-}})
-data['words']['animals'].append({95: { 'word' : 'Armadillo',
+})
+data['words']['animals'].append({'word' : 'Armadillo',
 'taboo1': 'Shell',
 'taboo2': 'Anteater',
 'taboo3': 'Aardwolf',
 'taboo4': 'Texas',
 'taboo5': 'Sloth'
-}})
-data['words']['animals'].append({96: { 'word' : 'Badger',
+})
+data['words']['animals'].append({'word' : 'Badger',
 'taboo1': 'Weasel',
 'taboo2': 'Otter',
 'taboo3': 'Honey',
 'taboo4': 'Mushroom',
 'taboo5': 'Animal'
-}})
-data['words']['animals'].append({97: { 'word' : 'Bat',
+})
+data['words']['animals'].append({'word' : 'Bat',
 'taboo1': 'Ball',
 'taboo2': 'Baseball',
 'taboo3': 'Bird',
 'taboo4': 'Man',
 'taboo5': 'Vampire'
-}})
-data['words']['animals'].append({98: { 'word' : 'Bear',
+})
+data['words']['animals'].append({'word' : 'Bear',
 'taboo1': 'Wolf',
 'taboo2': 'Grizzly',
 'taboo3': 'Hug',
 'taboo4': 'Teddy',
 'taboo5': 'Brown'
-}})
-data['words']['animals'].append({99: { 'word' : 'Beaver',
+})
+data['words']['animals'].append({'word' : 'Beaver',
 'taboo1': 'Dam',
 'taboo2': 'Rat',
 'taboo3': 'Teeth',
 'taboo4': 'Animal',
 'taboo5': 'Tail'
-}})
-data['words']['animals'].append({100: { 'word' : 'Bullock',
+})
+data['words']['animals'].append({'word' : 'Bullock',
 'taboo1': 'Sandra',
 'taboo2': 'Cow',
 'taboo3': 'Actress',
 'taboo4': 'Bull',
 'taboo5': 'Bollocks'
-}})
-data['words']['animals'].append({101: { 'word' : 'Camel',
+})
+data['words']['animals'].append({'word' : 'Camel',
 'taboo1': 'Toe',
 'taboo2': 'Hump',
 'taboo3': 'Horse',
 'taboo4': 'Desert',
 'taboo5': 'Back'
-}})
-data['words']['animals'].append({102: { 'word' : 'Chimpanzee',
+})
+data['words']['animals'].append({'word' : 'Chimpanzee',
 'taboo1': 'Monkey',
 'taboo2': 'Ape',
 'taboo3': 'Gorilla',
 'taboo4': 'Human',
 'taboo5': 'Chimp'
-}})
-data['words']['animals'].append({103: { 'word' : 'Dachshund',
+})
+data['words']['animals'].append({'word' : 'Dachshund',
 'taboo1': 'Dog',
 'taboo2': 'Cocker',
 'taboo3': 'Weiner',
 'taboo4': 'German',
 'taboo5': 'Sausage'
-}})
-data['words']['animals'].append({104: { 'word' : 'Dolphin',
+})
+data['words']['animals'].append({'word' : 'Dolphin',
 'taboo1': 'Whale',
 'taboo2': 'Fish',
 'taboo3': 'Shark',
 'taboo4': 'Swim',
 'taboo5': 'Mammal'
-}})
-data['words']['animals'].append({105: { 'word' : 'Elephant',
+})
+data['words']['animals'].append({'word' : 'Elephant',
 'taboo1': 'Rhino',
 'taboo2': 'Trunk',
 'taboo3': 'Big',
 'taboo4': 'Grey',
 'taboo5': 'Tusk'
-}})
-data['words']['animals'].append({106: { 'word' : 'Elk',
+})
+data['words']['animals'].append({'word' : 'Elk',
 'taboo1': 'Moose',
 'taboo2': 'Deer',
 'taboo3': 'Bison',
 'taboo4': 'Horn',
 'taboo5': 'Antlers'
-}})
-data['words']['animals'].append({107: { 'word' : 'Moose',
+})
+data['words']['animals'].append({'word' : 'Moose',
 'taboo1': 'Elk',
 'taboo2': 'Antlers',
 'taboo3': 'Goose',
 'taboo4': 'Deer',
 'taboo5': 'Canada'
-}})
-data['words']['animals'].append({108: { 'word' : 'Fox',
+})
+data['words']['animals'].append({'word' : 'Fox',
 'taboo1': 'Vixen',
 'taboo2': 'Hound',
 'taboo3': 'Dog',
 'taboo4': 'News',
 'taboo5': 'Wolf'
-}})
-data['words']['animals'].append({109: { 'word' : 'Gazelle',
+})
+data['words']['animals'].append({'word' : 'Gazelle',
 'taboo1': 'Antelope',
 'taboo2': 'Impala',
 'taboo3': 'Deer',
 'taboo4': 'Lion',
 'taboo5': 'Leap'
-}})
-data['words']['animals'].append({110: { 'word' : 'Gerbil',
+})
+data['words']['animals'].append({'word' : 'Gerbil',
 'taboo1': 'Hamster',
 'taboo2': 'Rat',
 'taboo3': 'Mouse',
 'taboo4': 'Cage',
 'taboo5': 'Rodent'
-}})
-data['words']['animals'].append({111: { 'word' : 'Giraffe',
+})
+data['words']['animals'].append({'word' : 'Giraffe',
 'taboo1': 'Tall',
 'taboo2': 'Neck',
 'taboo3': 'Elephant',
 'taboo4': 'Zoo',
 'taboo5': 'Long'
-}})
-data['words']['animals'].append({112: { 'word' : 'Goat',
+})
+data['words']['animals'].append({'word' : 'Goat',
 'taboo1': 'Sheep',
 'taboo2': 'Cheese',
 'taboo3': 'Milk',
 'taboo4': 'Billy',
 'taboo5': 'Kid'
-}})
-data['words']['animals'].append({113: { 'word' : 'Hamster',
+})
+data['words']['animals'].append({'word' : 'Hamster',
 'taboo1': 'Gerbil',
 'taboo2': 'Wheel',
 'taboo3': 'Cage',
 'taboo4': 'Mouse',
 'taboo5': 'Pet'
-}})
-data['words']['animals'].append({114: { 'word' : 'Hare',
+})
+data['words']['animals'].append({'word' : 'Hare',
 'taboo1': 'Rabbit',
 'taboo2': 'Tortoise',
 'taboo3': 'Bunny',
 'taboo4': 'Hair',
 'taboo5': 'Lip'
-}})
-data['words']['animals'].append({115: { 'word' : 'Hare',
+})
+data['words']['animals'].append({'word' : 'Hare',
 'taboo1': 'Rabbit',
 'taboo2': 'Tortoise',
 'taboo3': 'Bunny',
 'taboo4': 'Hair',
 'taboo5': 'Lip'
-}})
-data['words']['animals'].append({116: { 'word' : 'Hedgehog',
+})
+data['words']['animals'].append({'word' : 'Hedgehog',
 'taboo1': 'Sonic',
 'taboo2': 'Mole',
 'taboo3': 'Porcupine',
 'taboo4': 'Animal',
 'taboo5': 'Spike'
-}})
-data['words']['animals'].append({117: { 'word' : 'Horse',
+})
+data['words']['animals'].append({'word' : 'Horse',
 'taboo1': 'Animal',
 'taboo2': 'Ride',
 'taboo3': 'Saddle',
 'taboo4': 'Pony',
 'taboo5': 'Manure'
-}})
-data['words']['animals'].append({118: { 'word' : 'Hyena',
+})
+data['words']['animals'].append({'word' : 'Hyena',
 'taboo1': 'Jackal',
 'taboo2': 'Laugh',
 'taboo3': 'Laughing',
 'taboo4': 'Lion',
 'taboo5': 'Wolf'
-}})
-data['words']['animals'].append({119: { 'word' : 'Lion',
+})
+data['words']['animals'].append({'word' : 'Lion',
 'taboo1': 'Tiger',
 'taboo2': 'Roar',
 'taboo3': 'Lioness',
 'taboo4': 'King',
 'taboo5': 'Mane'
-}})
-data['words']['animals'].append({120: { 'word' : 'Llama',
+})
+data['words']['animals'].append({'word' : 'Llama',
 'taboo1': 'Camel',
 'taboo2': 'Alpaca',
 'taboo3': 'Drama',
 'taboo4': 'Peru',
 'taboo5': 'Spit'
-}})
-data['words']['animals'].append({121: { 'word' : 'Lynx',
+})
+data['words']['animals'].append({'word' : 'Lynx',
 'taboo1': 'Bobcat',
 'taboo2': 'Cat',
 'taboo3': 'Cougar',
 'taboo4': 'Lion',
 'taboo5': 'Jaguar'
-}})
-data['words']['animals'].append({122: { 'word' : 'Mammoth',
+})
+data['words']['animals'].append({'word' : 'Mammoth',
 'taboo1': 'Wooly',
 'taboo2': 'Mastodon',
 'taboo3': 'Elephant',
 'taboo4': 'Woolly',
 'taboo5': 'Tusk'
-}})
-data['words']['animals'].append({123: { 'word' : 'Marmot',
+})
+data['words']['animals'].append({'word' : 'Marmot',
 'taboo1': 'Mammoth',
 'taboo2': 'Agricultural',
 'taboo3': 'Animal',
 'taboo4': 'Ape',
 'taboo5': 'Ass'
-}})
-data['words']['animals'].append({124: { 'word' : 'Mink',
+})
+data['words']['animals'].append({'word' : 'Mink',
 'taboo1': 'Fur',
 'taboo2': 'Coat',
 'taboo3': 'Weasel',
 'taboo4': 'Stole',
 'taboo5': 'Animal'
-}})
-data['words']['animals'].append({125: { 'word' : 'Mole',
+})
+data['words']['animals'].append({'word' : 'Mole',
 'taboo1': 'Prey',
 'taboo2': 'Hole',
 'taboo3': 'Rat',
 'taboo4': 'Wart',
 'taboo5': 'Vole'
-}})
-data['words']['animals'].append({126: { 'word' : 'Mongoose',
+})
+data['words']['animals'].append({'word' : 'Mongoose',
 'taboo1': 'Weasel',
 'taboo2': 'Cobra',
 'taboo3': 'Snake',
 'taboo4': 'Animal',
 'taboo5': 'Cobras'
-}})
-data['words']['animals'].append({127: { 'word' : 'Mouse',
+})
+data['words']['animals'].append({'word' : 'Mouse',
 'taboo1': 'Rat',
 'taboo2': 'Cat',
 'taboo3': 'Trap',
 'taboo4': 'Cheese',
 'taboo5': 'House'
-}})
-data['words']['animals'].append({128: { 'word' : 'Mule',
+})
+data['words']['animals'].append({'word' : 'Mule',
 'taboo1': 'Donkey',
 'taboo2': 'Horse',
 'taboo3': 'Ass',
 'taboo4': 'Yule',
 'taboo5': 'Stubborn'
-}})
-data['words']['animals'].append({129: { 'word' : 'Otter',
+})
+data['words']['animals'].append({'word' : 'Otter',
 'taboo1': 'Weasel',
 'taboo2': 'Beaver',
 'taboo3': 'Seal',
 'taboo4': 'Animal',
 'taboo5': 'Water'
-}})
-data['words']['animals'].append({130: { 'word' : 'Panda',
+})
+data['words']['animals'].append({'word' : 'Panda',
 'taboo1': 'Bear',
 'taboo2': 'China',
 'taboo3': 'Bamboo',
 'taboo4': 'Ross',
 'taboo5': 'Black'
-}})
-data['words']['animals'].append({131: { 'word' : 'Platypus',
+})
+data['words']['animals'].append({'word' : 'Platypus',
 'taboo1': 'Echidna',
 'taboo2': 'Duck',
 'taboo3': 'Duck-billed',
 'taboo4': 'Monotreme',
 'taboo5': 'Perry'
-}})
-data['words']['animals'].append({132: { 'word' : 'Polecat',
+})
+data['words']['animals'].append({'word' : 'Polecat',
 'taboo1': 'Cat',
 'taboo2': 'Lonesome',
 'taboo3': 'Stripper',
 'taboo4': 'Cute',
 'taboo5': 'Dog'
-}})
-data['words']['animals'].append({133: { 'word' : 'Pony',
+})
+data['words']['animals'].append({'word' : 'Pony',
 'taboo1': 'Horse',
 'taboo2': 'Express',
 'taboo3': 'Tail',
 'taboo4': 'Ride',
 'taboo5': 'Little'
-}})
-data['words']['animals'].append({134: { 'word' : 'Porcupine',
+})
+data['words']['animals'].append({'word' : 'Porcupine',
 'taboo1': 'Hedgehog',
 'taboo2': 'Quills',
 'taboo3': 'Needles',
 'taboo4': 'Needle',
 'taboo5': 'Prickly'
-}})
-data['words']['animals'].append({135: { 'word' : 'Puma',
+})
+data['words']['animals'].append({'word' : 'Puma',
 'taboo1': 'Panther',
 'taboo2': 'Cougar',
 'taboo3': 'Shoes',
 'taboo4': 'Cat',
 'taboo5': 'Tiger'
-}})
-data['words']['animals'].append({136: { 'word' : 'Racoon',
+})
+data['words']['animals'].append({'word' : 'Racoon',
 'taboo1': 'Rat',
 'taboo2': 'Mask',
 'taboo3': 'Bandit',
 'taboo4': 'Eyes',
 'taboo5': 'Animal'
-}})
-data['words']['animals'].append({137: { 'word' : 'Rat',
+})
+data['words']['animals'].append({'word' : 'Rat',
 'taboo1': 'Mouse',
 'taboo2': 'Fink',
 'taboo3': 'Cat',
 'taboo4': 'Tail',
 'taboo5': 'Rodent'
-}})
-data['words']['animals'].append({138: { 'word' : 'Reindeer',
+})
+data['words']['animals'].append({'word' : 'Reindeer',
 'taboo1': 'Rudolph',
 'taboo2': 'Santa',
 'taboo3': 'Caribou',
 'taboo4': 'Sleigh',
 'taboo5': 'Christmas'
-}})
-data['words']['animals'].append({139: { 'word' : 'Rhinoceros',
+})
+data['words']['animals'].append({'word' : 'Rhinoceros',
 'taboo1': 'Horn',
 'taboo2': 'Elephant',
 'taboo3': 'Hippo',
 'taboo4': 'Hippopotamus',
 'taboo5': 'Rhino'
-}})
-data['words']['animals'].append({140: { 'word' : 'Seal',
+})
+data['words']['animals'].append({'word' : 'Seal',
 'taboo1': 'Dolphin',
 'taboo2': 'Walrus',
 'taboo3': 'Shut',
 'taboo4': 'Navy',
 'taboo5': 'Sea'
-}})
-data['words']['animals'].append({141: { 'word' : 'Seal',
+})
+data['words']['animals'].append({'word' : 'Seal',
 'taboo1': 'Dolphin',
 'taboo2': 'Walrus',
 'taboo3': 'Shut',
 'taboo4': 'Navy',
 'taboo5': 'Sea'
-}})
-data['words']['animals'].append({142: { 'word' : 'Sheep',
+})
+data['words']['animals'].append({'word' : 'Sheep',
 'taboo1': 'Goat',
 'taboo2': 'Wool',
 'taboo3': 'Baa',
 'taboo4': 'Lamb',
 'taboo5': 'Ewe'
-}})
-data['words']['animals'].append({143: { 'word' : 'Skunk',
+})
+data['words']['animals'].append({'word' : 'Skunk',
 'taboo1': 'Weasel',
 'taboo2': 'Stink',
 'taboo3': 'Smell',
 'taboo4': 'Smelly',
 'taboo5': 'Cabbage'
-}})
-data['words']['animals'].append({144: { 'word' : 'Sloth',
+})
+data['words']['animals'].append({'word' : 'Sloth',
 'taboo1': 'Pride',
 'taboo2': 'Slow',
 'taboo3': 'Lazy',
 'taboo4': 'Laziness',
 'taboo5': 'Envy'
-}})
-data['words']['animals'].append({145: { 'word' : 'Squirrel',
+})
+data['words']['animals'].append({'word' : 'Squirrel',
 'taboo1': 'Rat',
 'taboo2': 'Nuts',
 'taboo3': 'Nut',
 'taboo4': 'Chipmunk',
 'taboo5': 'Mouse'
-}})
-data['words']['animals'].append({146: { 'word' : 'Tiger',
+})
+data['words']['animals'].append({'word' : 'Tiger',
 'taboo1': 'Lion',
 'taboo2': 'Stripes',
 'taboo3': 'Woods',
 'taboo4': 'Stripe',
 'taboo5': 'Cat'
-}})
-data['words']['animals'].append({147: { 'word' : 'Weasel',
+})
+data['words']['animals'].append({'word' : 'Weasel',
 'taboo1': 'Otter',
 'taboo2': 'Ferret',
 'taboo3': 'Pop',
 'taboo4': 'Rat',
 'taboo5': 'Goes'
-}})
-data['words']['animals'].append({148: { 'word' : 'Whale',
+})
+data['words']['animals'].append({'word' : 'Whale',
 'taboo1': 'Dolphin',
 'taboo2': 'Blubber',
 'taboo3': 'Fish',
 'taboo4': 'Sperm',
 'taboo5': 'Blue'
-}})
-data['words']['animals'].append({149: { 'word' : 'Wolf',
+})
+data['words']['animals'].append({'word' : 'Wolf',
 'taboo1': 'Dog',
 'taboo2': 'Howl',
 'taboo3': 'Vixen',
 'taboo4': 'Coyote',
 'taboo5': 'Pack'
-}})
-data['words']['animals'].append({150: { 'word' : 'Zebra',
+})
+data['words']['animals'].append({'word' : 'Zebra',
 'taboo1': 'Horse',
 'taboo2': 'Stripes',
 'taboo3': 'Stripe',
 'taboo4': 'Striped',
 'taboo5': 'Crossing'
-}})
-data['words']['animals'].append({151: { 'word' : 'Slug',
+})
+data['words']['animals'].append({'word' : 'Slug',
 'taboo1': 'Snail',
 'taboo2': 'Slime',
 'taboo3': 'Bug',
 'taboo4': 'Salt',
 'taboo5': 'Worm'
-}})
-data['words']['animals'].append({152: { 'word' : 'Snail',
+})
+data['words']['animals'].append({'word' : 'Snail',
 'taboo1': 'Slug',
 'taboo2': 'Slow',
 'taboo3': 'Shell',
 'taboo4': 'Escargot',
 'taboo5': 'Trail'
-}})
-data['words']['animals'].append({153: { 'word' : 'Boa',
+})
+data['words']['animals'].append({'word' : 'Boa',
 'taboo1': 'Constrictor',
 'taboo2': 'Snake',
 'taboo3': 'Feather',
 'taboo4': 'Constrict',
 'taboo5': 'Anaconda'
-}})
-data['words']['animals'].append({154: { 'word' : 'Chameleon',
+})
+data['words']['animals'].append({'word' : 'Chameleon',
 'taboo1': 'Change',
 'taboo2': 'Lizard',
 'taboo3': 'Changing',
 'taboo4': 'Color',
 'taboo5': 'Karma'
-}})
-data['words']['animals'].append({155: { 'word' : 'Copperhead',
+})
+data['words']['animals'].append({'word' : 'Copperhead',
 'taboo1': 'Snake',
 'taboo2': 'Copper',
 'taboo3': 'Cottonmouth',
 'taboo4': 'Road',
 'taboo5': 'Rattlesnake'
-}})
-data['words']['animals'].append({156: { 'word' : 'Snake',
+})
+data['words']['animals'].append({'word' : 'Snake',
 'taboo1': 'Lizard',
 'taboo2': 'Serpent',
 'taboo3': 'Slither',
 'taboo4': 'Bite',
 'taboo5': 'Grass'
-}})
-data['words']['animals'].append({157: { 'word' : 'Cottonmouth',
+})
+data['words']['animals'].append({'word' : 'Cottonmouth',
 'taboo1': 'Snake',
 'taboo2': 'Cotton',
 'taboo3': 'Rattlesnake',
 'taboo4': 'Copperhead',
 'taboo5': 'Coral'
-}})
-data['words']['animals'].append({158: { 'word' : 'Crocodile',
+})
+data['words']['animals'].append({'word' : 'Crocodile',
 'taboo1': 'Alligator',
 'taboo2': 'Dundee',
 'taboo3': 'Hunter',
 'taboo4': 'Reptile',
 'taboo5': 'Tears'
-}})
-data['words']['animals'].append({159: { 'word' : 'Gecko',
+})
+data['words']['animals'].append({'word' : 'Gecko',
 'taboo1': 'Lizard',
 'taboo2': 'Anole',
 'taboo3': 'Skink',
 'taboo4': 'Insurance',
 'taboo5': 'Chameleon'
-}})
-data['words']['animals'].append({160: { 'word' : 'Iguana',
+})
+data['words']['animals'].append({'word' : 'Iguana',
 'taboo1': 'Lizard',
 'taboo2': 'Anole',
 'taboo3': 'Chuckwalla',
 'taboo4': 'Gecko',
 'taboo5': 'Green'
-}})
-data['words']['animals'].append({161: { 'word' : 'Lizard',
+})
+data['words']['animals'].append({'word' : 'Lizard',
 'taboo1': 'Snake',
 'taboo2': 'Gecko',
 'taboo3': 'Reptile',
 'taboo4': 'Tongue',
 'taboo5': 'Lounge'
-}})
-data['words']['animals'].append({162: { 'word' : 'Python',
+})
+data['words']['animals'].append({'word' : 'Python',
 'taboo1': 'Snake',
 'taboo2': 'Monty',
 'taboo3': 'Anaconda',
 'taboo4': 'Boa',
 'taboo5': 'Cobra'
-}})
-data['words']['animals'].append({163: { 'word' : 'Salamander',
+})
+data['words']['animals'].append({'word' : 'Salamander',
 'taboo1': 'Frog',
 'taboo2': 'Lizard',
 'taboo3': 'Amphibian',
 'taboo4': 'Newt',
 'taboo5': 'Skink'
-}})
-data['words']['animals'].append({164: { 'word' : 'Saurian',
-}})
-data['words']['animals'].append({165: { 'word' : 'Sidewinder',
+})
+data['words']['animals'].append({'word' : 'Saurian',
+})
+data['words']['animals'].append({'word' : 'Sidewinder',
 'taboo1': 'Snake',
 'taboo2': 'Tornado',
 'taboo3': 'Missile',
 'taboo4': 'Reptile',
 'taboo5': 'Sleeps'
-}})
-data['words']['animals'].append({166: { 'word' : 'Tortoise',
+})
+data['words']['animals'].append({'word' : 'Tortoise',
 'taboo1': 'Turtle',
 'taboo2': 'Shell',
 'taboo3': 'Hare',
 'taboo4': 'Slow',
 'taboo5': 'Green'
-}})
-data['words']['animals'].append({167: { 'word' : 'Turtle',
+})
+data['words']['animals'].append({'word' : 'Turtle',
 'taboo1': 'Lizard',
 'taboo2': 'Shell',
 'taboo3': 'Tortoise',
 'taboo4': 'Slow',
 'taboo5': 'Neck'
-}})
-data['words']['animals'].append({168: { 'word' : 'Worms',
+})
+data['words']['animals'].append({'word' : 'Worms',
 'taboo1': 'Bugs',
 'taboo2': 'Dirt',
 'taboo3': 'Earth',
 'taboo4': 'Mealworms',
 'taboo5': 'Fishing'
-}})
-data['words']['animals'].append({169: { 'word' : 'Tapeworm',
+})
+data['words']['animals'].append({'word' : 'Tapeworm',
 'taboo1': 'Ringworm',
 'taboo2': 'Stomach',
 'taboo3': 'Parasite',
 'taboo4': 'Pinworm',
 'taboo5': 'Flatworm'
-}})
-data['words']['animals'].append({170: { 'word' : 'Leech',
+})
+data['words']['animals'].append({'word' : 'Leech',
 'taboo1': 'Blood',
 'taboo2': 'Bloodsucker',
 'taboo3': 'Parasite',
 'taboo4': 'Worm',
 'taboo5': 'Suck'
-}})
-data['words']['animals'].append({171: { 'word' : 'Earthworm',
+})
+data['words']['animals'].append({'word' : 'Earthworm',
 'taboo1': 'Jim',
 'taboo2': 'Dirt',
 'taboo3': 'Earth',
 'taboo4': 'Fishing',
 'taboo5': 'Ground'
-}})
+})
