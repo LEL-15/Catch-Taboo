@@ -1,1269 +1,1269 @@
-data['words']['things'].append({0: { 'word' : 'phone',
-'taboo1': 'call',
-'taboo2': 'cell',
-'taboo3': 'telephone',
-'taboo4': 'cellular',
-'taboo5': 'booth'
-}})
-data['words']['things'].append({1: { 'word' : 'door',
-'taboo1': 'window',
-'taboo2': 'knob',
-'taboo3': 'open',
-'taboo4': 'handle',
-'taboo5': 'way'
-}})
-data['words']['things'].append({2: { 'word' : 'wagon',
-'taboo1': 'wheel',
-'taboo2': 'train',
-'taboo3': 'wheels',
-'taboo4': 'pull',
-'taboo5': 'horse'
-}})
-data['words']['things'].append({3: { 'word' : 'money',
-'taboo1': 'wealth',
-'taboo2': 'cash',
-'taboo3': 'green',
-'taboo4': 'lender',
-'taboo5': 'rich'
-}})
-data['words']['things'].append({4: { 'word' : 'bow',
-'taboo1': 'arrow',
-'taboo2': 'tie',
-'taboo3': 'wow',
-'taboo4': 'down',
-'taboo5': 'ribbon'
-}})
-data['words']['things'].append({5: { 'word' : 'toilet',
-'taboo1': 'bathroom',
-'taboo2': 'paper',
-'taboo3': 'seat',
-'taboo4': 'bowl',
-'taboo5': 'flush'
-}})
-data['words']['things'].append({6: { 'word' : 'tv',
-'taboo1': 'show',
-'taboo2': 'television',
-'taboo3': 'guide',
-'taboo4': 'radio',
-'taboo5': 'set'
-}})
-data['words']['things'].append({7: { 'word' : 'tire',
-'taboo1': 'wheel',
-'taboo2': 'car',
-'taboo3': 'iron',
-'taboo4': 'flat',
-'taboo5': 'rubber'
-}})
-data['words']['things'].append({8: { 'word' : 'boombox',
-}})
-data['words']['things'].append({9: { 'word' : 'pants',
-'taboo1': 'shorts',
-'taboo2': 'jeans',
-'taboo3': 'trousers',
-'taboo4': 'shirt',
-'taboo5': 'underwear'
-}})
-data['words']['things'].append({10: { 'word' : 'block',
-'taboo1': 'brick',
-'taboo2': 'party',
-'taboo3': 'street',
-'taboo4': 'building',
-'taboo5': 'head'
-}})
-data['words']['things'].append({11: { 'word' : 'hanger',
-'taboo1': 'closet',
-'taboo2': 'clothes',
-'taboo3': 'coat',
-'taboo4': 'plane',
-'taboo5': 'airplane'
-}})
-data['words']['things'].append({12: { 'word' : 'toothbrush',
-'taboo1': 'toothpaste',
-'taboo2': 'teeth',
-'taboo3': 'paste',
-'taboo4': 'brush',
-'taboo5': 'clean'
-}})
-data['words']['things'].append({13: { 'word' : 'table',
-'taboo1': 'chair',
-'taboo2': 'cloth',
-'taboo3': 'top',
-'taboo4': 'legs',
-'taboo5': 'leg'
-}})
-data['words']['things'].append({14: { 'word' : 'milk',
-'taboo1': 'cow',
-'taboo2': 'juice',
-'taboo3': 'orange',
-'taboo4': 'drink',
-'taboo5': 'white'
-}})
-data['words']['things'].append({15: { 'word' : 'ring',
-'taboo1': 'finger',
-'taboo2': 'wedding',
-'taboo3': 'diamond',
-'taboo4': 'phone',
-'taboo5': 'circle'
-}})
-data['words']['things'].append({16: { 'word' : 'deodorant',
-'taboo1': 'smell',
-'taboo2': 'spray',
-'taboo3': 'use',
-'taboo4': 'shower',
-'taboo5': 'underarms'
-}})
-data['words']['things'].append({17: { 'word' : 'mop',
-'taboo1': 'floor',
-'taboo2': 'bucket',
-'taboo3': 'broom',
-'taboo4': 'clean',
-'taboo5': 'sweep'
-}})
-data['words']['things'].append({18: { 'word' : 'soap',
-'taboo1': 'water',
-'taboo2': 'opera',
-'taboo3': 'shower',
-'taboo4': 'suds',
-'taboo5': 'clean'
-}})
-data['words']['things'].append({19: { 'word' : 'clippers',
-'taboo1': 'fingernail',
-'taboo2': 'hair',
-'taboo3': 'ships',
-'taboo4': 'toenail',
-'taboo5': 'scissors'
-}})
-data['words']['things'].append({20: { 'word' : 'pen',
-'taboo1': 'pencil',
-'taboo2': 'paper',
-'taboo3': 'ink',
-'taboo4': 'write',
-'taboo5': 'pal'
-}})
-data['words']['things'].append({21: { 'word' : 'shirt',
-'taboo1': 'shorts',
-'taboo2': 'pants',
-'taboo3': 'tie',
-'taboo4': 'sleeves',
-'taboo5': 'tee'
-}})
-data['words']['things'].append({22: { 'word' : 'sand',
-'taboo1': 'beach',
-'taboo2': 'castle',
-'taboo3': 'earth',
-'taboo4': 'dunes',
-'taboo5': 'dune'
-}})
-data['words']['things'].append({23: { 'word' : 'eraser',
-'taboo1': 'whiteboard',
-'taboo2': 'pencil',
-'taboo3': 'rubber',
-'taboo4': 'chalkboard',
-'taboo5': 'chalk'
-}})
-data['words']['things'].append({24: { 'word' : 'belt',
-'taboo1': 'buckle',
-'taboo2': 'waist',
-'taboo3': 'pants',
-'taboo4': 'leather',
-'taboo5': 'loop'
-}})
-data['words']['things'].append({25: { 'word' : 'shawl',
-'taboo1': 'scarf',
-'taboo2': 'wrap',
-'taboo3': 'cover',
-'taboo4': 'prayer',
-'taboo5': 'coat'
-}})
-data['words']['things'].append({26: { 'word' : 'apple',
-'taboo1': 'fruit',
-'taboo2': 'pie',
-'taboo3': 'eve',
-'taboo4': 'orange',
-'taboo5': 'pear'
-}})
-data['words']['things'].append({27: { 'word' : 'bottle',
-'taboo1': 'glass',
-'taboo2': 'beer',
-'taboo3': 'baby',
-'taboo4': 'cap',
-'taboo5': 'wine'
-}})
-data['words']['things'].append({28: { 'word' : 'picture',
-'taboo1': 'image',
-'taboo2': 'frame',
-'taboo3': 'perfect',
-'taboo4': 'photo',
-'taboo5': 'camera'
-}})
-data['words']['things'].append({29: { 'word' : 'beef',
-'taboo1': 'pork',
-'taboo2': 'cow',
-'taboo3': 'jerky',
-'taboo4': 'steak',
-'taboo5': 'meat'
-}})
-data['words']['things'].append({30: { 'word' : 'spring',
-'taboo1': 'summer',
-'taboo2': 'fall',
-'taboo3': 'winter',
-'taboo4': 'fever',
-'taboo5': 'flowers'
-}})
-data['words']['things'].append({31: { 'word' : 'thread',
-'taboo1': 'needle',
-'taboo2': 'sew',
-'taboo3': 'string',
-'taboo4': 'cotton',
-'taboo5': 'bare'
-}})
-data['words']['things'].append({32: { 'word' : 'pillow',
-'taboo1': 'bed',
-'taboo2': 'case',
-'taboo3': 'talk',
-'taboo4': 'soft',
-'taboo5': 'sleep'
-}})
-data['words']['things'].append({33: { 'word' : 'computer',
-'taboo1': 'internet',
-'taboo2': 'laptop',
-'taboo3': 'screen',
-'taboo4': 'keyboard',
-'taboo5': 'virus'
-}})
-data['words']['things'].append({34: { 'word' : 'cork',
-'taboo1': 'wine',
-'taboo2': 'screw',
-'taboo3': 'bottle',
-'taboo4': 'wood',
-'taboo5': 'champagne'
-}})
-data['words']['things'].append({35: { 'word' : 'newspaper',
-'taboo1': 'news',
-'taboo2': 'article',
-'taboo3': 'read',
-'taboo4': 'print',
-'taboo5': 'magazine'
-}})
-data['words']['things'].append({36: { 'word' : 'shoe',
-'taboo1': 'feet',
-'taboo2': 'lace',
-'taboo3': 'foot',
-'taboo4': 'horn',
-'taboo5': 'sock'
-}})
-data['words']['things'].append({37: { 'word' : 'clock',
-'taboo1': 'watch',
-'taboo2': 'time',
-'taboo3': 'tick',
-'taboo4': 'work',
-'taboo5': 'tower'
-}})
-data['words']['things'].append({38: { 'word' : 'fork',
-'taboo1': 'spoon',
-'taboo2': 'knife',
-'taboo3': 'spork',
-'taboo4': 'road',
-'taboo5': 'pitch'
-}})
-data['words']['things'].append({39: { 'word' : 'cup',
-'taboo1': 'glass',
-'taboo2': 'tea',
-'taboo3': 'saucer',
-'taboo4': 'mug',
-'taboo5': 'drink'
-}})
-data['words']['things'].append({40: { 'word' : 'food',
-'taboo1': 'cereal',
-'taboo2': 'eat',
-'taboo3': 'drink',
-'taboo4': 'eating',
-'taboo5': 'hungry'
-}})
-data['words']['things'].append({41: { 'word' : 'white',
-'taboo1': 'black',
-'taboo2': 'snow',
-'taboo3': 'semen',
-'taboo4': 'cotton',
-'taboo5': 'christmas'
-}})
-data['words']['things'].append({42: { 'word' : 'screw',
-'taboo1': 'nail',
-'taboo2': 'driver',
-'taboo3': 'you',
-'taboo4': 'fuck',
-'taboo5': 'loose'
-}})
-data['words']['things'].append({43: { 'word' : 'nail',
-'taboo1': 'hammer',
-'taboo2': 'finger',
-'taboo3': 'fingernail',
-'taboo4': 'file',
-'taboo5': 'polish'
-}})
-data['words']['things'].append({44: { 'word' : 'bananas',
-'taboo1': 'fruits',
-'taboo2': 'fruit',
-'taboo3': 'yellow',
-'taboo4': 'apples',
-'taboo5': 'monkey'
-}})
-data['words']['things'].append({45: { 'word' : 'street',
-'taboo1': 'city',
-'taboo2': 'road',
-'taboo3': 'avenue',
-'taboo4': 'sesame',
-'taboo5': 'sign'
-}})
-data['words']['things'].append({46: { 'word' : 'sketch',
-'taboo1': 'draw',
-'taboo2': 'drawing',
-'taboo3': 'artist',
-'taboo4': 'pad',
-'taboo5': 'skit'
-}})
-data['words']['things'].append({47: { 'word' : 'blouse',
-'taboo1': 'skirt',
-'taboo2': 'shirt',
-'taboo3': 'button',
-'taboo4': 'dress',
-'taboo5': 'top'
-}})
-data['words']['things'].append({48: { 'word' : 'pool',
-'taboo1': 'swim',
-'taboo2': 'swimming',
-'taboo3': 'water',
-'taboo4': 'table',
-'taboo5': 'party'
-}})
-data['words']['things'].append({49: { 'word' : 'button',
-'taboo1': 'push',
-'taboo2': 'press',
-'taboo3': 'shirt',
-'taboo4': 'hole',
-'taboo5': 'belly'
-}})
-data['words']['things'].append({50: { 'word' : 'truck',
-'taboo1': 'car',
-'taboo2': 'driver',
-'taboo3': 'lorry',
-'taboo4': 'semi',
-'taboo5': 'stop'
-}})
-data['words']['things'].append({51: { 'word' : 'piano',
-'taboo1': 'keys',
-'taboo2': 'musical',
-'taboo3': 'music',
-'taboo4': 'player',
-'taboo5': 'organ'
-}})
-data['words']['things'].append({52: { 'word' : 'mouse',
-'taboo1': 'rat',
-'taboo2': 'cat',
-'taboo3': 'trap',
-'taboo4': 'cheese',
-'taboo5': 'house'
-}})
-data['words']['things'].append({53: { 'word' : 'brush',
-'taboo1': 'hair',
-'taboo2': 'comb',
-'taboo3': 'teeth',
-'taboo4': 'paint',
-'taboo5': 'tooth'
-}})
-data['words']['things'].append({54: { 'word' : 'drawer',
-'taboo1': 'dresser',
-'taboo2': 'chest',
-'taboo3': 'desk',
-'taboo4': 'clothes',
-'taboo5': 'underwear'
-}})
-data['words']['things'].append({55: { 'word' : 'balloon',
-'taboo1': 'float',
-'taboo2': 'helium',
-'taboo3': 'pop',
-'taboo4': 'air',
-'taboo5': 'red'
-}})
-data['words']['things'].append({56: { 'word' : 'sign',
-'taboo1': 'symbol',
-'taboo2': 'stop',
-'taboo3': 'language',
-'taboo4': 'post',
-'taboo5': 'road'
-}})
-data['words']['things'].append({57: { 'word' : 'keyboard',
-'taboo1': 'computer',
-'taboo2': 'mouse',
-'taboo3': 'type',
-'taboo4': 'piano',
-'taboo5': 'keys'
-}})
-data['words']['things'].append({58: { 'word' : 'monitor',
-'taboo1': 'computer',
-'taboo2': 'screen',
-'taboo3': 'watch',
-'taboo4': 'lizard',
-'taboo5': 'hall'
-}})
-data['words']['things'].append({59: { 'word' : 'bracelet',
-'taboo1': 'necklace',
-'taboo2': 'wrist',
-'taboo3': 'jewelry',
-'taboo4': 'charm',
-'taboo5': 'gold'
-}})
-data['words']['things'].append({60: { 'word' : 'slipper',
-'taboo1': 'shoes',
-'taboo2': 'glass',
-'taboo3': 'cinderella',
-'taboo4': 'shoe',
-'taboo5': 'foot'
-}})
-data['words']['things'].append({61: { 'word' : 'tape',
-'taboo1': 'worm',
-'taboo2': 'sticky',
-'taboo3': 'duct',
-'taboo4': 'video',
-'taboo5': 'scotch'
-}})
-data['words']['things'].append({62: { 'word' : 'cat',
-'taboo1': 'dog',
-'taboo2': 'pet',
-'taboo3': 'meow',
-'taboo4': 'mouse',
-'taboo5': 'pussy'
-}})
-data['words']['things'].append({63: { 'word' : 'car',
-'taboo1': 'unnecessary',
-'taboo2': 'drive',
-'taboo3': 'truck',
-'taboo4': 'automobile',
-'taboo5': 'impala'
-}})
-data['words']['things'].append({64: { 'word' : 'book',
-'taboo1': 'read',
-'taboo2': 'worm',
-'taboo3': 'novel',
-'taboo4': 'library',
-'taboo5': 'page'
-}})
-data['words']['things'].append({65: { 'word' : 'needle',
-'taboo1': 'thread',
-'taboo2': 'haystack',
-'taboo3': 'pin',
-'taboo4': 'poke',
-'taboo5': 'syringe'
-}})
-data['words']['things'].append({66: { 'word' : 'keys',
-'taboo1': 'pocket',
-'taboo2': 'lock',
-'taboo3': 'car',
-'taboo4': 'locks',
-'taboo5': 'door'
-}})
-data['words']['things'].append({67: { 'word' : 'tweezers',
-'taboo1': 'pluck',
-'taboo2': 'eyebrows',
-'taboo3': 'pliers',
-'taboo4': 'eyebrow',
-'taboo5': 'hair'
-}})
-data['words']['things'].append({68: { 'word' : 'coasters',
-'taboo1': 'roller',
-'taboo2': 'amusement',
-'taboo3': 'drink',
-'taboo4': 'band',
-'taboo5': 'boasters'
-}})
-data['words']['things'].append({69: { 'word' : 'phone',
-'taboo1': 'call',
-'taboo2': 'cell',
-'taboo3': 'telephone',
-'taboo4': 'cellular',
-'taboo5': 'booth'
-}})
-data['words']['things'].append({70: { 'word' : 'flowers',
-'taboo1': 'plants',
-'taboo2': 'roses',
-'taboo3': 'pretty',
-'taboo4': 'petunias',
-'taboo5': 'vases'
-}})
-data['words']['things'].append({71: { 'word' : 'twister',
-'taboo1': 'tornado',
-'taboo2': 'game',
-'taboo3': 'hurricane',
-'taboo4': 'cyclone',
-'taboo5': 'twist'
-}})
-data['words']['things'].append({72: { 'word' : 'paper',
-'taboo1': 'pen',
-'taboo2': 'cut',
-'taboo3': 'pencil',
-'taboo4': 'scissors',
-'taboo5': 'rock'
-}})
-data['words']['things'].append({73: { 'word' : 'candy',
-'taboo1': 'sweet',
-'taboo2': 'cane',
-'taboo3': 'sugar',
-'taboo4': 'floss',
-'taboo5': 'chocolate'
-}})
-data['words']['things'].append({74: { 'word' : 'shoes',
-'taboo1': 'feet',
-'taboo2': 'socks',
-'taboo3': 'laces',
-'taboo4': 'heels',
-'taboo5': 'boots'
-}})
-data['words']['things'].append({75: { 'word' : 'book',
-'taboo1': 'read',
-'taboo2': 'worm',
-'taboo3': 'novel',
-'taboo4': 'library',
-'taboo5': 'page'
-}})
-data['words']['things'].append({76: { 'word' : 'buckle',
-'taboo1': 'belt',
-'taboo2': 'shoe',
-'taboo3': 'up',
-'taboo4': 'velcro',
-'taboo5': 'seat'
+data['words']['things'].append({0: { 'word' : 'Phone',
+'taboo1': 'Call',
+'taboo2': 'Cell',
+'taboo3': 'Telephone',
+'taboo4': 'Cellular',
+'taboo5': 'Booth'
+}})
+data['words']['things'].append({1: { 'word' : 'Door',
+'taboo1': 'Window',
+'taboo2': 'Knob',
+'taboo3': 'Open',
+'taboo4': 'Handle',
+'taboo5': 'Way'
+}})
+data['words']['things'].append({2: { 'word' : 'Wagon',
+'taboo1': 'Wheel',
+'taboo2': 'Train',
+'taboo3': 'Wheels',
+'taboo4': 'Pull',
+'taboo5': 'Horse'
+}})
+data['words']['things'].append({3: { 'word' : 'Money',
+'taboo1': 'Wealth',
+'taboo2': 'Cash',
+'taboo3': 'Green',
+'taboo4': 'Lender',
+'taboo5': 'Rich'
+}})
+data['words']['things'].append({4: { 'word' : 'Bow',
+'taboo1': 'Arrow',
+'taboo2': 'Tie',
+'taboo3': 'Wow',
+'taboo4': 'Down',
+'taboo5': 'Ribbon'
+}})
+data['words']['things'].append({5: { 'word' : 'Toilet',
+'taboo1': 'Bathroom',
+'taboo2': 'Paper',
+'taboo3': 'Seat',
+'taboo4': 'Bowl',
+'taboo5': 'Flush'
+}})
+data['words']['things'].append({6: { 'word' : 'Tv',
+'taboo1': 'Show',
+'taboo2': 'Television',
+'taboo3': 'Guide',
+'taboo4': 'Radio',
+'taboo5': 'Set'
+}})
+data['words']['things'].append({7: { 'word' : 'Tire',
+'taboo1': 'Wheel',
+'taboo2': 'Car',
+'taboo3': 'Iron',
+'taboo4': 'Flat',
+'taboo5': 'Rubber'
+}})
+data['words']['things'].append({8: { 'word' : 'Boombox',
+}})
+data['words']['things'].append({9: { 'word' : 'Pants',
+'taboo1': 'Shorts',
+'taboo2': 'Jeans',
+'taboo3': 'Trousers',
+'taboo4': 'Shirt',
+'taboo5': 'Underwear'
+}})
+data['words']['things'].append({10: { 'word' : 'Block',
+'taboo1': 'Brick',
+'taboo2': 'Party',
+'taboo3': 'Street',
+'taboo4': 'Building',
+'taboo5': 'Head'
+}})
+data['words']['things'].append({11: { 'word' : 'Hanger',
+'taboo1': 'Closet',
+'taboo2': 'Clothes',
+'taboo3': 'Coat',
+'taboo4': 'Plane',
+'taboo5': 'Airplane'
+}})
+data['words']['things'].append({12: { 'word' : 'Toothbrush',
+'taboo1': 'Toothpaste',
+'taboo2': 'Teeth',
+'taboo3': 'Paste',
+'taboo4': 'Brush',
+'taboo5': 'Clean'
+}})
+data['words']['things'].append({13: { 'word' : 'Table',
+'taboo1': 'Chair',
+'taboo2': 'Cloth',
+'taboo3': 'Top',
+'taboo4': 'Legs',
+'taboo5': 'Leg'
+}})
+data['words']['things'].append({14: { 'word' : 'Milk',
+'taboo1': 'Cow',
+'taboo2': 'Juice',
+'taboo3': 'Orange',
+'taboo4': 'Drink',
+'taboo5': 'White'
+}})
+data['words']['things'].append({15: { 'word' : 'Ring',
+'taboo1': 'Finger',
+'taboo2': 'Wedding',
+'taboo3': 'Diamond',
+'taboo4': 'Phone',
+'taboo5': 'Circle'
+}})
+data['words']['things'].append({16: { 'word' : 'Deodorant',
+'taboo1': 'Smell',
+'taboo2': 'Spray',
+'taboo3': 'Use',
+'taboo4': 'Shower',
+'taboo5': 'Underarms'
+}})
+data['words']['things'].append({17: { 'word' : 'Mop',
+'taboo1': 'Floor',
+'taboo2': 'Bucket',
+'taboo3': 'Broom',
+'taboo4': 'Clean',
+'taboo5': 'Sweep'
+}})
+data['words']['things'].append({18: { 'word' : 'Soap',
+'taboo1': 'Water',
+'taboo2': 'Opera',
+'taboo3': 'Shower',
+'taboo4': 'Suds',
+'taboo5': 'Clean'
+}})
+data['words']['things'].append({19: { 'word' : 'Clippers',
+'taboo1': 'Fingernail',
+'taboo2': 'Hair',
+'taboo3': 'Ships',
+'taboo4': 'Toenail',
+'taboo5': 'Scissors'
+}})
+data['words']['things'].append({20: { 'word' : 'Pen',
+'taboo1': 'Pencil',
+'taboo2': 'Paper',
+'taboo3': 'Ink',
+'taboo4': 'Write',
+'taboo5': 'Pal'
+}})
+data['words']['things'].append({21: { 'word' : 'Shirt',
+'taboo1': 'Shorts',
+'taboo2': 'Pants',
+'taboo3': 'Tie',
+'taboo4': 'Sleeves',
+'taboo5': 'Tee'
+}})
+data['words']['things'].append({22: { 'word' : 'Sand',
+'taboo1': 'Beach',
+'taboo2': 'Castle',
+'taboo3': 'Earth',
+'taboo4': 'Dunes',
+'taboo5': 'Dune'
+}})
+data['words']['things'].append({23: { 'word' : 'Eraser',
+'taboo1': 'Whiteboard',
+'taboo2': 'Pencil',
+'taboo3': 'Rubber',
+'taboo4': 'Chalkboard',
+'taboo5': 'Chalk'
+}})
+data['words']['things'].append({24: { 'word' : 'Belt',
+'taboo1': 'Buckle',
+'taboo2': 'Waist',
+'taboo3': 'Pants',
+'taboo4': 'Leather',
+'taboo5': 'Loop'
+}})
+data['words']['things'].append({25: { 'word' : 'Shawl',
+'taboo1': 'Scarf',
+'taboo2': 'Wrap',
+'taboo3': 'Cover',
+'taboo4': 'Prayer',
+'taboo5': 'Coat'
+}})
+data['words']['things'].append({26: { 'word' : 'Apple',
+'taboo1': 'Fruit',
+'taboo2': 'Pie',
+'taboo3': 'Eve',
+'taboo4': 'Orange',
+'taboo5': 'Pear'
+}})
+data['words']['things'].append({27: { 'word' : 'Bottle',
+'taboo1': 'Glass',
+'taboo2': 'Beer',
+'taboo3': 'Baby',
+'taboo4': 'Cap',
+'taboo5': 'Wine'
+}})
+data['words']['things'].append({28: { 'word' : 'Picture',
+'taboo1': 'Image',
+'taboo2': 'Frame',
+'taboo3': 'Perfect',
+'taboo4': 'Photo',
+'taboo5': 'Camera'
+}})
+data['words']['things'].append({29: { 'word' : 'Beef',
+'taboo1': 'Pork',
+'taboo2': 'Cow',
+'taboo3': 'Jerky',
+'taboo4': 'Steak',
+'taboo5': 'Meat'
+}})
+data['words']['things'].append({30: { 'word' : 'Spring',
+'taboo1': 'Summer',
+'taboo2': 'Fall',
+'taboo3': 'Winter',
+'taboo4': 'Fever',
+'taboo5': 'Flowers'
+}})
+data['words']['things'].append({31: { 'word' : 'Thread',
+'taboo1': 'Needle',
+'taboo2': 'Sew',
+'taboo3': 'String',
+'taboo4': 'Cotton',
+'taboo5': 'Bare'
+}})
+data['words']['things'].append({32: { 'word' : 'Pillow',
+'taboo1': 'Bed',
+'taboo2': 'Case',
+'taboo3': 'Talk',
+'taboo4': 'Soft',
+'taboo5': 'Sleep'
+}})
+data['words']['things'].append({33: { 'word' : 'Computer',
+'taboo1': 'Internet',
+'taboo2': 'Laptop',
+'taboo3': 'Screen',
+'taboo4': 'Keyboard',
+'taboo5': 'Virus'
+}})
+data['words']['things'].append({34: { 'word' : 'Cork',
+'taboo1': 'Wine',
+'taboo2': 'Screw',
+'taboo3': 'Bottle',
+'taboo4': 'Wood',
+'taboo5': 'Champagne'
+}})
+data['words']['things'].append({35: { 'word' : 'Newspaper',
+'taboo1': 'News',
+'taboo2': 'Article',
+'taboo3': 'Read',
+'taboo4': 'Print',
+'taboo5': 'Magazine'
+}})
+data['words']['things'].append({36: { 'word' : 'Shoe',
+'taboo1': 'Feet',
+'taboo2': 'Lace',
+'taboo3': 'Foot',
+'taboo4': 'Horn',
+'taboo5': 'Sock'
+}})
+data['words']['things'].append({37: { 'word' : 'Clock',
+'taboo1': 'Watch',
+'taboo2': 'Time',
+'taboo3': 'Tick',
+'taboo4': 'Work',
+'taboo5': 'Tower'
+}})
+data['words']['things'].append({38: { 'word' : 'Fork',
+'taboo1': 'Spoon',
+'taboo2': 'Knife',
+'taboo3': 'Spork',
+'taboo4': 'Road',
+'taboo5': 'Pitch'
+}})
+data['words']['things'].append({39: { 'word' : 'Cup',
+'taboo1': 'Glass',
+'taboo2': 'Tea',
+'taboo3': 'Saucer',
+'taboo4': 'Mug',
+'taboo5': 'Drink'
+}})
+data['words']['things'].append({40: { 'word' : 'Food',
+'taboo1': 'Cereal',
+'taboo2': 'Eat',
+'taboo3': 'Drink',
+'taboo4': 'Eating',
+'taboo5': 'Hungry'
+}})
+data['words']['things'].append({41: { 'word' : 'White',
+'taboo1': 'Black',
+'taboo2': 'Snow',
+'taboo3': 'Semen',
+'taboo4': 'Cotton',
+'taboo5': 'Christmas'
+}})
+data['words']['things'].append({42: { 'word' : 'Screw',
+'taboo1': 'Nail',
+'taboo2': 'Driver',
+'taboo3': 'You',
+'taboo4': 'Fuck',
+'taboo5': 'Loose'
+}})
+data['words']['things'].append({43: { 'word' : 'Nail',
+'taboo1': 'Hammer',
+'taboo2': 'Finger',
+'taboo3': 'Fingernail',
+'taboo4': 'File',
+'taboo5': 'Polish'
+}})
+data['words']['things'].append({44: { 'word' : 'Bananas',
+'taboo1': 'Fruits',
+'taboo2': 'Fruit',
+'taboo3': 'Yellow',
+'taboo4': 'Apples',
+'taboo5': 'Monkey'
+}})
+data['words']['things'].append({45: { 'word' : 'Street',
+'taboo1': 'City',
+'taboo2': 'Road',
+'taboo3': 'Avenue',
+'taboo4': 'Sesame',
+'taboo5': 'Sign'
+}})
+data['words']['things'].append({46: { 'word' : 'Sketch',
+'taboo1': 'Draw',
+'taboo2': 'Drawing',
+'taboo3': 'Artist',
+'taboo4': 'Pad',
+'taboo5': 'Skit'
+}})
+data['words']['things'].append({47: { 'word' : 'Blouse',
+'taboo1': 'Skirt',
+'taboo2': 'Shirt',
+'taboo3': 'Button',
+'taboo4': 'Dress',
+'taboo5': 'Top'
+}})
+data['words']['things'].append({48: { 'word' : 'Pool',
+'taboo1': 'Swim',
+'taboo2': 'Swimming',
+'taboo3': 'Water',
+'taboo4': 'Table',
+'taboo5': 'Party'
+}})
+data['words']['things'].append({49: { 'word' : 'Button',
+'taboo1': 'Push',
+'taboo2': 'Press',
+'taboo3': 'Shirt',
+'taboo4': 'Hole',
+'taboo5': 'Belly'
+}})
+data['words']['things'].append({50: { 'word' : 'Truck',
+'taboo1': 'Car',
+'taboo2': 'Driver',
+'taboo3': 'Lorry',
+'taboo4': 'Semi',
+'taboo5': 'Stop'
+}})
+data['words']['things'].append({51: { 'word' : 'Piano',
+'taboo1': 'Keys',
+'taboo2': 'Musical',
+'taboo3': 'Music',
+'taboo4': 'Player',
+'taboo5': 'Organ'
+}})
+data['words']['things'].append({52: { 'word' : 'Mouse',
+'taboo1': 'Rat',
+'taboo2': 'Cat',
+'taboo3': 'Trap',
+'taboo4': 'Cheese',
+'taboo5': 'House'
+}})
+data['words']['things'].append({53: { 'word' : 'Brush',
+'taboo1': 'Hair',
+'taboo2': 'Comb',
+'taboo3': 'Teeth',
+'taboo4': 'Paint',
+'taboo5': 'Tooth'
+}})
+data['words']['things'].append({54: { 'word' : 'Drawer',
+'taboo1': 'Dresser',
+'taboo2': 'Chest',
+'taboo3': 'Desk',
+'taboo4': 'Clothes',
+'taboo5': 'Underwear'
+}})
+data['words']['things'].append({55: { 'word' : 'Balloon',
+'taboo1': 'Float',
+'taboo2': 'Helium',
+'taboo3': 'Pop',
+'taboo4': 'Air',
+'taboo5': 'Red'
+}})
+data['words']['things'].append({56: { 'word' : 'Sign',
+'taboo1': 'Symbol',
+'taboo2': 'Stop',
+'taboo3': 'Language',
+'taboo4': 'Post',
+'taboo5': 'Road'
+}})
+data['words']['things'].append({57: { 'word' : 'Keyboard',
+'taboo1': 'Computer',
+'taboo2': 'Mouse',
+'taboo3': 'Type',
+'taboo4': 'Piano',
+'taboo5': 'Keys'
+}})
+data['words']['things'].append({58: { 'word' : 'Monitor',
+'taboo1': 'Computer',
+'taboo2': 'Screen',
+'taboo3': 'Watch',
+'taboo4': 'Lizard',
+'taboo5': 'Hall'
+}})
+data['words']['things'].append({59: { 'word' : 'Bracelet',
+'taboo1': 'Necklace',
+'taboo2': 'Wrist',
+'taboo3': 'Jewelry',
+'taboo4': 'Charm',
+'taboo5': 'Gold'
+}})
+data['words']['things'].append({60: { 'word' : 'Slipper',
+'taboo1': 'Shoes',
+'taboo2': 'Glass',
+'taboo3': 'Cinderella',
+'taboo4': 'Shoe',
+'taboo5': 'Foot'
+}})
+data['words']['things'].append({61: { 'word' : 'Tape',
+'taboo1': 'Worm',
+'taboo2': 'Sticky',
+'taboo3': 'Duct',
+'taboo4': 'Video',
+'taboo5': 'Scotch'
+}})
+data['words']['things'].append({62: { 'word' : 'Cat',
+'taboo1': 'Dog',
+'taboo2': 'Pet',
+'taboo3': 'Meow',
+'taboo4': 'Mouse',
+'taboo5': 'Pussy'
+}})
+data['words']['things'].append({63: { 'word' : 'Car',
+'taboo1': 'Unnecessary',
+'taboo2': 'Drive',
+'taboo3': 'Truck',
+'taboo4': 'Automobile',
+'taboo5': 'Impala'
+}})
+data['words']['things'].append({64: { 'word' : 'Book',
+'taboo1': 'Read',
+'taboo2': 'Worm',
+'taboo3': 'Novel',
+'taboo4': 'Library',
+'taboo5': 'Page'
+}})
+data['words']['things'].append({65: { 'word' : 'Needle',
+'taboo1': 'Thread',
+'taboo2': 'Haystack',
+'taboo3': 'Pin',
+'taboo4': 'Poke',
+'taboo5': 'Syringe'
+}})
+data['words']['things'].append({66: { 'word' : 'Keys',
+'taboo1': 'Pocket',
+'taboo2': 'Lock',
+'taboo3': 'Car',
+'taboo4': 'Locks',
+'taboo5': 'Door'
+}})
+data['words']['things'].append({67: { 'word' : 'Tweezers',
+'taboo1': 'Pluck',
+'taboo2': 'Eyebrows',
+'taboo3': 'Pliers',
+'taboo4': 'Eyebrow',
+'taboo5': 'Hair'
+}})
+data['words']['things'].append({68: { 'word' : 'Coasters',
+'taboo1': 'Roller',
+'taboo2': 'Amusement',
+'taboo3': 'Drink',
+'taboo4': 'Band',
+'taboo5': 'Boasters'
+}})
+data['words']['things'].append({69: { 'word' : 'Phone',
+'taboo1': 'Call',
+'taboo2': 'Cell',
+'taboo3': 'Telephone',
+'taboo4': 'Cellular',
+'taboo5': 'Booth'
+}})
+data['words']['things'].append({70: { 'word' : 'Flowers',
+'taboo1': 'Plants',
+'taboo2': 'Roses',
+'taboo3': 'Pretty',
+'taboo4': 'Petunias',
+'taboo5': 'Vases'
+}})
+data['words']['things'].append({71: { 'word' : 'Twister',
+'taboo1': 'Tornado',
+'taboo2': 'Game',
+'taboo3': 'Hurricane',
+'taboo4': 'Cyclone',
+'taboo5': 'Twist'
+}})
+data['words']['things'].append({72: { 'word' : 'Paper',
+'taboo1': 'Pen',
+'taboo2': 'Cut',
+'taboo3': 'Pencil',
+'taboo4': 'Scissors',
+'taboo5': 'Rock'
+}})
+data['words']['things'].append({73: { 'word' : 'Candy',
+'taboo1': 'Sweet',
+'taboo2': 'Cane',
+'taboo3': 'Sugar',
+'taboo4': 'Floss',
+'taboo5': 'Chocolate'
+}})
+data['words']['things'].append({74: { 'word' : 'Shoes',
+'taboo1': 'Feet',
+'taboo2': 'Socks',
+'taboo3': 'Laces',
+'taboo4': 'Heels',
+'taboo5': 'Boots'
+}})
+data['words']['things'].append({75: { 'word' : 'Book',
+'taboo1': 'Read',
+'taboo2': 'Worm',
+'taboo3': 'Novel',
+'taboo4': 'Library',
+'taboo5': 'Page'
+}})
+data['words']['things'].append({76: { 'word' : 'Buckle',
+'taboo1': 'Belt',
+'taboo2': 'Shoe',
+'taboo3': 'Up',
+'taboo4': 'Velcro',
+'taboo5': 'Seat'
 }})
 data['words']['things'].append({77: { 'word' : 'CD',
-'taboo1': 'music',
-'taboo2': 'dvd',
-'taboo3': 'player',
-'taboo4': 'disc',
-'taboo5': 'rom'
+'taboo1': 'Music',
+'taboo2': 'Dvd',
+'taboo3': 'Player',
+'taboo4': 'Disc',
+'taboo5': 'Rom'
 }})
-data['words']['things'].append({78: { 'word' : 'plate',
-'taboo1': 'meal',
-'taboo2': 'dinner',
-'taboo3': 'dish',
-'taboo4': 'food',
-'taboo5': 'fork'
+data['words']['things'].append({78: { 'word' : 'Plate',
+'taboo1': 'Meal',
+'taboo2': 'Dinner',
+'taboo3': 'Dish',
+'taboo4': 'Food',
+'taboo5': 'Fork'
 }})
-data['words']['things'].append({79: { 'word' : 'clamp',
-'taboo1': 'down',
-'taboo2': 'tight',
-'taboo3': 'vise',
-'taboo4': 'battery',
-'taboo5': 'nipple'
+data['words']['things'].append({79: { 'word' : 'Clamp',
+'taboo1': 'Down',
+'taboo2': 'Tight',
+'taboo3': 'Vise',
+'taboo4': 'Battery',
+'taboo5': 'Nipple'
 }})
-data['words']['things'].append({80: { 'word' : 'floor',
-'taboo1': 'ceiling',
-'taboo2': 'mop',
-'taboo3': 'carpet',
-'taboo4': 'wood',
-'taboo5': 'ground'
+data['words']['things'].append({80: { 'word' : 'Floor',
+'taboo1': 'Ceiling',
+'taboo2': 'Mop',
+'taboo3': 'Carpet',
+'taboo4': 'Wood',
+'taboo5': 'Ground'
 }})
-data['words']['things'].append({81: { 'word' : 'sidewalk',
-'taboo1': 'street',
-'taboo2': 'pavement',
-'taboo3': 'chalk',
-'taboo4': 'concrete',
-'taboo5': 'walk'
+data['words']['things'].append({81: { 'word' : 'Sidewalk',
+'taboo1': 'Street',
+'taboo2': 'Pavement',
+'taboo3': 'Chalk',
+'taboo4': 'Concrete',
+'taboo5': 'Walk'
 }})
-data['words']['things'].append({82: { 'word' : 'teddies',
-'taboo1': 'bears',
-'taboo2': 'nighties',
-'taboo3': 'bear',
-'taboo4': 'lingerie',
-'taboo5': 'boobs'
+data['words']['things'].append({82: { 'word' : 'Teddies',
+'taboo1': 'Bears',
+'taboo2': 'Nighties',
+'taboo3': 'Bear',
+'taboo4': 'Lingerie',
+'taboo5': 'Boobs'
 }})
-data['words']['things'].append({83: { 'word' : 'couch',
-'taboo1': 'sofa',
-'taboo2': 'potato',
-'taboo3': 'chair',
-'taboo4': 'bed',
-'taboo5': 'sit'
+data['words']['things'].append({83: { 'word' : 'Couch',
+'taboo1': 'Sofa',
+'taboo2': 'Potato',
+'taboo3': 'Chair',
+'taboo4': 'Bed',
+'taboo5': 'Sit'
 }})
-data['words']['things'].append({84: { 'word' : 'stick',
-'taboo1': 'wood',
-'taboo2': 'twig',
-'taboo3': 'tree',
-'taboo4': 'glue',
-'taboo5': 'figure'
+data['words']['things'].append({84: { 'word' : 'Stick',
+'taboo1': 'Wood',
+'taboo2': 'Twig',
+'taboo3': 'Tree',
+'taboo4': 'Glue',
+'taboo5': 'Figure'
 }})
-data['words']['things'].append({85: { 'word' : 'flowers',
-'taboo1': 'plants',
-'taboo2': 'roses',
-'taboo3': 'pretty',
-'taboo4': 'petunias',
-'taboo5': 'vases'
+data['words']['things'].append({85: { 'word' : 'Flowers',
+'taboo1': 'Plants',
+'taboo2': 'Roses',
+'taboo3': 'Pretty',
+'taboo4': 'Petunias',
+'taboo5': 'Vases'
 }})
-data['words']['things'].append({86: { 'word' : 'shampoo',
-'taboo1': 'conditioner',
-'taboo2': 'hair',
-'taboo3': 'shower',
-'taboo4': 'soap',
-'taboo5': 'wash'
+data['words']['things'].append({86: { 'word' : 'Shampoo',
+'taboo1': 'Conditioner',
+'taboo2': 'Hair',
+'taboo3': 'Shower',
+'taboo4': 'Soap',
+'taboo5': 'Wash'
 }})
-data['words']['things'].append({87: { 'word' : 'sun',
-'taboo1': 'moon',
-'taboo2': 'shine',
-'taboo3': 'hot',
-'taboo4': 'bright',
-'taboo5': 'solar'
+data['words']['things'].append({87: { 'word' : 'Sun',
+'taboo1': 'Moon',
+'taboo2': 'Shine',
+'taboo3': 'Hot',
+'taboo4': 'Bright',
+'taboo5': 'Solar'
 }})
-data['words']['things'].append({88: { 'word' : 'hair',
-'taboo1': 'face',
-'taboo2': 'long',
-'taboo3': 'blonde',
-'taboo4': 'head',
-'taboo5': 'brush'
+data['words']['things'].append({88: { 'word' : 'Hair',
+'taboo1': 'Face',
+'taboo2': 'Long',
+'taboo3': 'Blonde',
+'taboo4': 'Head',
+'taboo5': 'Brush'
 }})
-data['words']['things'].append({89: { 'word' : 'bottle',
-'taboo1': 'glass',
-'taboo2': 'beer',
-'taboo3': 'baby',
-'taboo4': 'cap',
-'taboo5': 'wine'
+data['words']['things'].append({89: { 'word' : 'Bottle',
+'taboo1': 'Glass',
+'taboo2': 'Beer',
+'taboo3': 'Baby',
+'taboo4': 'Cap',
+'taboo5': 'Wine'
 }})
-data['words']['things'].append({90: { 'word' : 'glasses',
-'taboo1': 'eyes',
-'taboo2': 'lenses',
-'taboo3': 'contacts',
-'taboo4': 'spectacles',
-'taboo5': 'nerd'
+data['words']['things'].append({90: { 'word' : 'Glasses',
+'taboo1': 'Eyes',
+'taboo2': 'Lenses',
+'taboo3': 'Contacts',
+'taboo4': 'Spectacles',
+'taboo5': 'Nerd'
 }})
-data['words']['things'].append({91: { 'word' : 'paint',
-'taboo1': 'brush',
-'taboo2': 'color',
-'taboo3': 'wall',
-'taboo4': 'art',
-'taboo5': 'job'
+data['words']['things'].append({91: { 'word' : 'Paint',
+'taboo1': 'Brush',
+'taboo2': 'Color',
+'taboo3': 'Wall',
+'taboo4': 'Art',
+'taboo5': 'Job'
 }})
-data['words']['things'].append({92: { 'word' : 'perfume',
-'taboo1': 'girls',
-'taboo2': 'cologne',
-'taboo3': 'scent',
-'taboo4': 'fragrance',
-'taboo5': 'smell'
+data['words']['things'].append({92: { 'word' : 'Perfume',
+'taboo1': 'Girls',
+'taboo2': 'Cologne',
+'taboo3': 'Scent',
+'taboo4': 'Fragrance',
+'taboo5': 'Smell'
 }})
-data['words']['things'].append({93: { 'word' : 'lamp',
-'taboo1': 'light',
-'taboo2': 'shade',
-'taboo3': 'aladdin',
-'taboo4': 'genie',
-'taboo5': 'bulb'
+data['words']['things'].append({93: { 'word' : 'Lamp',
+'taboo1': 'Light',
+'taboo2': 'Shade',
+'taboo3': 'Aladdin',
+'taboo4': 'Genie',
+'taboo5': 'Bulb'
 }})
-data['words']['things'].append({94: { 'word' : 'shovel',
-'taboo1': 'dig',
-'taboo2': 'spade',
-'taboo3': 'dirt',
-'taboo4': 'hoe',
-'taboo5': 'snow'
+data['words']['things'].append({94: { 'word' : 'Shovel',
+'taboo1': 'Dig',
+'taboo2': 'Spade',
+'taboo3': 'Dirt',
+'taboo4': 'Hoe',
+'taboo5': 'Snow'
 }})
-data['words']['things'].append({95: { 'word' : 'radio',
-'taboo1': 'music',
-'taboo2': 'tv',
-'taboo3': 'station',
-'taboo4': 'waves',
-'taboo5': 'on'
+data['words']['things'].append({95: { 'word' : 'Radio',
+'taboo1': 'Music',
+'taboo2': 'Tv',
+'taboo3': 'Station',
+'taboo4': 'Waves',
+'taboo5': 'On'
 }})
-data['words']['things'].append({96: { 'word' : 'lip',
-'taboo1': 'kiss',
-'taboo2': 'sync',
-'taboo3': 'stick',
-'taboo4': 'mouth',
-'taboo5': 'gloss'
+data['words']['things'].append({96: { 'word' : 'Lip',
+'taboo1': 'Kiss',
+'taboo2': 'Sync',
+'taboo3': 'Stick',
+'taboo4': 'Mouth',
+'taboo5': 'Gloss'
 }})
-data['words']['things'].append({97: { 'word' : 'box',
-'taboo1': 'inside',
-'taboo2': 'cardboard',
-'taboo3': 'square',
-'taboo4': 'cube',
-'taboo5': 'pandora'
+data['words']['things'].append({97: { 'word' : 'Box',
+'taboo1': 'Inside',
+'taboo2': 'Cardboard',
+'taboo3': 'Square',
+'taboo4': 'Cube',
+'taboo5': 'Pandora'
 }})
-data['words']['things'].append({98: { 'word' : 'lamp',
-'taboo1': 'light',
-'taboo2': 'shade',
-'taboo3': 'aladdin',
-'taboo4': 'genie',
-'taboo5': 'bulb'
+data['words']['things'].append({98: { 'word' : 'Lamp',
+'taboo1': 'Light',
+'taboo2': 'Shade',
+'taboo3': 'Aladdin',
+'taboo4': 'Genie',
+'taboo5': 'Bulb'
 }})
-data['words']['things'].append({99: { 'word' : 'controller',
-'taboo1': 'remote',
-'taboo2': 'video',
-'taboo3': 'user',
-'taboo4': 'game',
-'taboo5': 'fat'
+data['words']['things'].append({99: { 'word' : 'Controller',
+'taboo1': 'Remote',
+'taboo2': 'Video',
+'taboo3': 'User',
+'taboo4': 'Game',
+'taboo5': 'Fat'
 }})
-data['words']['things'].append({100: { 'word' : 'remote',
-'taboo1': 'control',
-'taboo2': 'distant',
-'taboo3': 'tv',
-'taboo4': 'far',
-'taboo5': 'island'
+data['words']['things'].append({100: { 'word' : 'Remote',
+'taboo1': 'Control',
+'taboo2': 'Distant',
+'taboo3': 'Tv',
+'taboo4': 'Far',
+'taboo5': 'Island'
 }})
-data['words']['things'].append({101: { 'word' : 'eye',
-'taboo1': 'ball',
-'taboo2': 'face',
-'taboo3': 'see',
-'taboo4': 'nose',
-'taboo5': 'mouth'
+data['words']['things'].append({101: { 'word' : 'Eye',
+'taboo1': 'Ball',
+'taboo2': 'Face',
+'taboo3': 'See',
+'taboo4': 'Nose',
+'taboo5': 'Mouth'
 }})
-data['words']['things'].append({102: { 'word' : 'band',
-'taboo1': 'group',
-'taboo2': 'music',
-'taboo3': 'rock',
-'taboo4': 'aid',
-'taboo5': 'rubber'
+data['words']['things'].append({102: { 'word' : 'Band',
+'taboo1': 'Group',
+'taboo2': 'Music',
+'taboo3': 'Rock',
+'taboo4': 'Aid',
+'taboo5': 'Rubber'
 }})
-data['words']['things'].append({103: { 'word' : 'sharpie',
-'taboo1': 'pen',
-'taboo2': 'marker',
-'taboo3': 'black',
-'taboo4': 'sharp',
-'taboo5': 'crayon'
+data['words']['things'].append({103: { 'word' : 'Sharpie',
+'taboo1': 'Pen',
+'taboo2': 'Marker',
+'taboo3': 'Black',
+'taboo4': 'Sharp',
+'taboo5': 'Crayon'
 }})
-data['words']['things'].append({104: { 'word' : 'rug',
-'taboo1': 'carpet',
-'taboo2': 'mat',
-'taboo3': 'floor',
-'taboo4': 'bug',
-'taboo5': 'muncher'
+data['words']['things'].append({104: { 'word' : 'Rug',
+'taboo1': 'Carpet',
+'taboo2': 'Mat',
+'taboo3': 'Floor',
+'taboo4': 'Bug',
+'taboo5': 'Muncher'
 }})
-data['words']['things'].append({105: { 'word' : 'zipper',
-'taboo1': 'fly',
-'taboo2': 'pants',
-'taboo3': 'zip',
-'taboo4': 'button',
-'taboo5': 'unzip'
+data['words']['things'].append({105: { 'word' : 'Zipper',
+'taboo1': 'Fly',
+'taboo2': 'Pants',
+'taboo3': 'Zip',
+'taboo4': 'Button',
+'taboo5': 'Unzip'
 }})
-data['words']['things'].append({106: { 'word' : 'drill',
-'taboo1': 'bit',
-'taboo2': 'sergeant',
-'taboo3': 'hole',
-'taboo4': 'wood',
-'taboo5': 'tool'
+data['words']['things'].append({106: { 'word' : 'Drill',
+'taboo1': 'Bit',
+'taboo2': 'Sergeant',
+'taboo3': 'Hole',
+'taboo4': 'Wood',
+'taboo5': 'Tool'
 }})
-data['words']['things'].append({107: { 'word' : 'tissue',
-'taboo1': 'kleenex',
-'taboo2': 'paper',
-'taboo3': 'sneeze',
-'taboo4': 'blow',
-'taboo5': 'nose'
+data['words']['things'].append({107: { 'word' : 'Tissue',
+'taboo1': 'Kleenex',
+'taboo2': 'Paper',
+'taboo3': 'Sneeze',
+'taboo4': 'Blow',
+'taboo5': 'Nose'
 }})
-data['words']['things'].append({108: { 'word' : 'doll',
-'taboo1': 'toy',
-'taboo2': 'barbie',
-'taboo3': 'house',
-'taboo4': 'baby',
-'taboo5': 'face'
+data['words']['things'].append({108: { 'word' : 'Doll',
+'taboo1': 'Toy',
+'taboo2': 'Barbie',
+'taboo3': 'House',
+'taboo4': 'Baby',
+'taboo5': 'Face'
 }})
-data['words']['things'].append({109: { 'word' : 'sandal',
-'taboo1': 'shoe',
-'taboo2': 'beach',
-'taboo3': 'shoes',
-'taboo4': 'thong',
-'taboo5': 'sand'
+data['words']['things'].append({109: { 'word' : 'Sandal',
+'taboo1': 'Shoe',
+'taboo2': 'Beach',
+'taboo3': 'Shoes',
+'taboo4': 'Thong',
+'taboo5': 'Sand'
 }})
-data['words']['things'].append({110: { 'word' : 'lace',
-'taboo1': 'lingerie',
-'taboo2': 'shoe',
-'taboo3': 'frills',
-'taboo4': 'bra',
-'taboo5': 'panties'
+data['words']['things'].append({110: { 'word' : 'Lace',
+'taboo1': 'Lingerie',
+'taboo2': 'Shoe',
+'taboo3': 'Frills',
+'taboo4': 'Bra',
+'taboo5': 'Panties'
 }})
-data['words']['things'].append({111: { 'word' : 'vase',
-'taboo1': 'flower',
-'taboo2': 'flowers',
-'taboo3': 'glass',
-'taboo4': 'water',
-'taboo5': 'rose'
+data['words']['things'].append({111: { 'word' : 'Vase',
+'taboo1': 'Flower',
+'taboo2': 'Flowers',
+'taboo3': 'Glass',
+'taboo4': 'Water',
+'taboo5': 'Rose'
 }})
-data['words']['things'].append({112: { 'word' : 'bookmark',
-'taboo1': 'book',
-'taboo2': 'page',
-'taboo3': 'read',
-'taboo4': 'paper',
-'taboo5': 'reading'
+data['words']['things'].append({112: { 'word' : 'Bookmark',
+'taboo1': 'Book',
+'taboo2': 'Page',
+'taboo3': 'Read',
+'taboo4': 'Paper',
+'taboo5': 'Reading'
 }})
-data['words']['things'].append({113: { 'word' : 'charger',
-'taboo1': 'dodge',
-'taboo2': 'phone',
-'taboo3': 'battery',
-'taboo4': 'wire',
-'taboo5': 'bull'
+data['words']['things'].append({113: { 'word' : 'Charger',
+'taboo1': 'Dodge',
+'taboo2': 'Phone',
+'taboo3': 'Battery',
+'taboo4': 'Wire',
+'taboo5': 'Bull'
 }})
-data['words']['things'].append({114: { 'word' : 'canvas',
-'taboo1': 'paint',
-'taboo2': 'painting',
-'taboo3': 'art',
-'taboo4': 'tent',
-'taboo5': 'artist'
+data['words']['things'].append({114: { 'word' : 'Canvas',
+'taboo1': 'Paint',
+'taboo2': 'Painting',
+'taboo3': 'Art',
+'taboo4': 'Tent',
+'taboo5': 'Artist'
 }})
-data['words']['things'].append({115: { 'word' : 'flag',
-'taboo1': 'black',
-'taboo2': 'american',
-'taboo3': 'pole',
-'taboo4': 'wave',
-'taboo5': 'america'
+data['words']['things'].append({115: { 'word' : 'Flag',
+'taboo1': 'Black',
+'taboo2': 'American',
+'taboo3': 'Pole',
+'taboo4': 'Wave',
+'taboo5': 'America'
 }})
-data['words']['things'].append({116: { 'word' : 'spoon',
-'taboo1': 'fork',
-'taboo2': 'bowl',
-'taboo3': 'ladle',
-'taboo4': 'knife',
-'taboo5': 'fed'
+data['words']['things'].append({116: { 'word' : 'Spoon',
+'taboo1': 'Fork',
+'taboo2': 'Bowl',
+'taboo3': 'Ladle',
+'taboo4': 'Knife',
+'taboo5': 'Fed'
 }})
-data['words']['things'].append({117: { 'word' : 'wallet',
-'taboo1': 'money',
-'taboo2': 'leather',
-'taboo3': 'purse',
-'taboo4': 'cash',
-'taboo5': 'pocket'
+data['words']['things'].append({117: { 'word' : 'Wallet',
+'taboo1': 'Money',
+'taboo2': 'Leather',
+'taboo3': 'Purse',
+'taboo4': 'Cash',
+'taboo5': 'Pocket'
 }})
-data['words']['things'].append({118: { 'word' : 'magnet',
-'taboo1': 'attract',
-'taboo2': 'attraction',
-'taboo3': 'fridge',
-'taboo4': 'refrigerator',
-'taboo5': 'poles'
+data['words']['things'].append({118: { 'word' : 'Magnet',
+'taboo1': 'Attract',
+'taboo2': 'Attraction',
+'taboo3': 'Fridge',
+'taboo4': 'Refrigerator',
+'taboo5': 'Poles'
 }})
-data['words']['things'].append({119: { 'word' : 'helmet',
-'taboo1': 'hat',
-'taboo2': 'head',
-'taboo3': 'bike',
-'taboo4': 'motorcycle',
-'taboo5': 'protection'
+data['words']['things'].append({119: { 'word' : 'Helmet',
+'taboo1': 'Hat',
+'taboo2': 'Head',
+'taboo3': 'Bike',
+'taboo4': 'Motorcycle',
+'taboo5': 'Protection'
 }})
-data['words']['things'].append({120: { 'word' : 'thermometer',
-'taboo1': 'temperature',
-'taboo2': 'mercury',
-'taboo3': 'heat',
-'taboo4': 'hot',
-'taboo5': 'rectal'
+data['words']['things'].append({120: { 'word' : 'Thermometer',
+'taboo1': 'Temperature',
+'taboo2': 'Mercury',
+'taboo3': 'Heat',
+'taboo4': 'Hot',
+'taboo5': 'Rectal'
 }})
-data['words']['things'].append({121: { 'word' : 'air',
-'taboo1': 'breathe',
-'taboo2': 'oxygen',
-'taboo3': 'breath',
-'taboo4': 'plane',
-'taboo5': 'balloon'
+data['words']['things'].append({121: { 'word' : 'Air',
+'taboo1': 'Breathe',
+'taboo2': 'Oxygen',
+'taboo3': 'Breath',
+'taboo4': 'Plane',
+'taboo5': 'Balloon'
 }})
-data['words']['things'].append({122: { 'word' : 'pot',
-'taboo1': 'weed',
-'taboo2': 'smoke',
-'taboo3': 'pan',
-'taboo4': 'marijuana',
-'taboo5': 'stove'
+data['words']['things'].append({122: { 'word' : 'Pot',
+'taboo1': 'Weed',
+'taboo2': 'Smoke',
+'taboo3': 'Pan',
+'taboo4': 'Marijuana',
+'taboo5': 'Stove'
 }})
-data['words']['things'].append({123: { 'word' : 'glass',
-'taboo1': 'window',
-'taboo2': 'cup',
-'taboo3': 'juice',
-'taboo4': 'water',
-'taboo5': 'drink'
+data['words']['things'].append({123: { 'word' : 'Glass',
+'taboo1': 'Window',
+'taboo2': 'Cup',
+'taboo3': 'Juice',
+'taboo4': 'Water',
+'taboo5': 'Drink'
 }})
-data['words']['things'].append({124: { 'word' : 'face',
-'taboo1': 'breasts',
-'taboo2': 'nose',
-'taboo3': 'hair',
-'taboo4': 'ugly',
-'taboo5': 'eyes'
+data['words']['things'].append({124: { 'word' : 'Face',
+'taboo1': 'Breasts',
+'taboo2': 'Nose',
+'taboo3': 'Hair',
+'taboo4': 'Ugly',
+'taboo5': 'Eyes'
 }})
-data['words']['things'].append({125: { 'word' : 'ring',
-'taboo1': 'finger',
-'taboo2': 'wedding',
-'taboo3': 'diamond',
-'taboo4': 'phone',
-'taboo5': 'circle'
+data['words']['things'].append({125: { 'word' : 'Ring',
+'taboo1': 'Finger',
+'taboo2': 'Wedding',
+'taboo3': 'Diamond',
+'taboo4': 'Phone',
+'taboo5': 'Circle'
 }})
-data['words']['things'].append({126: { 'word' : 'packet',
-'taboo1': 'bag',
-'taboo2': 'sugar',
-'taboo3': 'pocket',
-'taboo4': 'pack',
-'taboo5': 'crisps'
+data['words']['things'].append({126: { 'word' : 'Packet',
+'taboo1': 'Bag',
+'taboo2': 'Sugar',
+'taboo3': 'Pocket',
+'taboo4': 'Pack',
+'taboo5': 'Crisps'
 }})
-data['words']['things'].append({127: { 'word' : 'headphones',
-'taboo1': 'music',
-'taboo2': 'earphones',
-'taboo3': 'listen',
-'taboo4': 'ears',
-'taboo5': 'radio'
+data['words']['things'].append({127: { 'word' : 'Headphones',
+'taboo1': 'Music',
+'taboo2': 'Earphones',
+'taboo3': 'Listen',
+'taboo4': 'Ears',
+'taboo5': 'Radio'
 }})
-data['words']['things'].append({128: { 'word' : 'sponge',
-'taboo1': 'bob',
-'taboo2': 'soak',
-'taboo3': 'bath',
-'taboo4': 'absorb',
-'taboo5': 'cake'
+data['words']['things'].append({128: { 'word' : 'Sponge',
+'taboo1': 'Bob',
+'taboo2': 'Soak',
+'taboo3': 'Bath',
+'taboo4': 'Absorb',
+'taboo5': 'Cake'
 }})
-data['words']['things'].append({129: { 'word' : 'chocolate',
-'taboo1': 'candy',
-'taboo2': 'vanilla',
-'taboo3': 'cake',
-'taboo4': 'bar',
-'taboo5': 'milk'
+data['words']['things'].append({129: { 'word' : 'Chocolate',
+'taboo1': 'Candy',
+'taboo2': 'Vanilla',
+'taboo3': 'Cake',
+'taboo4': 'Bar',
+'taboo5': 'Milk'
 }})
-data['words']['things'].append({130: { 'word' : 'chalk',
-'taboo1': 'board',
-'taboo2': 'blackboard',
-'taboo3': 'dust',
-'taboo4': 'sidewalk',
-'taboo5': 'white'
+data['words']['things'].append({130: { 'word' : 'Chalk',
+'taboo1': 'Board',
+'taboo2': 'Blackboard',
+'taboo3': 'Dust',
+'taboo4': 'Sidewalk',
+'taboo5': 'White'
 }})
-data['words']['things'].append({131: { 'word' : 'puddle',
-'taboo1': 'mud',
-'taboo2': 'ground',
-'taboo3': 'rain',
-'taboo4': 'splash',
-'taboo5': 'water'
+data['words']['things'].append({131: { 'word' : 'Puddle',
+'taboo1': 'Mud',
+'taboo2': 'Ground',
+'taboo3': 'Rain',
+'taboo4': 'Splash',
+'taboo5': 'Water'
 }})
-data['words']['things'].append({132: { 'word' : 'camera',
-'taboo1': 'photo',
-'taboo2': 'lens',
-'taboo3': 'picture',
-'taboo4': 'flash',
-'taboo5': 'action'
+data['words']['things'].append({132: { 'word' : 'Camera',
+'taboo1': 'Photo',
+'taboo2': 'Lens',
+'taboo3': 'Picture',
+'taboo4': 'Flash',
+'taboo5': 'Action'
 }})
-data['words']['things'].append({133: { 'word' : 'bread',
-'taboo1': 'wheat',
-'taboo2': 'butter',
-'taboo3': 'dough',
-'taboo4': 'loaf',
-'taboo5': 'sandwich'
+data['words']['things'].append({133: { 'word' : 'Bread',
+'taboo1': 'Wheat',
+'taboo2': 'Butter',
+'taboo3': 'Dough',
+'taboo4': 'Loaf',
+'taboo5': 'Sandwich'
 }})
-data['words']['things'].append({134: { 'word' : 'mp',
+data['words']['things'].append({134: { 'word' : 'Mp',
 'taboo1': '3',
-'taboo2': 'member',
-'taboo3': 'dick',
-'taboo4': 'dp',
-'taboo5': 'lamb'
+'taboo2': 'Member',
+'taboo3': 'Dick',
+'taboo4': 'Dp',
+'taboo5': 'Lamb'
 }})
-data['words']['things'].append({135: { 'word' : 'car',
-'taboo1': 'unnecessary',
-'taboo2': 'drive',
-'taboo3': 'truck',
-'taboo4': 'automobile',
-'taboo5': 'impala'
+data['words']['things'].append({135: { 'word' : 'Car',
+'taboo1': 'Unnecessary',
+'taboo2': 'Drive',
+'taboo3': 'Truck',
+'taboo4': 'Automobile',
+'taboo5': 'Impala'
 }})
-data['words']['things'].append({136: { 'word' : 'bag',
-'taboo1': 'carry',
-'taboo2': 'sack',
-'taboo3': 'lady',
-'taboo4': 'purse',
-'taboo5': 'plastic'
+data['words']['things'].append({136: { 'word' : 'Bag',
+'taboo1': 'Carry',
+'taboo2': 'Sack',
+'taboo3': 'Lady',
+'taboo4': 'Purse',
+'taboo5': 'Plastic'
 }})
-data['words']['things'].append({137: { 'word' : 'purse',
-'taboo1': 'shoulder',
-'taboo2': 'wallet',
-'taboo3': 'snatcher',
-'taboo4': 'bag',
-'taboo5': 'money'
+data['words']['things'].append({137: { 'word' : 'Purse',
+'taboo1': 'Shoulder',
+'taboo2': 'Wallet',
+'taboo3': 'Snatcher',
+'taboo4': 'Bag',
+'taboo5': 'Money'
 }})
-data['words']['things'].append({138: { 'word' : 'note',
-'taboo1': 'write',
-'taboo2': 'book',
-'taboo3': 'pad',
-'taboo4': 'music',
-'taboo5': 'letter'
+data['words']['things'].append({138: { 'word' : 'Note',
+'taboo1': 'Write',
+'taboo2': 'Book',
+'taboo3': 'Pad',
+'taboo4': 'Music',
+'taboo5': 'Letter'
 }})
-data['words']['things'].append({139: { 'word' : 'soda',
-'taboo1': 'pop',
-'taboo2': 'juice',
-'taboo3': 'coke',
-'taboo4': 'water',
-'taboo5': 'orange'
+data['words']['things'].append({139: { 'word' : 'Soda',
+'taboo1': 'Pop',
+'taboo2': 'Juice',
+'taboo3': 'Coke',
+'taboo4': 'Water',
+'taboo5': 'Orange'
 }})
-data['words']['things'].append({140: { 'word' : 'card',
-'taboo1': 'atm',
-'taboo2': 'birthday',
-'taboo3': 'game',
-'taboo4': 'credit',
-'taboo5': 'poker'
+data['words']['things'].append({140: { 'word' : 'Card',
+'taboo1': 'Atm',
+'taboo2': 'Birthday',
+'taboo3': 'Game',
+'taboo4': 'Credit',
+'taboo5': 'Poker'
 }})
-data['words']['things'].append({141: { 'word' : 'pencil',
-'taboo1': 'pen',
-'taboo2': 'eraser',
-'taboo3': 'lead',
-'taboo4': 'sharpener',
-'taboo5': 'paper'
+data['words']['things'].append({141: { 'word' : 'Pencil',
+'taboo1': 'Pen',
+'taboo2': 'Eraser',
+'taboo3': 'Lead',
+'taboo4': 'Sharpener',
+'taboo5': 'Paper'
 }})
-data['words']['things'].append({142: { 'word' : 'lotion',
-'taboo1': 'potion',
-'taboo2': 'cream',
-'taboo3': 'motion',
-'taboo4': 'body',
-'taboo5': 'oil'
+data['words']['things'].append({142: { 'word' : 'Lotion',
+'taboo1': 'Potion',
+'taboo2': 'Cream',
+'taboo3': 'Motion',
+'taboo4': 'Body',
+'taboo5': 'Oil'
 }})
-data['words']['things'].append({143: { 'word' : 'tomato',
-'taboo1': 'sauce',
-'taboo2': 'red',
-'taboo3': 'paste',
-'taboo4': 'potato',
-'taboo5': 'soup'
+data['words']['things'].append({143: { 'word' : 'Tomato',
+'taboo1': 'Sauce',
+'taboo2': 'Red',
+'taboo3': 'Paste',
+'taboo4': 'Potato',
+'taboo5': 'Soup'
 }})
-data['words']['things'].append({144: { 'word' : 'jar',
-'taboo1': 'jam',
-'taboo2': 'glass',
-'taboo3': 'lid',
-'taboo4': 'mason',
-'taboo5': 'jelly'
+data['words']['things'].append({144: { 'word' : 'Jar',
+'taboo1': 'Jam',
+'taboo2': 'Glass',
+'taboo3': 'Lid',
+'taboo4': 'Mason',
+'taboo5': 'Jelly'
 }})
-data['words']['things'].append({145: { 'word' : 'rubber',
-'taboo1': 'condom',
-'taboo2': 'ball',
-'taboo3': 'band',
-'taboo4': 'duck',
-'taboo5': 'eraser'
+data['words']['things'].append({145: { 'word' : 'Rubber',
+'taboo1': 'Condom',
+'taboo2': 'Ball',
+'taboo3': 'Band',
+'taboo4': 'Duck',
+'taboo5': 'Eraser'
 }})
-data['words']['things'].append({146: { 'word' : 'fridge',
-'taboo1': 'refrigerator',
-'taboo2': 'freezer',
-'taboo3': 'cold',
-'taboo4': 'food',
-'taboo5': 'magnet'
+data['words']['things'].append({146: { 'word' : 'Fridge',
+'taboo1': 'Refrigerator',
+'taboo2': 'Freezer',
+'taboo3': 'Cold',
+'taboo4': 'Food',
+'taboo5': 'Magnet'
 }})
-data['words']['things'].append({147: { 'word' : 'paper',
-'taboo1': 'pen',
-'taboo2': 'cut',
-'taboo3': 'pencil',
-'taboo4': 'scissors',
-'taboo5': 'rock'
+data['words']['things'].append({147: { 'word' : 'Paper',
+'taboo1': 'Pen',
+'taboo2': 'Cut',
+'taboo3': 'Pencil',
+'taboo4': 'Scissors',
+'taboo5': 'Rock'
 }})
-data['words']['things'].append({148: { 'word' : 'window',
-'taboo1': 'door',
-'taboo2': 'pane',
-'taboo3': 'glass',
-'taboo4': 'sill',
-'taboo5': 'open'
+data['words']['things'].append({148: { 'word' : 'Window',
+'taboo1': 'Door',
+'taboo2': 'Pane',
+'taboo3': 'Glass',
+'taboo4': 'Sill',
+'taboo5': 'Open'
 }})
-data['words']['things'].append({149: { 'word' : 'bottle',
-'taboo1': 'glass',
-'taboo2': 'beer',
-'taboo3': 'baby',
-'taboo4': 'cap',
-'taboo5': 'wine'
+data['words']['things'].append({149: { 'word' : 'Bottle',
+'taboo1': 'Glass',
+'taboo2': 'Beer',
+'taboo3': 'Baby',
+'taboo4': 'Cap',
+'taboo5': 'Wine'
 }})
-data['words']['things'].append({150: { 'word' : 'file',
-'taboo1': 'edit',
-'taboo2': 'cabinet',
-'taboo3': 'folder',
-'taboo4': 'x',
-'taboo5': 'nail'
+data['words']['things'].append({150: { 'word' : 'File',
+'taboo1': 'Edit',
+'taboo2': 'Cabinet',
+'taboo3': 'Folder',
+'taboo4': 'X',
+'taboo5': 'Nail'
 }})
-data['words']['things'].append({151: { 'word' : 'speakers',
-'taboo1': 'listeners',
-'taboo2': 'loudspeakers',
-'taboo3': 'music',
-'taboo4': 'loud',
-'taboo5': 'sound'
+data['words']['things'].append({151: { 'word' : 'Speakers',
+'taboo1': 'Listeners',
+'taboo2': 'Loudspeakers',
+'taboo3': 'Music',
+'taboo4': 'Loud',
+'taboo5': 'Sound'
 }})
-data['words']['things'].append({152: { 'word' : 'watch',
-'taboo1': 'tv',
-'taboo2': 'time',
-'taboo3': 'clock',
-'taboo4': 'wrist',
-'taboo5': 'fob'
+data['words']['things'].append({152: { 'word' : 'Watch',
+'taboo1': 'Tv',
+'taboo2': 'Time',
+'taboo3': 'Clock',
+'taboo4': 'Wrist',
+'taboo5': 'Fob'
 }})
-data['words']['things'].append({153: { 'word' : 'toothpaste',
-'taboo1': 'toothbrush',
-'taboo2': 'brush',
-'taboo3': 'teeth',
-'taboo4': 'colgate',
-'taboo5': 'mint'
+data['words']['things'].append({153: { 'word' : 'Toothpaste',
+'taboo1': 'Toothbrush',
+'taboo2': 'Brush',
+'taboo3': 'Teeth',
+'taboo4': 'Colgate',
+'taboo5': 'Mint'
 }})
-data['words']['things'].append({154: { 'word' : 'blanket',
-'taboo1': 'bed',
-'taboo2': 'warm',
-'taboo3': 'sheet',
-'taboo4': 'quilt',
-'taboo5': 'cover'
+data['words']['things'].append({154: { 'word' : 'Blanket',
+'taboo1': 'Bed',
+'taboo2': 'Warm',
+'taboo3': 'Sheet',
+'taboo4': 'Quilt',
+'taboo5': 'Cover'
 }})
-data['words']['things'].append({155: { 'word' : 'bowl',
-'taboo1': 'cereal',
-'taboo2': 'soup',
-'taboo3': 'spoon',
-'taboo4': 'plate',
-'taboo5': 'super'
+data['words']['things'].append({155: { 'word' : 'Bowl',
+'taboo1': 'Cereal',
+'taboo2': 'Soup',
+'taboo3': 'Spoon',
+'taboo4': 'Plate',
+'taboo5': 'Super'
 }})
-data['words']['things'].append({156: { 'word' : 'tray',
-'taboo1': 'ash',
-'taboo2': 'plate',
-'taboo3': 'dish',
-'taboo4': 'food',
-'taboo5': 'serving'
+data['words']['things'].append({156: { 'word' : 'Tray',
+'taboo1': 'Ash',
+'taboo2': 'Plate',
+'taboo3': 'Dish',
+'taboo4': 'Food',
+'taboo5': 'Serving'
 }})
-data['words']['things'].append({157: { 'word' : 'tree',
-'taboo1': 'plant',
-'taboo2': 'bush',
-'taboo3': 'leaf',
-'taboo4': 'leaves',
-'taboo5': 'branch'
+data['words']['things'].append({157: { 'word' : 'Tree',
+'taboo1': 'Plant',
+'taboo2': 'Bush',
+'taboo3': 'Leaf',
+'taboo4': 'Leaves',
+'taboo5': 'Branch'
 }})
-data['words']['things'].append({158: { 'word' : 'television',
-'taboo1': 'tv',
-'taboo2': 'show',
-'taboo3': 'set',
-'taboo4': 'watch',
-'taboo5': 'radio'
+data['words']['things'].append({158: { 'word' : 'Television',
+'taboo1': 'Tv',
+'taboo2': 'Show',
+'taboo3': 'Set',
+'taboo4': 'Watch',
+'taboo5': 'Radio'
 }})
-data['words']['things'].append({159: { 'word' : 'bed',
-'taboo1': 'sleep',
-'taboo2': 'sex',
-'taboo3': 'pillow',
-'taboo4': 'room',
-'taboo5': 'time'
+data['words']['things'].append({159: { 'word' : 'Bed',
+'taboo1': 'Sleep',
+'taboo2': 'Sex',
+'taboo3': 'Pillow',
+'taboo4': 'Room',
+'taboo5': 'Time'
 }})
-data['words']['things'].append({160: { 'word' : 'leg',
-'taboo1': 'arm',
-'taboo2': 'foot',
-'taboo3': 'knee',
-'taboo4': 'thigh',
-'taboo5': 'peg'
+data['words']['things'].append({160: { 'word' : 'Leg',
+'taboo1': 'Arm',
+'taboo2': 'Foot',
+'taboo3': 'Knee',
+'taboo4': 'Thigh',
+'taboo5': 'Peg'
 }})
-data['words']['things'].append({161: { 'word' : 'conditioner',
-'taboo1': 'shampoo',
-'taboo2': 'hair',
-'taboo3': 'air',
-'taboo4': 'heater',
-'taboo5': 'cool'
+data['words']['things'].append({161: { 'word' : 'Conditioner',
+'taboo1': 'Shampoo',
+'taboo2': 'Hair',
+'taboo3': 'Air',
+'taboo4': 'Heater',
+'taboo5': 'Cool'
 }})
-data['words']['things'].append({162: { 'word' : 'fork',
-'taboo1': 'spoon',
-'taboo2': 'knife',
-'taboo3': 'spork',
-'taboo4': 'road',
-'taboo5': 'pitch'
+data['words']['things'].append({162: { 'word' : 'Fork',
+'taboo1': 'Spoon',
+'taboo2': 'Knife',
+'taboo3': 'Spork',
+'taboo4': 'Road',
+'taboo5': 'Pitch'
 }})
-data['words']['things'].append({163: { 'word' : 'key',
-'taboo1': 'lock',
-'taboo2': 'hole',
-'taboo3': 'door',
-'taboo4': 'largo',
-'taboo5': 'skeleton'
+data['words']['things'].append({163: { 'word' : 'Key',
+'taboo1': 'Lock',
+'taboo2': 'Hole',
+'taboo3': 'Door',
+'taboo4': 'Largo',
+'taboo5': 'Skeleton'
 }})
-data['words']['things'].append({164: { 'word' : 'outlet',
-'taboo1': 'inlet',
-'taboo2': 'plug',
-'taboo3': 'electrical',
-'taboo4': 'mall',
-'taboo5': 'wall'
+data['words']['things'].append({164: { 'word' : 'Outlet',
+'taboo1': 'Inlet',
+'taboo2': 'Plug',
+'taboo3': 'Electrical',
+'taboo4': 'Mall',
+'taboo5': 'Wall'
 }})
-data['words']['things'].append({165: { 'word' : 'sailboat',
-'taboo1': 'sail',
-'taboo2': 'water',
-'taboo3': 'skiff',
-'taboo4': 'wind',
-'taboo5': 'yacht'
+data['words']['things'].append({165: { 'word' : 'Sailboat',
+'taboo1': 'Sail',
+'taboo2': 'Water',
+'taboo3': 'Skiff',
+'taboo4': 'Wind',
+'taboo5': 'Yacht'
 }})
-data['words']['things'].append({166: { 'word' : 'clothes',
-'taboo1': 'shirt',
-'taboo2': 'wear',
-'taboo3': 'naked',
-'taboo4': 'horse',
-'taboo5': 'line'
+data['words']['things'].append({166: { 'word' : 'Clothes',
+'taboo1': 'Shirt',
+'taboo2': 'Wear',
+'taboo3': 'Naked',
+'taboo4': 'Horse',
+'taboo5': 'Line'
 }})
-data['words']['things'].append({167: { 'word' : 'chair',
-'taboo1': 'sit',
-'taboo2': 'table',
-'taboo3': 'seat',
-'taboo4': 'electric',
-'taboo5': 'couch'
+data['words']['things'].append({167: { 'word' : 'Chair',
+'taboo1': 'Sit',
+'taboo2': 'Table',
+'taboo3': 'Seat',
+'taboo4': 'Electric',
+'taboo5': 'Couch'
 }})
-data['words']['things'].append({168: { 'word' : 'thermostat',
-'taboo1': 'hot',
-'taboo2': 'temperature',
-'taboo3': 'heat',
-'taboo4': 'thermometer',
-'taboo5': 'furnace'
+data['words']['things'].append({168: { 'word' : 'Thermostat',
+'taboo1': 'Hot',
+'taboo2': 'Temperature',
+'taboo3': 'Heat',
+'taboo4': 'Thermometer',
+'taboo5': 'Furnace'
 }})
-data['words']['things'].append({169: { 'word' : 'house',
-'taboo1': 'home',
-'taboo2': 'apartment',
-'taboo3': 'mouse',
-'taboo4': 'roof',
-'taboo5': 'doctor'
+data['words']['things'].append({169: { 'word' : 'House',
+'taboo1': 'Home',
+'taboo2': 'Apartment',
+'taboo3': 'Mouse',
+'taboo4': 'Roof',
+'taboo5': 'Doctor'
 }})
-data['words']['things'].append({170: { 'word' : 'checkbook',
-'taboo1': 'money',
-'taboo2': 'check',
-'taboo3': 'account',
-'taboo4': 'checks',
-'taboo5': 'balance'
+data['words']['things'].append({170: { 'word' : 'Checkbook',
+'taboo1': 'Money',
+'taboo2': 'Check',
+'taboo3': 'Account',
+'taboo4': 'Checks',
+'taboo5': 'Balance'
 }})
-data['words']['things'].append({171: { 'word' : 'mirror',
-'taboo1': 'image',
-'taboo2': 'reflection',
-'taboo3': 'reflect',
-'taboo4': 'wall',
-'taboo5': 'glass'
+data['words']['things'].append({171: { 'word' : 'Mirror',
+'taboo1': 'Image',
+'taboo2': 'Reflection',
+'taboo3': 'Reflect',
+'taboo4': 'Wall',
+'taboo5': 'Glass'
 }})
-data['words']['things'].append({172: { 'word' : 'desk',
-'taboo1': 'chair',
-'taboo2': 'top',
-'taboo3': 'computer',
-'taboo4': 'office',
-'taboo5': 'table'
+data['words']['things'].append({172: { 'word' : 'Desk',
+'taboo1': 'Chair',
+'taboo2': 'Top',
+'taboo3': 'Computer',
+'taboo4': 'Office',
+'taboo5': 'Table'
 }})
-data['words']['things'].append({173: { 'word' : 'machine',
-'taboo1': 'computer',
-'taboo2': 'robot',
-'taboo3': 'gun',
-'taboo4': 'washing',
-'taboo5': 'atm'
+data['words']['things'].append({173: { 'word' : 'Machine',
+'taboo1': 'Computer',
+'taboo2': 'Robot',
+'taboo3': 'Gun',
+'taboo4': 'Washing',
+'taboo5': 'Atm'
 }})
-data['words']['things'].append({174: { 'word' : 'album',
-'taboo1': 'cd',
-'taboo2': 'record',
-'taboo3': 'photo',
-'taboo4': 'music',
-'taboo5': 'cover'
+data['words']['things'].append({174: { 'word' : 'Album',
+'taboo1': 'Cd',
+'taboo2': 'Record',
+'taboo3': 'Photo',
+'taboo4': 'Music',
+'taboo5': 'Cover'
 }})
-data['words']['things'].append({175: { 'word' : 'carrots',
-'taboo1': 'orange',
-'taboo2': 'peas',
-'taboo3': 'vegetables',
-'taboo4': 'vegetable',
-'taboo5': 'lettuce'
+data['words']['things'].append({175: { 'word' : 'Carrots',
+'taboo1': 'Orange',
+'taboo2': 'Peas',
+'taboo3': 'Vegetables',
+'taboo4': 'Vegetable',
+'taboo5': 'Lettuce'
 }})
-data['words']['things'].append({176: { 'word' : 'socks',
-'taboo1': 'shoes',
-'taboo2': 'feet',
-'taboo3': 'underwear',
-'taboo4': 'stockings',
-'taboo5': 'toes'
+data['words']['things'].append({176: { 'word' : 'Socks',
+'taboo1': 'Shoes',
+'taboo2': 'Feet',
+'taboo3': 'Underwear',
+'taboo4': 'Stockings',
+'taboo5': 'Toes'
 }})
-data['words']['things'].append({177: { 'word' : 'towel',
-'taboo1': 'dry',
-'taboo2': 'shower',
-'taboo3': 'wet',
-'taboo4': 'unnecessary',
-'taboo5': 'bath'
+data['words']['things'].append({177: { 'word' : 'Towel',
+'taboo1': 'Dry',
+'taboo2': 'Shower',
+'taboo3': 'Wet',
+'taboo4': 'Unnecessary',
+'taboo5': 'Bath'
 }})
-data['words']['things'].append({178: { 'word' : 'candle',
-'taboo1': 'light',
-'taboo2': 'flame',
-'taboo3': 'wax',
-'taboo4': 'wick',
-'taboo5': 'fire'
+data['words']['things'].append({178: { 'word' : 'Candle',
+'taboo1': 'Light',
+'taboo2': 'Flame',
+'taboo3': 'Wax',
+'taboo4': 'Wick',
+'taboo5': 'Fire'
 }})
-data['words']['things'].append({179: { 'word' : 'stockings',
-'taboo1': 'socks',
-'taboo2': 'christmas',
-'taboo3': 'tights',
-'taboo4': 'legs',
-'taboo5': 'silk'
+data['words']['things'].append({179: { 'word' : 'Stockings',
+'taboo1': 'Socks',
+'taboo2': 'Christmas',
+'taboo3': 'Tights',
+'taboo4': 'Legs',
+'taboo5': 'Silk'
 }})
-data['words']['things'].append({180: { 'word' : 'sofa',
-'taboo1': 'couch',
-'taboo2': 'bed',
-'taboo3': 'chair',
-'taboo4': 'cushion',
-'taboo5': 'seat'
+data['words']['things'].append({180: { 'word' : 'Sofa',
+'taboo1': 'Couch',
+'taboo2': 'Bed',
+'taboo3': 'Chair',
+'taboo4': 'Cushion',
+'taboo5': 'Seat'
 }})
-data['words']['things'].append({181: { 'word' : 'knife',
-'taboo1': 'cut',
-'taboo2': 'fork',
-'taboo3': 'stab',
-'taboo4': 'spear',
-'taboo5': 'blade'
+data['words']['things'].append({181: { 'word' : 'Knife',
+'taboo1': 'Cut',
+'taboo2': 'Fork',
+'taboo3': 'Stab',
+'taboo4': 'Spear',
+'taboo5': 'Blade'
 }})
