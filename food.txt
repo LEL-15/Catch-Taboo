@@ -1,3231 +1,3231 @@
-data['words'].[food].append({0: { 'word' : 'acorn',
+data['words'][food].append({0: { 'word' : 'acorn',
 'taboo1': 'oak',
 'taboo2': 'squirrel',
 'taboo3': 'nut',
 'taboo4': 'tree',
 'taboo5': 'seed'
 }}]}
-data['words'].[food].append({1: { 'word' : 'alfalfa',
+data['words'][food].append({1: { 'word' : 'alfalfa',
 'taboo1': 'hay',
 'taboo2': 'sprout',
 'taboo3': 'grass',
 'taboo4': 'rascals',
 'taboo5': 'hair'
 }}]}
-data['words'].[food].append({2: { 'word' : 'almond',
+data['words'][food].append({2: { 'word' : 'almond',
 'taboo1': 'nut',
 'taboo2': 'joy',
 'taboo3': 'cashew',
 'taboo4': 'nuts',
 'taboo5': 'eyes'
 }}]}
-data['words'].[food].append({3: { 'word' : 'anchovy',
+data['words'][food].append({3: { 'word' : 'anchovy',
 'taboo1': 'pizza',
 'taboo2': 'fish',
 'taboo3': 'extra',
 'taboo4': 'paste',
 'taboo5': 'sardine'
 }}]}
-data['words'].[food].append({4: { 'word' : 'anise',
+data['words'][food].append({4: { 'word' : 'anise',
 'taboo1': 'herb',
 'taboo2': 'anus',
 'taboo3': 'seed',
 'taboo4': 'licorice',
 'taboo5': 'spice'
 }}]}
-data['words'].[food].append({5: { 'word' : 'appetite',
+data['words'][food].append({5: { 'word' : 'appetite',
 'taboo1': 'hunger',
 'taboo2': 'hungry',
 'taboo3': 'food',
 'taboo4': 'eat',
 'taboo5': 'destruction'
 }}]}
-data['words'].[food].append({6: { 'word' : 'appetizer',
+data['words'][food].append({6: { 'word' : 'appetizer',
 'taboo1': 'food',
 'taboo2': 'order',
 'taboo3': 'starter',
 'taboo4': 'dessert',
 'taboo5': 'bread'
 }}]}
-data['words'].[food].append({7: { 'word' : 'apple',
+data['words'][food].append({7: { 'word' : 'apple',
 'taboo1': 'fruit',
 'taboo2': 'pie',
 'taboo3': 'eve',
 'taboo4': 'orange',
 'taboo5': 'pear'
 }}]}
-data['words'].[food].append({8: { 'word' : 'apricot',
+data['words'][food].append({8: { 'word' : 'apricot',
 'taboo1': 'dried',
 'taboo2': 'fruit',
 'taboo3': 'peach',
 'taboo4': 'orange',
 'taboo5': 'pit'
 }}]}
-data['words'].[food].append({9: { 'word' : 'artichoke',
+data['words'][food].append({9: { 'word' : 'artichoke',
 'taboo1': 'vegetable',
 'taboo2': 'heart',
 'taboo3': 'hearts',
 'taboo4': 'green',
 'taboo5': 'dip'
 }}]}
-data['words'].[food].append({10: { 'word' : 'asparagus',
+data['words'][food].append({10: { 'word' : 'asparagus',
 'taboo1': 'vegetable',
 'taboo2': 'green',
 'taboo3': 'garden',
 'taboo4': 'spinach',
 'taboo5': 'pee'
 }}]}
-data['words'].[food].append({11: { 'word' : 'aspic',
+data['words'][food].append({11: { 'word' : 'aspic',
 'taboo1': 'spice',
 'taboo2': 'chinaman',
 'taboo3': 'cold',
 'taboo4': 'dark',
 'taboo5': 'epic'
 }}]}
-data['words'].[food].append({12: { 'word' : 'ate',
+data['words'][food].append({12: { 'word' : 'ate',
 'taboo1': 'eat',
 'taboo2': 'eaten',
 'taboo3': 'food',
 'taboo4': 'full',
 'taboo5': 'eight'
 }}]}
-data['words'].[food].append({13: { 'word' : 'avocado',
+data['words'][food].append({13: { 'word' : 'avocado',
 'taboo1': 'green',
 'taboo2': 'vegetable',
 'taboo3': 'guacamole',
 'taboo4': 'fruit',
 'taboo5': 'pit'
 }}]}
-data['words'].[food].append({14: { 'word' : 'bacon',
+data['words'][food].append({14: { 'word' : 'bacon',
 'taboo1': 'sausage',
 'taboo2': 'pig',
 'taboo3': 'eggs',
 'taboo4': 'rasher',
 'taboo5': 'ham'
 }}]}
-data['words'].[food].append({15: { 'word' : 'bagel',
+data['words'][food].append({15: { 'word' : 'bagel',
 'taboo1': 'bread',
 'taboo2': 'cream',
 'taboo3': 'cheese',
 'taboo4': 'lox',
 'taboo5': 'breakfast'
 }}]}
-data['words'].[food].append({16: { 'word' : 'bake',
+data['words'][food].append({16: { 'word' : 'bake',
 'taboo1': 'cake',
 'taboo2': 'cook',
 'taboo3': 'oven',
 'taboo4': 'cookies',
 'taboo5': 'bread'
 }}]}
-data['words'].[food].append({17: { 'word' : 'bamboo',
+data['words'][food].append({17: { 'word' : 'bamboo',
 'taboo1': 'panda',
 'taboo2': 'shoots',
 'taboo3': 'grass',
 'taboo4': 'china',
 'taboo5': 'shoot'
 }}]}
-data['words'].[food].append({18: { 'word' : 'banana',
+data['words'][food].append({18: { 'word' : 'banana',
 'taboo1': 'fruit',
 'taboo2': 'yellow',
 'taboo3': 'peel',
 'taboo4': 'republic',
 'taboo5': 'split'
 }}]}
-data['words'].[food].append({19: { 'word' : 'barbecue',
+data['words'][food].append({19: { 'word' : 'barbecue',
 'taboo1': 'sauce',
 'taboo2': 'meat',
 'taboo3': 'ribs',
 'taboo4': 'grill',
 'taboo5': 'chicken'
 }}]}
-data['words'].[food].append({20: { 'word' : 'barley',
+data['words'][food].append({20: { 'word' : 'barley',
 'taboo1': 'corn',
 'taboo2': 'wheat',
 'taboo3': 'oats',
 'taboo4': 'rice',
 'taboo5': 'beer'
 }}]}
-data['words'].[food].append({21: { 'word' : 'basil',
+data['words'][food].append({21: { 'word' : 'basil',
 'taboo1': 'herb',
 'taboo2': 'oregano',
 'taboo3': 'leaf',
 'taboo4': 'thyme',
 'taboo5': 'brush'
 }}]}
-data['words'].[food].append({22: { 'word' : 'batter',
+data['words'][food].append({22: { 'word' : 'batter',
 'taboo1': 'cake',
 'taboo2': 'fish',
 'taboo3': 'dough',
 'taboo4': 'up',
 'taboo5': 'pancake'
 }}]}
-data['words'].[food].append({23: { 'word' : 'beancurd',
+data['words'][food].append({23: { 'word' : 'beancurd',
 'taboo1': 'mistake',
 'taboo2': 'wrong',
 'taboo3': 'computer',
 'taboo4': 'trial',
 'taboo5': 'message'
 }}]}
-data['words'].[food].append({24: { 'word' : 'beans',
+data['words'][food].append({24: { 'word' : 'beans',
 'taboo1': 'fart',
 'taboo2': 'baked',
 'taboo3': 'food',
 'taboo4': 'rice',
 'taboo5': 'taters'
 }}]}
-data['words'].[food].append({25: { 'word' : 'beef',
+data['words'][food].append({25: { 'word' : 'beef',
 'taboo1': 'pork',
 'taboo2': 'cow',
 'taboo3': 'jerky',
 'taboo4': 'steak',
 'taboo5': 'meat'
 }}]}
-data['words'].[food].append({26: { 'word' : 'beet',
+data['words'][food].append({26: { 'word' : 'beet',
 'taboo1': 'root',
 'taboo2': 'red',
 'taboo3': 'radish',
 'taboo4': 'vegetable',
 'taboo5': 'beat'
 }}]}
-data['words'].[food].append({27: { 'word' : 'berry',
+data['words'][food].append({27: { 'word' : 'berry',
 'taboo1': 'fruit',
 'taboo2': 'straw',
 'taboo3': 'blue',
 'taboo4': 'strawberry',
 'taboo5': 'cobbler'
 }}]}
-data['words'].[food].append({28: { 'word' : 'biscuit',
+data['words'][food].append({28: { 'word' : 'biscuit',
 'taboo1': 'gravy',
 'taboo2': 'bread',
 'taboo3': 'cookie',
 'taboo4': 'butter',
 'taboo5': 'tea'
 }}]}
-data['words'].[food].append({29: { 'word' : 'bitter',
+data['words'][food].append({29: { 'word' : 'bitter',
 'taboo1': 'sweet',
 'taboo2': 'sour',
 'taboo3': 'taste',
 'taboo4': 'lemon',
 'taboo5': 'beer'
 }}]}
-data['words'].[food].append({30: { 'word' : 'blackberry',
+data['words'][food].append({30: { 'word' : 'blackberry',
 'taboo1': 'phone',
 'taboo2': 'blueberry',
 'taboo3': 'raspberry',
 'taboo4': 'fruit',
 'taboo5': 'pie'
 }}]}
-data['words'].[food].append({31: { 'word' : 'bland',
+data['words'][food].append({31: { 'word' : 'bland',
 'taboo1': 'boring',
 'taboo2': 'tasteless',
 'taboo3': 'taste',
 'taboo4': 'plain',
 'taboo5': 'vanilla'
 }}]}
-data['words'].[food].append({32: { 'word' : 'blueberry',
+data['words'][food].append({32: { 'word' : 'blueberry',
 'taboo1': 'muffin',
 'taboo2': 'pie',
 'taboo3': 'strawberry',
 'taboo4': 'muffins',
 'taboo5': 'fruit'
 }}]}
-data['words'].[food].append({33: { 'word' : 'boil',
+data['words'][food].append({33: { 'word' : 'boil',
 'taboo1': 'water',
 'taboo2': 'cook',
 'taboo3': 'eggs',
 'taboo4': 'hot',
 'taboo5': 'egg'
 }}]}
-data['words'].[food].append({34: { 'word' : 'bowl',
+data['words'][food].append({34: { 'word' : 'bowl',
 'taboo1': 'cereal',
 'taboo2': 'soup',
 'taboo3': 'spoon',
 'taboo4': 'plate',
 'taboo5': 'super'
 }}]}
-data['words'].[food].append({35: { 'word' : 'boysenberry',
+data['words'][food].append({35: { 'word' : 'boysenberry',
 'taboo1': 'syrup',
 'taboo2': 'blueberry',
 'taboo3': 'berry',
 'taboo4': 'muffin',
 'taboo5': 'bumble'
 }}]}
-data['words'].[food].append({36: { 'word' : 'bran',
+data['words'][food].append({36: { 'word' : 'bran',
 'taboo1': 'raisin',
 'taboo2': 'flakes',
 'taboo3': 'cereal',
 'taboo4': 'flake',
 'taboo5': 'oat'
 }}]}
-data['words'].[food].append({37: { 'word' : 'bread',
+data['words'][food].append({37: { 'word' : 'bread',
 'taboo1': 'wheat',
 'taboo2': 'butter',
 'taboo3': 'dough',
 'taboo4': 'loaf',
 'taboo5': 'sandwich'
 }}]}
-data['words'].[food].append({38: { 'word' : 'breadfruit',
+data['words'][food].append({38: { 'word' : 'breadfruit',
 'taboo1': 'bread',
 'taboo2': 'banana',
 'taboo3': 'cantaloupe',
 'taboo4': 'cosmetics',
 'taboo5': 'credit'
 }}]}
-data['words'].[food].append({39: { 'word' : 'brisket',
+data['words'][food].append({39: { 'word' : 'brisket',
 'taboo1': 'beef',
 'taboo2': 'meat',
 'taboo3': 'diana',
 'taboo4': 'basket',
 'taboo5': 'brisk'
 }}]}
-data['words'].[food].append({40: { 'word' : 'broccoli',
+data['words'][food].append({40: { 'word' : 'broccoli',
 'taboo1': 'vegetable',
 'taboo2': 'green',
 'taboo3': 'cauliflower',
 'taboo4': 'cheese',
 'taboo5': 'cheddar'
 }}]}
-data['words'].[food].append({41: { 'word' : 'broil',
+data['words'][food].append({41: { 'word' : 'broil',
 'taboo1': 'boil',
 'taboo2': 'cook',
 'taboo3': 'bake',
 'taboo4': 'steak',
 'taboo5': 'roast'
 }}]}
-data['words'].[food].append({42: { 'word' : 'brownie',
+data['words'][food].append({42: { 'word' : 'brownie',
 'taboo1': 'chocolate',
 'taboo2': 'fudge',
 'taboo3': 'cake',
 'taboo4': 'scout',
 'taboo5': 'brown'
 }}]}
-data['words'].[food].append({43: { 'word' : 'brunch',
+data['words'][food].append({43: { 'word' : 'brunch',
 'taboo1': 'lunch',
 'taboo2': 'breakfast',
 'taboo3': 'dinner',
 'taboo4': 'supper',
 'taboo5': 'eggs'
 }}]}
-data['words'].[food].append({44: { 'word' : 'buckwheat',
+data['words'][food].append({44: { 'word' : 'buckwheat',
 'taboo1': 'buck',
 'taboo2': 'pancakes',
 'taboo3': 'cereal',
 'taboo4': 'alfalfa',
 'taboo5': 'black'
 }}]}
-data['words'].[food].append({45: { 'word' : 'burrito',
+data['words'][food].append({45: { 'word' : 'burrito',
 'taboo1': 'taco',
 'taboo2': 'mexican',
 'taboo3': 'beans',
 'taboo4': 'mexico',
 'taboo5': 'enchilada'
 }}]}
-data['words'].[food].append({46: { 'word' : 'cake',
+data['words'][food].append({46: { 'word' : 'cake',
 'taboo1': 'sweet',
 'taboo2': 'birthday',
 'taboo3': 'chocolate',
 'taboo4': 'icing',
 'taboo5': 'frosting'
 }}]}
-data['words'].[food].append({47: { 'word' : 'calorie',
+data['words'][food].append({47: { 'word' : 'calorie',
 'taboo1': 'fat',
 'taboo2': 'food',
 'taboo3': 'counting',
 'taboo4': 'energy',
 'taboo5': 'carbohydrate'
 }}]}
-data['words'].[food].append({48: { 'word' : 'candy',
+data['words'][food].append({48: { 'word' : 'candy',
 'taboo1': 'sweet',
 'taboo2': 'cane',
 'taboo3': 'sugar',
 'taboo4': 'floss',
 'taboo5': 'chocolate'
 }}]}
-data['words'].[food].append({49: { 'word' : 'cantaloupe',
+data['words'][food].append({49: { 'word' : 'cantaloupe',
 'taboo1': 'melon',
 'taboo2': 'fruit',
 'taboo3': 'watermelon',
 'taboo4': 'orange',
 'taboo5': 'melons'
 }}]}
-data['words'].[food].append({50: { 'word' : 'capers',
+data['words'][food].append({50: { 'word' : 'capers',
 'taboo1': 'antics',
 'taboo2': 'heists',
 'taboo3': 'anchovies',
 'taboo4': 'book',
 'taboo5': 'bud'
 }}]}
-data['words'].[food].append({51: { 'word' : 'caramel',
+data['words'][food].append({51: { 'word' : 'caramel',
 'taboo1': 'candy',
 'taboo2': 'chocolate',
 'taboo3': 'apple',
 'taboo4': 'sweet',
 'taboo5': 'toffee'
 }}]}
-data['words'].[food].append({52: { 'word' : 'carbohydrate',
+data['words'][food].append({52: { 'word' : 'carbohydrate',
 'taboo1': 'fat',
 'taboo2': 'protein',
 'taboo3': 'bread',
 'taboo4': 'sugar',
 'taboo5': 'food'
 }}]}
-data['words'].[food].append({53: { 'word' : 'carrot',
+data['words'][food].append({53: { 'word' : 'carrot',
 'taboo1': 'orange',
 'taboo2': 'vegetable',
 'taboo3': 'top',
 'taboo4': 'lettuce',
 'taboo5': 'rabbit'
 }}]}
-data['words'].[food].append({54: { 'word' : 'cashew',
+data['words'][food].append({54: { 'word' : 'cashew',
 'taboo1': 'nut',
 'taboo2': 'peanut',
 'taboo3': 'almond',
 'taboo4': 'pecan',
 'taboo5': 'nuts'
 }}]}
-data['words'].[food].append({55: { 'word' : 'cassava',
+data['words'][food].append({55: { 'word' : 'cassava',
 'taboo1': 'root',
 'taboo2': 'lava',
 'taboo3': 'sisters',
 }}]}
-data['words'].[food].append({56: { 'word' : 'casserole',
+data['words'][food].append({56: { 'word' : 'casserole',
 'taboo1': 'tuna',
 'taboo2': 'dish',
 'taboo3': 'baked',
 'taboo4': 'food',
 'taboo5': 'noodles'
 }}]}
-data['words'].[food].append({57: { 'word' : 'cater',
+data['words'][food].append({57: { 'word' : 'cater',
 'taboo1': 'food',
 'taboo2': 'catering',
 'taboo3': 'hall',
 'taboo4': 'party',
 'taboo5': 'bed'
 }}]}
-data['words'].[food].append({58: { 'word' : 'cauliflower',
+data['words'][food].append({58: { 'word' : 'cauliflower',
 'taboo1': 'broccoli',
 'taboo2': 'vegetable',
 'taboo3': 'white',
 'taboo4': 'ear',
 'taboo5': 'cheese'
 }}]}
-data['words'].[food].append({59: { 'word' : 'caviar',
+data['words'][food].append({59: { 'word' : 'caviar',
 'taboo1': 'eggs',
 'taboo2': 'fish',
 'taboo3': 'egg',
 'taboo4': 'gross',
 'taboo5': 'expensive'
 }}]}
-data['words'].[food].append({60: { 'word' : 'celery',
+data['words'][food].append({60: { 'word' : 'celery',
 'taboo1': 'vegetable',
 'taboo2': 'stalk',
 'taboo3': 'green',
 'taboo4': 'stick',
 'taboo5': 'carrot'
 }}]}
-data['words'].[food].append({61: { 'word' : 'cereal',
+data['words'][food].append({61: { 'word' : 'cereal',
 'taboo1': 'milk',
 'taboo2': 'food',
 'taboo3': 'breakfast',
 'taboo4': 'bowl',
 'taboo5': 'eat'
 }}]}
-data['words'].[food].append({62: { 'word' : 'chard',
+data['words'][food].append({62: { 'word' : 'chard',
 'taboo1': 'burnt',
 'taboo2': 'vegetable',
 'taboo3': 'greens',
 'taboo4': 'swiss',
 'taboo5': 'veggie'
 }}]}
-data['words'].[food].append({63: { 'word' : 'cheddar',
+data['words'][food].append({63: { 'word' : 'cheddar',
 'taboo1': 'cheese',
 'taboo2': 'colby',
 'taboo3': 'swiss',
 'taboo4': 'sharp',
 'taboo5': 'better'
 }}]}
-data['words'].[food].append({64: { 'word' : 'cheese',
+data['words'][food].append({64: { 'word' : 'cheese',
 'taboo1': 'milk',
 'taboo2': 'cheddar',
 'taboo3': 'gouda',
 'taboo4': 'mouse',
 'taboo5': 'cake'
 }}]}
-data['words'].[food].append({65: { 'word' : 'cheesecake',
+data['words'][food].append({65: { 'word' : 'cheesecake',
 'taboo1': 'factory',
 'taboo2': 'cheese',
 'taboo3': 'cake',
 'taboo4': 'strawberry',
 'taboo5': 'sweet'
 }}]}
-data['words'].[food].append({66: { 'word' : 'chef',
+data['words'][food].append({66: { 'word' : 'chef',
 'taboo1': 'cook',
 'taboo2': 'sous',
 'taboo3': 'hat',
 'taboo4': 'food',
 'taboo5': 'kitchen'
 }}]}
-data['words'].[food].append({67: { 'word' : 'cherry',
+data['words'][food].append({67: { 'word' : 'cherry',
 'taboo1': 'fruit',
 'taboo2': 'pie',
 'taboo3': 'pop',
 'taboo4': 'blossom',
 'taboo5': 'picker'
 }}]}
-data['words'].[food].append({68: { 'word' : 'chew',
+data['words'][food].append({68: { 'word' : 'chew',
 'taboo1': 'gum',
 'taboo2': 'eat',
 'taboo3': 'swallow',
 'taboo4': 'masticate',
 'taboo5': 'tobacco'
 }}]}
-data['words'].[food].append({69: { 'word' : 'chicken',
+data['words'][food].append({69: { 'word' : 'chicken',
 'taboo1': 'pig',
 'taboo2': 'egg',
 'taboo3': 'soup',
 'taboo4': 'little',
 'taboo5': 'fried'
 }}]}
-data['words'].[food].append({70: { 'word' : 'chili',
+data['words'][food].append({70: { 'word' : 'chili',
 'taboo1': 'pepper',
 'taboo2': 'beans',
 'taboo3': 'hot',
 'taboo4': 'spicy',
 'taboo5': 'peppers'
 }}]}
-data['words'].[food].append({71: { 'word' : 'chips',
+data['words'][food].append({71: { 'word' : 'chips',
 'taboo1': 'potato',
 'taboo2': 'fish',
 'taboo3': 'dip',
 'taboo4': 'salsa',
 'taboo5': 'ahoy'
 }}]}
-data['words'].[food].append({72: { 'word' : 'chives',
+data['words'][food].append({72: { 'word' : 'chives',
 'taboo1': 'onions',
 'taboo2': 'onion',
 'taboo3': 'green',
 'taboo4': 'potatoes',
 'taboo5': 'chive'
 }}]}
-data['words'].[food].append({73: { 'word' : 'chocolate',
+data['words'][food].append({73: { 'word' : 'chocolate',
 'taboo1': 'candy',
 'taboo2': 'vanilla',
 'taboo3': 'cake',
 'taboo4': 'bar',
 'taboo5': 'milk'
 }}]}
-data['words'].[food].append({74: { 'word' : 'chopsticks',
+data['words'][food].append({74: { 'word' : 'chopsticks',
 'taboo1': 'chinese',
 'taboo2': 'rice',
 'taboo3': 'food',
 'taboo4': 'sushi',
 'taboo5': 'piano'
 }}]}
-data['words'].[food].append({75: { 'word' : 'chow',
+data['words'][food].append({75: { 'word' : 'chow',
 'taboo1': 'down',
 'taboo2': 'food',
 'taboo3': 'eat',
 'taboo4': 'puppy',
 'taboo5': 'dog'
 }}]}
-data['words'].[food].append({76: { 'word' : 'chutney',
+data['words'][food].append({76: { 'word' : 'chutney',
 'taboo1': 'major',
 'taboo2': 'whitney',
 'taboo3': 'mango',
 'taboo4': 'duke',
 'taboo5': 'indian'
 }}]}
-data['words'].[food].append({77: { 'word' : 'cilantro',
+data['words'][food].append({77: { 'word' : 'cilantro',
 'taboo1': 'pepper',
 'taboo2': 'parsley',
 'taboo3': 'salsa',
 'taboo4': 'spice',
 'taboo5': 'celery'
 }}]}
-data['words'].[food].append({78: { 'word' : 'cinnamon',
+data['words'][food].append({78: { 'word' : 'cinnamon',
 'taboo1': 'bun',
 'taboo2': 'buns',
 'taboo3': 'toast',
 'taboo4': 'spice',
 'taboo5': 'nutmeg'
 }}]}
-data['words'].[food].append({79: { 'word' : 'citron',
+data['words'][food].append({79: { 'word' : 'citron',
 'taboo1': 'citrus',
 'taboo2': 'orange',
 'taboo3': 'sex',
 'taboo4': 'car',
 'taboo5': 'citronella'
 }}]}
-data['words'].[food].append({80: { 'word' : 'citrus',
+data['words'][food].append({80: { 'word' : 'citrus',
 'taboo1': 'fruit',
 'taboo2': 'orange',
 'taboo3': 'lemon',
 'taboo4': 'grapefruit',
 'taboo5': 'fruits'
 }}]}
-data['words'].[food].append({81: { 'word' : 'clam',
+data['words'][food].append({81: { 'word' : 'clam',
 'taboo1': 'scallop',
 'taboo2': 'chowder',
 'taboo3': 'oyster',
 'taboo4': 'shell',
 'taboo5': 'bake'
 }}]}
-data['words'].[food].append({82: { 'word' : 'cloves',
+data['words'][food].append({82: { 'word' : 'cloves',
 'taboo1': 'garlic',
 'taboo2': 'nutmeg',
 'taboo3': 'cigarettes',
 'taboo4': 'clover',
 'taboo5': 'spices'
 }}]}
-data['words'].[food].append({83: { 'word' : 'cobbler',
+data['words'][food].append({83: { 'word' : 'cobbler',
 'taboo1': 'peach',
 'taboo2': 'pie',
 'taboo3': 'shoe',
 'taboo4': 'apple',
 'taboo5': 'shoes'
 }}]}
-data['words'].[food].append({84: { 'word' : 'coconut',
+data['words'][food].append({84: { 'word' : 'coconut',
 'taboo1': 'palm',
 'taboo2': 'milk',
 'taboo3': 'oil',
 'taboo4': 'tree',
 'taboo5': 'nut'
 }}]}
-data['words'].[food].append({85: { 'word' : 'cod',
+data['words'][food].append({85: { 'word' : 'cod',
 'taboo1': 'fish',
 'taboo2': 'piece',
 'taboo3': 'perch',
 'taboo4': 'cape',
 'taboo5': 'codfish'
 }}]}
-data['words'].[food].append({86: { 'word' : 'coffee',
+data['words'][food].append({86: { 'word' : 'coffee',
 'taboo1': 'tea',
 'taboo2': 'juice',
 'taboo3': 'orange',
 'taboo4': 'beans',
 'taboo5': 'bean'
 }}]}
-data['words'].[food].append({87: { 'word' : 'coleslaw',
+data['words'][food].append({87: { 'word' : 'coleslaw',
 'taboo1': 'cabbage',
 'taboo2': 'salad',
 'taboo3': 'gross',
 'taboo4': 'carrot',
 'taboo5': 'baked'
 }}]}
-data['words'].[food].append({88: { 'word' : 'comestibles',
+data['words'][food].append({88: { 'word' : 'comestibles',
 'taboo1': 'food',
 'taboo2': 'book',
 'taboo3': 'cum',
 'taboo4': 'edibles',
 'taboo5': 'barn'
 }}]}
-data['words'].[food].append({89: { 'word' : 'cook',
+data['words'][food].append({89: { 'word' : 'cook',
 'taboo1': 'chef',
 'taboo2': 'meal',
 'taboo3': 'food',
 'taboo4': 'bake',
 'taboo5': 'book'
 }}]}
-data['words'].[food].append({90: { 'word' : 'cookbook',
+data['words'][food].append({90: { 'word' : 'cookbook',
 'taboo1': 'cook',
 'taboo2': 'food',
 'taboo3': 'recipe',
 'taboo4': 'recipes',
 'taboo5': 'chef'
 }}]}
-data['words'].[food].append({91: { 'word' : 'cookie',
+data['words'][food].append({91: { 'word' : 'cookie',
 'taboo1': 'monster',
 'taboo2': 'sweet',
 'taboo3': 'dough',
 'taboo4': 'chocolate',
 'taboo5': 'cake'
 }}]}
-data['words'].[food].append({92: { 'word' : 'corn',
+data['words'][food].append({92: { 'word' : 'corn',
 'taboo1': 'cob',
 'taboo2': 'wheat',
 'taboo3': 'rice',
 'taboo4': 'field',
 'taboo5': 'yellow'
 }}]}
-data['words'].[food].append({93: { 'word' : 'cornflakes',
+data['words'][food].append({93: { 'word' : 'cornflakes',
 'taboo1': 'corn',
 'taboo2': 'cereal',
 'taboo3': 'milk',
 'taboo4': 'eat',
 'taboo5': 'bran'
 }}]}
-data['words'].[food].append({94: { 'word' : 'cornmeal',
+data['words'][food].append({94: { 'word' : 'cornmeal',
 'taboo1': 'corn',
 'taboo2': 'bread',
 'taboo3': 'cakes',
 'taboo4': 'wheat',
 'taboo5': 'cornbread'
 }}]}
-data['words'].[food].append({95: { 'word' : 'crab',
+data['words'][food].append({95: { 'word' : 'crab',
 'taboo1': 'lobster',
 'taboo2': 'legs',
 'taboo3': 'cakes',
 'taboo4': 'meat',
 'taboo5': 'cake'
 }}]}
-data['words'].[food].append({96: { 'word' : 'crackers',
+data['words'][food].append({96: { 'word' : 'crackers',
 'taboo1': 'cheese',
 'taboo2': 'saltines',
 'taboo3': 'food',
 'taboo4': 'white',
 'taboo5': 'soup'
 }}]}
-data['words'].[food].append({97: { 'word' : 'cranberry',
+data['words'][food].append({97: { 'word' : 'cranberry',
 'taboo1': 'sauce',
 'taboo2': 'juice',
 'taboo3': 'fruit',
 'taboo4': 'berry',
 'taboo5': 'blueberry'
 }}]}
-data['words'].[food].append({98: { 'word' : 'cream',
+data['words'][food].append({98: { 'word' : 'cream',
 'taboo1': 'milk',
 'taboo2': 'ice',
 'taboo3': 'whipped',
 'taboo4': 'pie',
 'taboo5': 'cheese'
 }}]}
-data['words'].[food].append({99: { 'word' : 'crepe',
+data['words'][food].append({99: { 'word' : 'crepe',
 'taboo1': 'creep',
 'taboo2': 'french',
 'taboo3': 'pancake',
 'taboo4': 'paper',
 'taboo5': 'france'
 }}]}
-data['words'].[food].append({100: { 'word' : 'crisp',
+data['words'][food].append({100: { 'word' : 'crisp',
 'taboo1': 'crunchy',
 'taboo2': 'chip',
 'taboo3': 'chips',
 'taboo4': 'potato',
 'taboo5': 'crunch'
 }}]}
-data['words'].[food].append({101: { 'word' : 'crunch',
+data['words'][food].append({101: { 'word' : 'crunch',
 'taboo1': 'munch',
 'taboo2': 'captain',
 'taboo3': 'bite',
 'taboo4': 'bar',
 'taboo5': 'cereal'
 }}]}
-data['words'].[food].append({102: { 'word' : 'crust',
+data['words'][food].append({102: { 'word' : 'crust',
 'taboo1': 'bread',
 'taboo2': 'pie',
 'taboo3': 'pizza',
 'taboo4': 'dough',
 'taboo5': 'outer'
 }}]}
-data['words'].[food].append({103: { 'word' : 'cucumber',
+data['words'][food].append({103: { 'word' : 'cucumber',
 'taboo1': 'vegetable',
 'taboo2': 'pickle',
 'taboo3': 'salad',
 'taboo4': 'zucchini',
 'taboo5': 'green'
 }}]}
-data['words'].[food].append({104: { 'word' : 'cuisine',
+data['words'][food].append({104: { 'word' : 'cuisine',
 'taboo1': 'food',
 'taboo2': 'cooking',
 'taboo3': 'french',
 'taboo4': 'foreign',
 'taboo5': 'lean'
 }}]}
-data['words'].[food].append({105: { 'word' : 'cupboard',
+data['words'][food].append({105: { 'word' : 'cupboard',
 'taboo1': 'kitchen',
 'taboo2': 'indian',
 'taboo3': 'cup',
 'taboo4': 'cabinet',
 'taboo5': 'pantry'
 }}]}
-data['words'].[food].append({106: { 'word' : 'cupcake',
+data['words'][food].append({106: { 'word' : 'cupcake',
 'taboo1': 'hostess',
 'taboo2': 'frosting',
 'taboo3': 'cup',
 'taboo4': 'cake',
 'taboo5': 'icing'
 }}]}
-data['words'].[food].append({107: { 'word' : 'curds',
+data['words'][food].append({107: { 'word' : 'curds',
 'taboo1': 'whey',
 'taboo2': 'milk',
 'taboo3': 'cheese',
 'taboo4': 'kurds',
 'taboo5': 'turds'
 }}]}
-data['words'].[food].append({108: { 'word' : 'currants',
+data['words'][food].append({108: { 'word' : 'currants',
 'taboo1': 'raisins',
 'taboo2': 'currents',
 'taboo3': 'buns',
 'taboo4': 'grapes',
 'taboo5': 'black'
 }}]}
-data['words'].[food].append({109: { 'word' : 'curry',
+data['words'][food].append({109: { 'word' : 'curry',
 'taboo1': 'favor',
 'taboo2': 'indian',
 'taboo3': 'india',
 'taboo4': 'rice',
 'taboo5': 'spicy'
 }}]}
-data['words'].[food].append({110: { 'word' : 'custard',
+data['words'][food].append({110: { 'word' : 'custard',
 'taboo1': 'pudding',
 'taboo2': 'mustard',
 'taboo3': 'pie',
 'taboo4': 'cream',
 'taboo5': 'tart'
 }}]}
-data['words'].[food].append({111: { 'word' : 'daikon',
+data['words'][food].append({111: { 'word' : 'daikon',
 }}]}
-data['words'].[food].append({112: { 'word' : 'dairy',
+data['words'][food].append({112: { 'word' : 'dairy',
 'taboo1': 'milk',
 'taboo2': 'cow',
 'taboo3': 'products',
 'taboo4': 'product',
 'taboo5': 'farm'
 }}]}
-data['words'].[food].append({113: { 'word' : 'dates',
+data['words'][food].append({113: { 'word' : 'dates',
 'taboo1': 'times',
 'taboo2': 'fates',
 'taboo3': 'blind',
 'taboo4': 'prunes',
 'taboo5': 'rates'
 }}]}
-data['words'].[food].append({114: { 'word' : 'dessert',
+data['words'][food].append({114: { 'word' : 'dessert',
 'taboo1': 'cake',
 'taboo2': 'desert',
 'taboo3': 'pie',
 'taboo4': 'sweet',
 'taboo5': 'chocolate'
 }}]}
-data['words'].[food].append({115: { 'word' : 'diet',
+data['words'][food].append({115: { 'word' : 'diet',
 'taboo1': 'food',
 'taboo2': 'coke',
 'taboo3': 'eat',
 'taboo4': 'fat',
 'taboo5': 'soda'
 }}]}
-data['words'].[food].append({116: { 'word' : 'digest',
+data['words'][food].append({116: { 'word' : 'digest',
 'taboo1': 'stomach',
 'taboo2': 'readers',
 'taboo3': 'eat',
 'taboo4': 'food',
 'taboo5': 'swallow'
 }}]}
-data['words'].[food].append({117: { 'word' : 'dill',
+data['words'][food].append({117: { 'word' : 'dill',
 'taboo1': 'pickle',
 'taboo2': 'pickles',
 'taboo3': 'weed',
 'taboo4': 'bill',
 'taboo5': 'herb'
 }}]}
-data['words'].[food].append({118: { 'word' : 'dine',
+data['words'][food].append({118: { 'word' : 'dine',
 'taboo1': 'eat',
 'taboo2': 'dinner',
 'taboo3': 'meal',
 'taboo4': 'wine',
 'taboo5': 'diner'
 }}]}
-data['words'].[food].append({119: { 'word' : 'diner',
+data['words'][food].append({119: { 'word' : 'diner',
 'taboo1': 'restaurant',
 'taboo2': 'cafe',
 'taboo3': 'dinner',
 'taboo4': 'food',
 'taboo5': 'lunch'
 }}]}
-data['words'].[food].append({120: { 'word' : 'dinner',
+data['words'][food].append({120: { 'word' : 'dinner',
 'taboo1': 'supper',
 'taboo2': 'lunch',
 'taboo3': 'food',
 'taboo4': 'plate',
 'taboo5': 'breakfast'
 }}]}
-data['words'].[food].append({121: { 'word' : 'dip',
+data['words'][food].append({121: { 'word' : 'dip',
 'taboo1': 'chip',
 'taboo2': 'sauce',
 'taboo3': 'chips',
 'taboo4': 'skinny',
 'taboo5': 'pool'
 }}]}
-data['words'].[food].append({122: { 'word' : 'dish',
+data['words'][food].append({122: { 'word' : 'dish',
 'taboo1': 'plate',
 'taboo2': 'bowl',
 'taboo3': 'washer',
 'taboo4': 'fish',
 'taboo5': 'food'
 }}]}
-data['words'].[food].append({123: { 'word' : 'dough',
+data['words'][food].append({123: { 'word' : 'dough',
 'taboo1': 'bread',
 'taboo2': 'boy',
 'taboo3': 'cookie',
 'taboo4': 'money',
 'taboo5': 'nut'
 }}]}
-data['words'].[food].append({124: { 'word' : 'doughnut',
+data['words'][food].append({124: { 'word' : 'doughnut',
 'taboo1': 'sweet',
 'taboo2': 'hole',
 'taboo3': 'cake',
 'taboo4': 'sugar',
 'taboo5': 'homer'
 }}]}
-data['words'].[food].append({125: { 'word' : 'dragonfruit',
+data['words'][food].append({125: { 'word' : 'dragonfruit',
 'taboo1': 'mistake',
 'taboo2': 'wrong',
 'taboo3': 'computer',
 'taboo4': 'trial',
 'taboo5': 'message'
 }}]}
-data['words'].[food].append({126: { 'word' : 'dressing',
+data['words'][food].append({126: { 'word' : 'dressing',
 'taboo1': 'salad',
 'taboo2': 'clothes',
 'taboo3': 'ranch',
 'taboo4': 'gown',
 'taboo5': 'undressing'
 }}]}
-data['words'].[food].append({127: { 'word' : 'dried',
+data['words'][food].append({127: { 'word' : 'dried',
 'taboo1': 'fruit',
 'taboo2': 'sun-dried',
 'taboo3': 'wet',
 'taboo4': 'tomato',
 'taboo5': 'raisins'
 }}]}
-data['words'].[food].append({128: { 'word' : 'drink',
+data['words'][food].append({128: { 'word' : 'drink',
 'taboo1': 'water',
 'taboo2': 'juice',
 'taboo3': 'beer',
 'taboo4': 'orange',
 'taboo5': 'alcohol'
 }}]}
-data['words'].[food].append({129: { 'word' : 'dry',
+data['words'][food].append({129: { 'word' : 'dry',
 'taboo1': 'wet',
 'taboo2': 'arid',
 'taboo3': 'desert',
 'taboo4': 'towel',
 'taboo5': 'mouth'
 }}]}
-data['words'].[food].append({130: { 'word' : 'durian',
+data['words'][food].append({130: { 'word' : 'durian',
 'taboo1': 'dorian',
 'taboo2': 'endure',
 'taboo3': 'fruit',
 'taboo4': 'rind',
 'taboo5': 'terrain'
 }}]}
-data['words'].[food].append({131: { 'word' : 'eat',
+data['words'][food].append({131: { 'word' : 'eat',
 'taboo1': 'food',
 'taboo2': 'drink',
 'taboo3': 'pussy',
 'taboo4': 'cereal',
 'taboo5': 'out'
 }}]}
-data['words'].[food].append({132: { 'word' : 'edible',
+data['words'][food].append({132: { 'word' : 'edible',
 'taboo1': 'food',
 'taboo2': 'underwear',
 'taboo3': 'material',
 'taboo4': 'eat',
 'taboo5': 'garbage'
 }}]}
-data['words'].[food].append({133: { 'word' : 'egg',
+data['words'][food].append({133: { 'word' : 'egg',
 'taboo1': 'chicken',
 'taboo2': 'yolk',
 'taboo3': 'nog',
 'taboo4': 'shell',
 'taboo5': 'laid'
 }}]}
-data['words'].[food].append({134: { 'word' : 'eggplant',
+data['words'][food].append({134: { 'word' : 'eggplant',
 'taboo1': 'wizard',
 'taboo2': 'purple',
 'taboo3': 'vegetable',
 'taboo4': 'aubergine',
 'taboo5': 'egg'
 }}]}
-data['words'].[food].append({135: { 'word' : 'elderberry',
+data['words'][food].append({135: { 'word' : 'elderberry',
 'taboo1': 'berry',
 'taboo2': 'blue',
 'taboo3': 'cordial',
 'taboo4': 'dragon',
 'taboo5': 'elder'
 }}]}
-data['words'].[food].append({136: { 'word' : 'endive',
+data['words'][food].append({136: { 'word' : 'endive',
 'taboo1': 'dive',
 'taboo2': 'lettuce',
 'taboo3': 'salad',
 'taboo4': 'maldives',
 'taboo5': 'spinach'
 }}]}
-data['words'].[food].append({137: { 'word' : 'entree',
+data['words'][food].append({137: { 'word' : 'entree',
 'taboo1': 'meal',
 'taboo2': 'course',
 'taboo3': 'dinner',
 'taboo4': 'food',
 'taboo5': 'menu'
 }}]}
-data['words'].[food].append({138: { 'word' : 'fast',
+data['words'][food].append({138: { 'word' : 'fast',
 'taboo1': 'slow',
 'taboo2': 'speed',
 'taboo3': 'furious',
 'taboo4': 'quick',
 'taboo5': 'car'
 }}]}
-data['words'].[food].append({139: { 'word' : 'fat',
+data['words'][food].append({139: { 'word' : 'fat',
 'taboo1': 'thin',
 'taboo2': 'skinny',
 'taboo3': 'obese',
 'taboo4': 'ugly',
 'taboo5': 'chubby'
 }}]}
-data['words'].[food].append({140: { 'word' : 'feast',
+data['words'][food].append({140: { 'word' : 'feast',
 'taboo1': 'meal',
 'taboo2': 'thanksgiving',
 'taboo3': 'food',
 'taboo4': 'turkey',
 'taboo5': 'full'
 }}]}
-data['words'].[food].append({141: { 'word' : 'fed',
+data['words'][food].append({141: { 'word' : 'fed',
 'taboo1': 'ate',
 'taboo2': 'up',
 'taboo3': 'feed',
 'taboo4': 'ex',
 'taboo5': 'eat'
 }}]}
-data['words'].[food].append({142: { 'word' : 'feed',
+data['words'][food].append({142: { 'word' : 'feed',
 'taboo1': 'eat',
 'taboo2': 'food',
 'taboo3': 'me',
 'taboo4': 'baby',
 'taboo5': 'hungry'
 }}]}
-data['words'].[food].append({143: { 'word' : 'fennel',
+data['words'][food].append({143: { 'word' : 'fennel',
 'taboo1': 'bulb',
 'taboo2': 'ferret',
 'taboo3': 'funnel',
 'taboo4': 'herb',
 'taboo5': 'kennel'
 }}]}
-data['words'].[food].append({144: { 'word' : 'fig',
+data['words'][food].append({144: { 'word' : 'fig',
 'taboo1': 'leaf',
 'taboo2': 'newton',
 'taboo3': 'tree',
 'taboo4': 'fruit',
 'taboo5': 'newtons'
 }}]}
-data['words'].[food].append({145: { 'word' : 'fillet',
+data['words'][food].append({145: { 'word' : 'fillet',
 'taboo1': 'fish',
 'taboo2': 'mignon',
 'taboo3': 'chick',
 'taboo4': 'steak',
 'taboo5': 'cod'
 }}]}
-data['words'].[food].append({146: { 'word' : 'fire',
+data['words'][food].append({146: { 'word' : 'fire',
 'taboo1': 'burn',
 'taboo2': 'hot',
 'taboo3': 'water',
 'taboo4': 'flame',
 'taboo5': 'ice'
 }}]}
-data['words'].[food].append({147: { 'word' : 'fish',
+data['words'][food].append({147: { 'word' : 'fish',
 'taboo1': 'amphibian',
 'taboo2': 'evolution',
 'taboo3': 'swim',
 'taboo4': 'fishwife',
 'taboo5': 'water'
 }}]}
-data['words'].[food].append({148: { 'word' : 'flan',
+data['words'][food].append({148: { 'word' : 'flan',
 'taboo1': 'flannel',
 'taboo2': 'cake',
 'taboo3': 'pie',
 'taboo4': 'custard',
 'taboo5': 'flange'
 }}]}
-data['words'].[food].append({149: { 'word' : 'flax',
+data['words'][food].append({149: { 'word' : 'flax',
 'taboo1': 'seed',
 'taboo2': 'flex',
 'taboo3': 'plant',
 'taboo4': 'wax',
 'taboo5': 'flux'
 }}]}
-data['words'].[food].append({150: { 'word' : 'flour',
+data['words'][food].append({150: { 'word' : 'flour',
 'taboo1': 'bread',
 'taboo2': 'sugar',
 'taboo3': 'cake',
 'taboo4': 'wheat',
 'taboo5': 'bake'
 }}]}
-data['words'].[food].append({151: { 'word' : 'food',
+data['words'][food].append({151: { 'word' : 'food',
 'taboo1': 'cereal',
 'taboo2': 'eat',
 'taboo3': 'drink',
 'taboo4': 'eating',
 'taboo5': 'hungry'
 }}]}
-data['words'].[food].append({152: { 'word' : 'foodstuffs',
+data['words'][food].append({152: { 'word' : 'foodstuffs',
 'taboo1': 'edibles',
 'taboo2': 'grocery',
 'taboo3': 'babe',
 'taboo4': 'banana',
 'taboo5': 'bread'
 }}]}
-data['words'].[food].append({153: { 'word' : 'fork',
+data['words'][food].append({153: { 'word' : 'fork',
 'taboo1': 'spoon',
 'taboo2': 'knife',
 'taboo3': 'spork',
 'taboo4': 'road',
 'taboo5': 'pitch'
 }}]}
-data['words'].[food].append({154: { 'word' : 'freezer',
+data['words'][food].append({154: { 'word' : 'freezer',
 'taboo1': 'refrigerator',
 'taboo2': 'ice',
 'taboo3': 'fridge',
 'taboo4': 'cold',
 'taboo5': 'frozen'
 }}]}
-data['words'].[food].append({155: { 'word' : 'fried',
+data['words'][food].append({155: { 'word' : 'fried',
 'taboo1': 'chicken',
 'taboo2': 'cooked',
 'taboo3': 'egg',
 'taboo4': 'eggs',
 'taboo5': 'kentucky'
 }}]}
-data['words'].[food].append({156: { 'word' : 'fritter',
+data['words'][food].append({156: { 'word' : 'fritter',
 'taboo1': 'away',
 'taboo2': 'banana',
 'taboo3': 'corn',
 'taboo4': 'apple',
 'taboo5': 'critter'
 }}]}
-data['words'].[food].append({157: { 'word' : 'frosting',
+data['words'][food].append({157: { 'word' : 'frosting',
 'taboo1': 'icing',
 'taboo2': 'cake',
 'taboo3': 'ice',
 'taboo4': 'sugar',
 'taboo5': 'snow'
 }}]}
-data['words'].[food].append({158: { 'word' : 'fruit',
+data['words'][food].append({158: { 'word' : 'fruit',
 'taboo1': 'apple',
 'taboo2': 'banana',
 'taboo3': 'cantaloupe',
 'taboo4': 'vegetable',
 'taboo5': 'salad'
 }}]}
-data['words'].[food].append({159: { 'word' : 'fry',
+data['words'][food].append({159: { 'word' : 'fry',
 'taboo1': 'cook',
 'taboo2': 'french',
 'taboo3': 'pan',
 'taboo4': 'oil',
 'taboo5': 'chicken'
 }}]}
-data['words'].[food].append({160: { 'word' : 'garlic',
+data['words'][food].append({160: { 'word' : 'garlic',
 'taboo1': 'bread',
 'taboo2': 'onion',
 'taboo3': 'vampire',
 'taboo4': 'onions',
 'taboo5': 'clove'
 }}]}
-data['words'].[food].append({161: { 'word' : 'gastronomy',
+data['words'][food].append({161: { 'word' : 'gastronomy',
 'taboo1': 'stomach',
 'taboo2': 'food',
 'taboo3': 'gas',
 'taboo4': 'astronomy',
 'taboo5': 'fart'
 }}]}
-data['words'].[food].append({162: { 'word' : 'gelatin',
+data['words'][food].append({162: { 'word' : 'gelatin',
 'taboo1': 'jello',
 'taboo2': 'gel',
 'taboo3': 'jelly',
 'taboo4': 'pudding',
 'taboo5': 'horse'
 }}]}
-data['words'].[food].append({163: { 'word' : 'ginger',
+data['words'][food].append({163: { 'word' : 'ginger',
 'taboo1': 'ale',
 'taboo2': 'spice',
 'taboo3': 'bread',
 'taboo4': 'red',
 'taboo5': 'snap'
 }}]}
-data['words'].[food].append({164: { 'word' : 'gingerbread',
+data['words'][food].append({164: { 'word' : 'gingerbread',
 'taboo1': 'house',
 'taboo2': 'man',
 'taboo3': 'cookie',
 'taboo4': 'ginger',
 'taboo5': 'witch'
 }}]}
-data['words'].[food].append({165: { 'word' : 'glasses',
+data['words'][food].append({165: { 'word' : 'glasses',
 'taboo1': 'eyes',
 'taboo2': 'lenses',
 'taboo3': 'contacts',
 'taboo4': 'spectacles',
 'taboo5': 'nerd'
 }}]}
-data['words'].[food].append({166: { 'word' : 'grain',
+data['words'][food].append({166: { 'word' : 'grain',
 'taboo1': 'wheat',
 'taboo2': 'rice',
 'taboo3': 'corn',
 'taboo4': 'sand',
 'taboo5': 'salt'
 }}]}
-data['words'].[food].append({167: { 'word' : 'granola',
+data['words'][food].append({167: { 'word' : 'granola',
 'taboo1': 'bar',
 'taboo2': 'bars',
 'taboo3': 'crunchy',
 'taboo4': 'oats',
 'taboo5': 'cereal'
 }}]}
-data['words'].[food].append({168: { 'word' : 'grape',
+data['words'][food].append({168: { 'word' : 'grape',
 'taboo1': 'fruit',
 'taboo2': 'wine',
 'taboo3': 'vine',
 'taboo4': 'juice',
 'taboo5': 'purple'
 }}]}
-data['words'].[food].append({169: { 'word' : 'grapefruit',
+data['words'][food].append({169: { 'word' : 'grapefruit',
 'taboo1': 'fruit',
 'taboo2': 'grape',
 'taboo3': 'juice',
 'taboo4': 'orange',
 'taboo5': 'sour'
 }}]}
-data['words'].[food].append({170: { 'word' : 'grated',
+data['words'][food].append({170: { 'word' : 'grated',
 'taboo1': 'cheese',
 'taboo2': 'shredded',
 'taboo3': 'parmesan',
 'taboo4': 'cheddar',
 'taboo5': 'sliced'
 }}]}
-data['words'].[food].append({171: { 'word' : 'gravy',
+data['words'][food].append({171: { 'word' : 'gravy',
 'taboo1': 'mashed',
 'taboo2': 'sauce',
 'taboo3': 'boat',
 'taboo4': 'potatoes',
 'taboo5': 'turkey'
 }}]}
-data['words'].[food].append({172: { 'word' : 'greens',
+data['words'][food].append({172: { 'word' : 'greens',
 'taboo1': 'reds',
 'taboo2': 'beans',
 'taboo3': 'mustard',
 'taboo4': 'oranges',
 'taboo5': 'vegetables'
 }}]}
-data['words'].[food].append({173: { 'word' : 'grub',
+data['words'][food].append({173: { 'word' : 'grub',
 'taboo1': 'beetle',
 'taboo2': 'worm',
 'taboo3': 'food',
 'taboo4': 'stake',
 'taboo5': 'bug'
 }}]}
-data['words'].[food].append({174: { 'word' : 'guacamole',
+data['words'][food].append({174: { 'word' : 'guacamole',
 'taboo1': 'dip',
 'taboo2': 'sauce',
 'taboo3': 'avocado',
 'taboo4': 'green',
 'taboo5': 'mexican'
 }}]}
-data['words'].[food].append({175: { 'word' : 'guava',
+data['words'][food].append({175: { 'word' : 'guava',
 'taboo1': 'guevara',
 'taboo2': 'fruit',
 'taboo3': 'juice',
 'taboo4': 'green',
 'taboo5': 'guano'
 }}]}
-data['words'].[food].append({176: { 'word' : 'gyro',
+data['words'][food].append({176: { 'word' : 'gyro',
 'taboo1': 'man',
 'taboo2': 'lamb',
 'taboo3': 'stone',
 'taboo4': 'scope',
 'taboo5': 'burger'
 }}]}
-data['words'].[food].append({177: { 'word' : 'halibut',
+data['words'][food].append({177: { 'word' : 'halibut',
 'taboo1': 'perch',
 'taboo2': 'fish',
 'taboo3': 'flounder',
 'taboo4': 'trout',
 'taboo5': 'salmon'
 }}]}
-data['words'].[food].append({178: { 'word' : 'ham',
+data['words'][food].append({178: { 'word' : 'ham',
 'taboo1': 'pork',
 'taboo2': 'sandwich',
 'taboo3': 'pig',
 'taboo4': 'cheese',
 'taboo5': 'eggs'
 }}]}
-data['words'].[food].append({179: { 'word' : 'hamburger',
+data['words'][food].append({179: { 'word' : 'hamburger',
 'taboo1': 'beef',
 'taboo2': 'cheeseburger',
 'taboo3': 'cheese',
 'taboo4': 'bun',
 'taboo5': 'meat'
 }}]}
-data['words'].[food].append({180: { 'word' : 'hash',
+data['words'][food].append({180: { 'word' : 'hash',
 'taboo1': 'hashish',
 'taboo2': 'brown',
 'taboo3': 'browns',
 'taboo4': 'weed',
 'taboo5': 'pipe'
 }}]}
-data['words'].[food].append({181: { 'word' : 'hazelnut',
+data['words'][food].append({181: { 'word' : 'hazelnut',
 'taboo1': 'hazel',
 'taboo2': 'coffee',
 'taboo3': 'walnut',
 'taboo4': 'nut',
 'taboo5': 'almond'
 }}]}
-data['words'].[food].append({182: { 'word' : 'herbs',
+data['words'][food].append({182: { 'word' : 'herbs',
 'taboo1': 'spices',
 'taboo2': 'plants',
 'taboo3': 'weed',
 'taboo4': 'rosemary',
 'taboo5': 'garden'
 }}]}
-data['words'].[food].append({183: { 'word' : 'honey',
+data['words'][food].append({183: { 'word' : 'honey',
 'taboo1': 'bee',
 'taboo2': 'sweet',
 'taboo3': 'bees',
 'taboo4': 'bear',
 'taboo5': 'dew'
 }}]}
-data['words'].[food].append({184: { 'word' : 'honeydew',
+data['words'][food].append({184: { 'word' : 'honeydew',
 'taboo1': 'melon',
 'taboo2': 'cantaloupe',
 'taboo3': 'watermelon',
 'taboo4': 'honey',
 'taboo5': 'green'
 }}]}
-data['words'].[food].append({185: { 'word' : 'horseradish',
+data['words'][food].append({185: { 'word' : 'horseradish',
 'taboo1': 'mustard',
 'taboo2': 'sauce',
 'taboo3': 'beef',
 'taboo4': 'vegetable',
 'taboo5': 'animal'
 }}]}
-data['words'].[food].append({186: { 'word' : 'hot',
+data['words'][food].append({186: { 'word' : 'hot',
 'taboo1': 'cold',
 'taboo2': 'sexy',
 'taboo3': 'warm',
 'taboo4': 'attractive',
 'taboo5': 'mama'
 }}]}
-data['words'].[food].append({187: { 'word' : 'hotdog',
+data['words'][food].append({187: { 'word' : 'hotdog',
 'taboo1': 'bun',
 'taboo2': 'sausage',
 'taboo3': 'ketchup',
 'taboo4': 'mustard',
 'taboo5': 'meat'
 }}]}
-data['words'].[food].append({188: { 'word' : 'hummus',
+data['words'][food].append({188: { 'word' : 'hummus',
 'taboo1': 'dip',
 'taboo2': 'pita',
 'taboo3': 'chickpea',
 'taboo4': 'carrot',
 'taboo5': 'hummer'
 }}]}
-data['words'].[food].append({189: { 'word' : 'hunger',
+data['words'][food].append({189: { 'word' : 'hunger',
 'taboo1': 'eat',
 'taboo2': 'games',
 'taboo3': 'food',
 'taboo4': 'thirst',
 'taboo5': 'strike'
 }}]}
-data['words'].[food].append({190: { 'word' : 'hungry',
+data['words'][food].append({190: { 'word' : 'hungry',
 'taboo1': 'eat',
 'taboo2': 'food',
 'taboo3': 'always',
 'taboo4': 'thirsty',
 'taboo5': 'starving'
 }}]}
-data['words'].[food].append({191: { 'word' : 'ice',
+data['words'][food].append({191: { 'word' : 'ice',
 'taboo1': 'cold',
 'taboo2': 'cream',
 'taboo3': 'cube',
 'taboo4': 'water',
 'taboo5': 'melts'
 }}]}
-data['words'].[food].append({192: { 'word' : 'icing',
+data['words'][food].append({192: { 'word' : 'icing',
 'taboo1': 'cake',
 'taboo2': 'frosting',
 'taboo3': 'sugar',
 'taboo4': 'sweet',
 'taboo5': 'cupcake'
 }}]}
-data['words'].[food].append({193: { 'word' : 'jackfruit',
+data['words'][food].append({193: { 'word' : 'jackfruit',
 }}]}
-data['words'].[food].append({194: { 'word' : 'jalapentildeo',
+data['words'][food].append({194: { 'word' : 'jalapentildeo',
 'taboo1': 'mistake',
 'taboo2': 'wrong',
 'taboo3': 'computer',
 'taboo4': 'trial',
 'taboo5': 'message'
 }}]}
-data['words'].[food].append({195: { 'word' : 'jam',
+data['words'][food].append({195: { 'word' : 'jam',
 'taboo1': 'jelly',
 'taboo2': 'strawberry',
 'taboo3': 'toast',
 'taboo4': 'jar',
 'taboo5': 'bread'
 }}]}
-data['words'].[food].append({196: { 'word' : 'jelly',
+data['words'][food].append({196: { 'word' : 'jelly',
 'taboo1': 'jam',
 'taboo2': 'fish',
 'taboo3': 'belly',
 'taboo4': 'doughnuts',
 'taboo5': 'peanut'
 }}]}
-data['words'].[food].append({197: { 'word' : 'jellybeans',
+data['words'][food].append({197: { 'word' : 'jellybeans',
 'taboo1': 'candy',
 'taboo2': 'beans',
 'taboo3': 'sweet',
 'taboo4': 'belly',
 'taboo5': 'easter'
 }}]}
-data['words'].[food].append({198: { 'word' : 'jicama',
+data['words'][food].append({198: { 'word' : 'jicama',
 'taboo1': 'mistake',
 'taboo2': 'wrong',
 'taboo3': 'computer',
 'taboo4': 'trial',
 'taboo5': 'message'
 }}]}
-data['words'].[food].append({199: { 'word' : 'jimmies',
+data['words'][food].append({199: { 'word' : 'jimmies',
 'taboo1': 'sprinkles',
 'taboo2': 'crickets',
 'taboo3': 'jam',
 'taboo4': 'jimmy',
 'taboo5': 'johns'
 }}]}
-data['words'].[food].append({200: { 'word' : 'jug',
+data['words'][food].append({200: { 'word' : 'jug',
 'taboo1': 'recycle',
 'taboo2': 'gallon',
 'taboo3': 'milk',
 'taboo4': 'water',
 'taboo5': 'mug'
 }}]}
-data['words'].[food].append({201: { 'word' : 'juice',
+data['words'][food].append({201: { 'word' : 'juice',
 'taboo1': 'orange',
 'taboo2': 'milk',
 'taboo3': 'apple',
 'taboo4': 'drink',
 'taboo5': 'fruit'
 }}]}
-data['words'].[food].append({202: { 'word' : 'julienne',
+data['words'][food].append({202: { 'word' : 'julienne',
 'taboo1': 'scramble',
 'taboo2': 'ann',
 'taboo3': 'anne',
 'taboo4': 'blueberry',
 'taboo5': 'carrots'
 }}]}
-data['words'].[food].append({203: { 'word' : 'kale',
+data['words'][food].append({203: { 'word' : 'kale',
 'taboo1': 'cabbage',
 'taboo2': 'dale',
 'taboo3': 'kelp',
 'taboo4': 'spinach',
 'taboo5': 'lettuce'
 }}]}
-data['words'].[food].append({204: { 'word' : 'kebab',
+data['words'][food].append({204: { 'word' : 'kebab',
 'taboo1': 'skewer',
 'taboo2': 'meat',
 'taboo3': 'nabob',
 'taboo4': 'food',
 'taboo5': 'kabob'
 }}]}
-data['words'].[food].append({205: { 'word' : 'ketchup',
+data['words'][food].append({205: { 'word' : 'ketchup',
 'taboo1': 'mustard',
 'taboo2': 'sauce',
 'taboo3': 'tomato',
 'taboo4': 'red',
 'taboo5': 'fries'
 }}]}
-data['words'].[food].append({206: { 'word' : 'kettle',
+data['words'][food].append({206: { 'word' : 'kettle',
 'taboo1': 'pot',
 'taboo2': 'tea',
 'taboo3': 'black',
 'taboo4': 'boil',
 'taboo5': 'corn'
 }}]}
-data['words'].[food].append({207: { 'word' : 'kitchen',
+data['words'][food].append({207: { 'word' : 'kitchen',
 'taboo1': 'bedroom',
 'taboo2': 'sink',
 'taboo3': 'living',
 'taboo4': 'cook',
 'taboo5': 'food'
 }}]}
-data['words'].[food].append({208: { 'word' : 'kiwi',
+data['words'][food].append({208: { 'word' : 'kiwi',
 'taboo1': 'fruit',
 'taboo2': 'new',
 'taboo3': 'zealand',
 'taboo4': 'bird',
 'taboo5': 'green'
 }}]}
-data['words'].[food].append({209: { 'word' : 'knife',
+data['words'][food].append({209: { 'word' : 'knife',
 'taboo1': 'cut',
 'taboo2': 'fork',
 'taboo3': 'stab',
 'taboo4': 'spear',
 'taboo5': 'blade'
 }}]}
-data['words'].[food].append({210: { 'word' : 'kohlrabi',
+data['words'][food].append({210: { 'word' : 'kohlrabi',
 }}]}
-data['words'].[food].append({211: { 'word' : 'kumquat',
+data['words'][food].append({211: { 'word' : 'kumquat',
 'taboo1': 'fruit',
 'taboo2': 'loquat',
 'taboo3': 'orange',
 'taboo4': 'apricot',
 'taboo5': 'squat'
 }}]}
-data['words'].[food].append({212: { 'word' : 'ladle',
+data['words'][food].append({212: { 'word' : 'ladle',
 'taboo1': 'soup',
 'taboo2': 'spoon',
 'taboo3': 'cradle',
 'taboo4': 'gravy',
 'taboo5': 'bowl'
 }}]}
-data['words'].[food].append({213: { 'word' : 'lamb',
+data['words'][food].append({213: { 'word' : 'lamb',
 'taboo1': 'sheep',
 'taboo2': 'chop',
 'taboo3': 'chops',
 'taboo4': 'ewe',
 'taboo5': 'wool'
 }}]}
-data['words'].[food].append({214: { 'word' : 'lard',
+data['words'][food].append({214: { 'word' : 'lard',
 'taboo1': 'fat',
 'taboo2': 'butter',
 'taboo3': 'tub',
 'taboo4': 'bucket',
 'taboo5': 'ass'
 }}]}
-data['words'].[food].append({215: { 'word' : 'lasagna',
+data['words'][food].append({215: { 'word' : 'lasagna',
 'taboo1': 'pasta',
 'taboo2': 'spaghetti',
 'taboo3': 'cheese',
 'taboo4': 'italian',
 'taboo5': 'garfield'
 }}]}
-data['words'].[food].append({216: { 'word' : 'legumes',
+data['words'][food].append({216: { 'word' : 'legumes',
 'taboo1': 'beans',
 'taboo2': 'leeks',
 'taboo3': 'peas',
 'taboo4': 'lentils',
 'taboo5': 'peanuts'
 }}]}
-data['words'].[food].append({217: { 'word' : 'lemon',
+data['words'][food].append({217: { 'word' : 'lemon',
 'taboo1': 'lime',
 'taboo2': 'sour',
 'taboo3': 'meringue',
 'taboo4': 'juice',
 'taboo5': 'lemonade'
 }}]}
-data['words'].[food].append({218: { 'word' : 'lemonade',
+data['words'][food].append({218: { 'word' : 'lemonade',
 'taboo1': 'lemon',
 'taboo2': 'stand',
 'taboo3': 'limeade',
 'taboo4': 'lemons',
 'taboo5': 'drink'
 }}]}
-data['words'].[food].append({219: { 'word' : 'lentils',
+data['words'][food].append({219: { 'word' : 'lentils',
 'taboo1': 'soup',
 'taboo2': 'beans',
 'taboo3': 'leeks',
 'taboo4': 'peas',
 'taboo5': 'legumes'
 }}]}
-data['words'].[food].append({220: { 'word' : 'lettuce',
+data['words'][food].append({220: { 'word' : 'lettuce',
 'taboo1': 'salad',
 'taboo2': 'tomato',
 'taboo3': 'vegetable',
 'taboo4': 'cabbage',
 'taboo5': 'leaf'
 }}]}
-data['words'].[food].append({221: { 'word' : 'licorice',
+data['words'][food].append({221: { 'word' : 'licorice',
 'taboo1': 'candy',
 'taboo2': 'black',
 'taboo3': 'margo',
 'taboo4': 'red',
 'taboo5': 'sweet'
 }}]}
-data['words'].[food].append({222: { 'word' : 'lime',
+data['words'][food].append({222: { 'word' : 'lime',
 'taboo1': 'lemon',
 'taboo2': 'green',
 'taboo3': 'key',
 'taboo4': 'juice',
 'taboo5': 'coconut'
 }}]}
-data['words'].[food].append({223: { 'word' : 'liver',
+data['words'][food].append({223: { 'word' : 'liver',
 'taboo1': 'kidney',
 'taboo2': 'onions',
 'taboo3': 'spleen',
 'taboo4': 'alcohol',
 'taboo5': 'wurst'
 }}]}
-data['words'].[food].append({224: { 'word' : 'loaf',
+data['words'][food].append({224: { 'word' : 'loaf',
 'taboo1': 'bread',
 'taboo2': 'meat',
 'taboo3': 'pickle',
 'taboo4': 'lazy',
 'taboo5': 'piece'
 }}]}
-data['words'].[food].append({225: { 'word' : 'lobster',
+data['words'][food].append({225: { 'word' : 'lobster',
 'taboo1': 'crab',
 'taboo2': 'red',
 'taboo3': 'tail',
 'taboo4': 'fish',
 'taboo5': 'claw'
 }}]}
-data['words'].[food].append({226: { 'word' : 'lollipop',
+data['words'][food].append({226: { 'word' : 'lollipop',
 'taboo1': 'candy',
 'taboo2': 'sweet',
 'taboo3': 'sucker',
 'taboo4': 'lick',
 'taboo5': 'suck'
 }}]}
-data['words'].[food].append({227: { 'word' : 'loquat',
+data['words'][food].append({227: { 'word' : 'loquat',
 'taboo1': 'what',
 'taboo2': 'loquacious',
 'taboo3': 'apple',
 'taboo4': 'cat',
 'taboo5': 'chicken'
 }}]}
-data['words'].[food].append({228: { 'word' : 'lox',
+data['words'][food].append({228: { 'word' : 'lox',
 'taboo1': 'fox',
 'taboo2': 'locks',
 'taboo3': 'box',
 'taboo4': 'salmon',
 'taboo5': 'cox'
 }}]}
-data['words'].[food].append({229: { 'word' : 'lunch',
+data['words'][food].append({229: { 'word' : 'lunch',
 'taboo1': 'dinner',
 'taboo2': 'supper',
 'taboo3': 'breakfast',
 'taboo4': 'box',
 'taboo5': 'sandwich'
 }}]}
-data['words'].[food].append({230: { 'word' : 'lunchmeat',
+data['words'][food].append({230: { 'word' : 'lunchmeat',
 'taboo1': 'mistake',
 'taboo2': 'wrong',
 'taboo3': 'computer',
 'taboo4': 'trial',
 'taboo5': 'message'
 }}]}
-data['words'].[food].append({231: { 'word' : 'lychee',
+data['words'][food].append({231: { 'word' : 'lychee',
 'taboo1': 'lynch',
 'taboo2': 'fruit',
 'taboo3': 'bug',
 'taboo4': 'china',
 'taboo5': 'exotic'
 }}]}
-data['words'].[food].append({232: { 'word' : 'macaroni',
+data['words'][food].append({232: { 'word' : 'macaroni',
 'taboo1': 'cheese',
 'taboo2': 'pasta',
 'taboo3': 'noodles',
 'taboo4': 'noodle',
 'taboo5': 'salad'
 }}]}
-data['words'].[food].append({233: { 'word' : 'macaroon',
+data['words'][food].append({233: { 'word' : 'macaroon',
 'taboo1': 'coconut',
 'taboo2': 'maroon',
 'taboo3': 'cookie',
 'taboo4': 'almond',
 'taboo5': 'cake'
 }}]}
-data['words'].[food].append({234: { 'word' : 'maize',
+data['words'][food].append({234: { 'word' : 'maize',
 'taboo1': 'corn',
 'taboo2': 'maze',
 'taboo3': 'indians',
 'taboo4': 'indian',
 'taboo5': 'wheat'
 }}]}
-data['words'].[food].append({235: { 'word' : 'mango',
+data['words'][food].append({235: { 'word' : 'mango',
 'taboo1': 'fruit',
 'taboo2': 'tropical',
 'taboo3': 'orange',
 'taboo4': 'tango',
 'taboo5': 'cantaloupe'
 }}]}
-data['words'].[food].append({236: { 'word' : 'margarine',
+data['words'][food].append({236: { 'word' : 'margarine',
 'taboo1': 'butter',
 'taboo2': 'oleo',
 'taboo3': 'spread',
 'taboo4': 'fake',
 'taboo5': 'toast'
 }}]}
-data['words'].[food].append({237: { 'word' : 'marionberry',
+data['words'][food].append({237: { 'word' : 'marionberry',
 'taboo1': 'mistake',
 'taboo2': 'wrong',
 'taboo3': 'computer',
 'taboo4': 'trial',
 'taboo5': 'message'
 }}]}
-data['words'].[food].append({238: { 'word' : 'marmalade',
+data['words'][food].append({238: { 'word' : 'marmalade',
 'taboo1': 'jam',
 'taboo2': 'orange',
 'taboo3': 'jelly',
 'taboo4': 'lady',
 'taboo5': 'toast'
 }}]}
-data['words'].[food].append({239: { 'word' : 'marshmallow',
+data['words'][food].append({239: { 'word' : 'marshmallow',
 'taboo1': 'fire',
 'taboo2': 'toasted',
 'taboo3': 'chocolate',
 'taboo4': 'sweet',
 'taboo5': 'white'
 }}]}
-data['words'].[food].append({240: { 'word' : 'mayonnaise',
+data['words'][food].append({240: { 'word' : 'mayonnaise',
 'taboo1': 'mustard',
 'taboo2': 'sauce',
 'taboo3': 'sandwich',
 'taboo4': 'lettuce',
 'taboo5': 'white'
 }}]}
-data['words'].[food].append({241: { 'word' : 'meat',
+data['words'][food].append({241: { 'word' : 'meat',
 'taboo1': 'beef',
 'taboo2': 'steak',
 'taboo3': 'grinder',
 'taboo4': 'pork',
 'taboo5': 'chicken'
 }}]}
-data['words'].[food].append({242: { 'word' : 'meatball',
+data['words'][food].append({242: { 'word' : 'meatball',
 'taboo1': 'spaghetti',
 'taboo2': 'meat',
 'taboo3': 'sub',
 'taboo4': 'sauce',
 'taboo5': 'pasta'
 }}]}
-data['words'].[food].append({243: { 'word' : 'meatloaf',
+data['words'][food].append({243: { 'word' : 'meatloaf',
 'taboo1': 'meat',
 'taboo2': 'singer',
 'taboo3': 'food',
 'taboo4': 'bat',
 'taboo5': 'beef'
 }}]}
-data['words'].[food].append({244: { 'word' : 'melon',
+data['words'][food].append({244: { 'word' : 'melon',
 'taboo1': 'watermelon',
 'taboo2': 'water',
 'taboo3': 'cantaloupe',
 'taboo4': 'fruit',
 'taboo5': 'head'
 }}]}
-data['words'].[food].append({245: { 'word' : 'menu',
+data['words'][food].append({245: { 'word' : 'menu',
 'taboo1': 'restaurant',
 'taboo2': 'list',
 'taboo3': 'food',
 'taboo4': 'order',
 'taboo5': 'items'
 }}]}
-data['words'].[food].append({246: { 'word' : 'meringue',
+data['words'][food].append({246: { 'word' : 'meringue',
 'taboo1': 'pie',
 'taboo2': 'lemon',
 'taboo3': 'egg',
 'taboo4': 'cake',
 'taboo5': 'dance'
 }}]}
-data['words'].[food].append({247: { 'word' : 'micronutrient',
+data['words'][food].append({247: { 'word' : 'micronutrient',
 }}]}
-data['words'].[food].append({248: { 'word' : 'milk',
+data['words'][food].append({248: { 'word' : 'milk',
 'taboo1': 'cow',
 'taboo2': 'juice',
 'taboo3': 'orange',
 'taboo4': 'drink',
 'taboo5': 'white'
 }}]}
-data['words'].[food].append({249: { 'word' : 'milkshake',
+data['words'][food].append({249: { 'word' : 'milkshake',
 'taboo1': 'vanilla',
 'taboo2': 'milk',
 'taboo3': 'chocolate',
 'taboo4': 'strawberry',
 'taboo5': 'yard'
 }}]}
-data['words'].[food].append({250: { 'word' : 'millet',
+data['words'][food].append({250: { 'word' : 'millet',
 'taboo1': 'feminist',
 'taboo2': 'mill',
 'taboo3': 'mullet',
 'taboo4': 'fish',
 'taboo5': 'skillet'
 }}]}
-data['words'].[food].append({251: { 'word' : 'mincemeat',
+data['words'][food].append({251: { 'word' : 'mincemeat',
 'taboo1': 'pie',
 'taboo2': 'food',
 'taboo3': 'made',
 'taboo4': 'body',
 'taboo5': 'butler'
 }}]}
-data['words'].[food].append({252: { 'word' : 'minerals',
+data['words'][food].append({252: { 'word' : 'minerals',
 'taboo1': 'vitamins',
 'taboo2': 'rocks',
 'taboo3': 'water',
 'taboo4': 'vegetables',
 'taboo5': 'iron'
 }}]}
-data['words'].[food].append({253: { 'word' : 'mint',
+data['words'][food].append({253: { 'word' : 'mint',
 'taboo1': 'julep',
 'taboo2': 'chocolate',
 'taboo3': 'gum',
 'taboo4': 'fresh',
 'taboo5': 'breath'
 }}]}
-data['words'].[food].append({254: { 'word' : 'mints',
+data['words'][food].append({254: { 'word' : 'mints',
 'taboo1': 'breath',
 'taboo2': 'candy',
 'taboo3': 'mint',
 'taboo4': 'candies',
 'taboo5': 'fresh'
 }}]}
-data['words'].[food].append({255: { 'word' : 'mochi',
+data['words'][food].append({255: { 'word' : 'mochi',
 'taboo1': 'mistake',
 'taboo2': 'wrong',
 'taboo3': 'computer',
 'taboo4': 'trial',
 'taboo5': 'message'
 }}]}
-data['words'].[food].append({256: { 'word' : 'molasses',
+data['words'][food].append({256: { 'word' : 'molasses',
 'taboo1': 'syrup',
 'taboo2': 'sticky',
 'taboo3': 'slow',
 'taboo4': 'sugar',
 'taboo5': 'thick'
 }}]}
-data['words'].[food].append({257: { 'word' : 'mozzarella',
+data['words'][food].append({257: { 'word' : 'mozzarella',
 'taboo1': 'cheese',
 'taboo2': 'pizza',
 'taboo3': 'shredded',
 'taboo4': 'cheddar',
 'taboo5': 'stick'
 }}]}
-data['words'].[food].append({258: { 'word' : 'muffin',
+data['words'][food].append({258: { 'word' : 'muffin',
 'taboo1': 'bread',
 'taboo2': 'blueberry',
 'taboo3': 'top',
 'taboo4': 'cake',
 'taboo5': 'cupcake'
 }}]}
-data['words'].[food].append({259: { 'word' : 'mug',
+data['words'][food].append({259: { 'word' : 'mug',
 'taboo1': 'coffee',
 'taboo2': 'cup',
 'taboo3': 'shot',
 'taboo4': 'stein',
 'taboo5': 'glass'
 }}]}
-data['words'].[food].append({260: { 'word' : 'munch',
+data['words'][food].append({260: { 'word' : 'munch',
 'taboo1': 'eat',
 'taboo2': 'crunch',
 'taboo3': 'chew',
 'taboo4': 'carpet',
 'taboo5': 'food'
 }}]}
-data['words'].[food].append({261: { 'word' : 'mushroom',
+data['words'][food].append({261: { 'word' : 'mushroom',
 'taboo1': 'cloud',
 'taboo2': 'fungus',
 'taboo3': 'toadstool',
 'taboo4': 'people',
 'taboo5': 'mario'
 }}]}
-data['words'].[food].append({262: { 'word' : 'mussels',
+data['words'][food].append({262: { 'word' : 'mussels',
 'taboo1': 'clams',
 'taboo2': 'oysters',
 'taboo3': 'cockles',
 'taboo4': 'fish',
 'taboo5': 'seafood'
 }}]}
-data['words'].[food].append({263: { 'word' : 'mustard',
+data['words'][food].append({263: { 'word' : 'mustard',
 'taboo1': 'ketchup',
 'taboo2': 'yellow',
 'taboo3': 'seed',
 'taboo4': 'sauce',
 'taboo5': 'mayo'
 }}]}
-data['words'].[food].append({264: { 'word' : 'mutton',
+data['words'][food].append({264: { 'word' : 'mutton',
 'taboo1': 'sheep',
 'taboo2': 'lamb',
 'taboo3': 'chops',
 'taboo4': 'chop',
 'taboo5': 'meat'
 }}]}
-data['words'].[food].append({265: { 'word' : 'napkin',
+data['words'][food].append({265: { 'word' : 'napkin',
 'taboo1': 'sanitary',
 'taboo2': 'paper',
 'taboo3': 'cloth',
 'taboo4': 'wipe',
 'taboo5': 'drop'
 }}]}
-data['words'].[food].append({266: { 'word' : 'nectar',
+data['words'][food].append({266: { 'word' : 'nectar',
 'taboo1': 'flower',
 'taboo2': 'bee',
 'taboo3': 'honey',
 'taboo4': 'bees',
 'taboo5': 'sweet'
 }}]}
-data['words'].[food].append({267: { 'word' : 'nectarine',
+data['words'][food].append({267: { 'word' : 'nectarine',
 'taboo1': 'orange',
 'taboo2': 'fruit',
 'taboo3': 'peach',
 'taboo4': 'plum',
 'taboo5': 'tangerine'
 }}]}
-data['words'].[food].append({268: { 'word' : 'nibble',
+data['words'][food].append({268: { 'word' : 'nibble',
 'taboo1': 'bite',
 'taboo2': 'eat',
 'taboo3': 'nipple',
 'taboo4': 'chew',
 'taboo5': 'gnaw'
 }}]}
-data['words'].[food].append({269: { 'word' : 'noodles',
+data['words'][food].append({269: { 'word' : 'noodles',
 'taboo1': 'soup',
 'taboo2': 'pasta',
 'taboo3': 'limp',
 'taboo4': 'chinese',
 'taboo5': 'spaghetti'
 }}]}
-data['words'].[food].append({270: { 'word' : 'nosh',
+data['words'][food].append({270: { 'word' : 'nosh',
 'taboo1': 'bosh',
 'taboo2': 'posh',
 'taboo3': 'food',
 'taboo4': 'gosh',
 'taboo5': 'snack'
 }}]}
-data['words'].[food].append({271: { 'word' : 'nourish',
+data['words'][food].append({271: { 'word' : 'nourish',
 'taboo1': 'sustain',
 'taboo2': 'feed',
 'taboo3': 'eat',
 'taboo4': 'food',
 'taboo5': 'healthy'
 }}]}
-data['words'].[food].append({272: { 'word' : 'nourishment',
+data['words'][food].append({272: { 'word' : 'nourishment',
 'taboo1': 'sustenance',
 'taboo2': 'eat',
 'taboo3': 'food',
 'taboo4': 'nutrition',
 'taboo5': 'health'
 }}]}
-data['words'].[food].append({273: { 'word' : 'nut',
+data['words'][food].append({273: { 'word' : 'nut',
 'taboo1': 'almond',
 'taboo2': 'squirrel',
 'taboo3': 'case',
 'taboo4': 'bolt',
 'taboo5': 'peanut'
 }}]}
-data['words'].[food].append({274: { 'word' : 'nutmeg',
+data['words'][food].append({274: { 'word' : 'nutmeg',
 'taboo1': 'ginger',
 'taboo2': 'nut',
 'taboo3': 'cinnamon',
 'taboo4': 'spice',
 'taboo5': 'eggnog'
 }}]}
-data['words'].[food].append({275: { 'word' : 'nutrient',
+data['words'][food].append({275: { 'word' : 'nutrient',
 'taboo1': 'vitamin',
 'taboo2': 'protein',
 'taboo3': 'mineral',
 'taboo4': 'food',
 'taboo5': 'health'
 }}]}
-data['words'].[food].append({276: { 'word' : 'nutrition',
+data['words'][food].append({276: { 'word' : 'nutrition',
 'taboo1': 'diet',
 'taboo2': 'food',
 'taboo3': 'health',
 'taboo4': 'facts',
 'taboo5': 'eat'
 }}]}
-data['words'].[food].append({277: { 'word' : 'nutritious',
+data['words'][food].append({277: { 'word' : 'nutritious',
 'taboo1': 'healthy',
 'taboo2': 'food',
 'taboo3': 'diet',
 'taboo4': 'foods',
 'taboo5': 'apple'
 }}]}
-data['words'].[food].append({278: { 'word' : 'oatmeal',
+data['words'][food].append({278: { 'word' : 'oatmeal',
 'taboo1': 'breakfast',
 'taboo2': 'cereal',
 'taboo3': 'eat',
 'taboo4': 'raisin',
 'taboo5': 'porridge'
 }}]}
-data['words'].[food].append({279: { 'word' : 'oats',
+data['words'][food].append({279: { 'word' : 'oats',
 'taboo1': 'wheat',
 'taboo2': 'corn',
 'taboo3': 'quaker',
 'taboo4': 'oatmeal',
 'taboo5': 'porridge'
 }}]}
-data['words'].[food].append({280: { 'word' : 'oil',
+data['words'][food].append({280: { 'word' : 'oil',
 'taboo1': 'grease',
 'taboo2': 'olive',
 'taboo3': 'spill',
 'taboo4': 'lube',
 'taboo5': 'gas'
 }}]}
-data['words'].[food].append({281: { 'word' : 'okra',
+data['words'][food].append({281: { 'word' : 'okra',
 'taboo1': 'vegetable',
 'taboo2': 'fried',
 'taboo3': 'gumbo',
 'taboo4': 'plant',
 'taboo5': 'green'
 }}]}
-data['words'].[food].append({282: { 'word' : 'oleo',
+data['words'][food].append({282: { 'word' : 'oleo',
 'taboo1': 'margarine',
 'taboo2': 'oreo',
 'taboo3': 'oil',
 'taboo4': 'butter',
 'taboo5': 'cookie'
 }}]}
-data['words'].[food].append({283: { 'word' : 'olive',
+data['words'][food].append({283: { 'word' : 'olive',
 'taboo1': 'oil',
 'taboo2': 'branch',
 'taboo3': 'tree',
 'taboo4': 'garden',
 'taboo5': 'martini'
 }}]}
-data['words'].[food].append({284: { 'word' : 'omelet',
+data['words'][food].append({284: { 'word' : 'omelet',
 'taboo1': 'eggs',
 'taboo2': 'egg',
 'taboo3': 'cheese',
 'taboo4': 'breakfast',
 'taboo5': 'ham'
 }}]}
-data['words'].[food].append({285: { 'word' : 'omnivore',
+data['words'][food].append({285: { 'word' : 'omnivore',
 'taboo1': 'carnivore',
 'taboo2': 'human',
 'taboo3': 'anything',
 'taboo4': 'meat',
 'taboo5': 'dinosaur'
 }}]}
-data['words'].[food].append({286: { 'word' : 'onion',
+data['words'][food].append({286: { 'word' : 'onion',
 'taboo1': 'cry',
 'taboo2': 'garlic',
 'taboo3': 'peel',
 'taboo4': 'rings',
 'taboo5': 'ring'
 }}]}
-data['words'].[food].append({287: { 'word' : 'orange',
+data['words'][food].append({287: { 'word' : 'orange',
 'taboo1': 'juice',
 'taboo2': 'fruit',
 'taboo3': 'peel',
 'taboo4': 'apple',
 'taboo5': 'red'
 }}]}
-data['words'].[food].append({288: { 'word' : 'order',
+data['words'][food].append({288: { 'word' : 'order',
 'taboo1': 'chaos',
 'taboo2': 'law',
 'taboo3': 'command',
 'taboo4': 'court',
 'taboo5': 'food'
 }}]}
-data['words'].[food].append({289: { 'word' : 'oregano',
+data['words'][food].append({289: { 'word' : 'oregano',
 'taboo1': 'spice',
 'taboo2': 'basil',
 'taboo3': 'herb',
 'taboo4': 'pizza',
 'taboo5': 'italian'
 }}]}
-data['words'].[food].append({290: { 'word' : 'oven',
+data['words'][food].append({290: { 'word' : 'oven',
 'taboo1': 'stove',
 'taboo2': 'bake',
 'taboo3': 'hot',
 'taboo4': 'cook',
 'taboo5': 'mitt'
 }}]}
-data['words'].[food].append({291: { 'word' : 'oyster',
+data['words'][food].append({291: { 'word' : 'oyster',
 'taboo1': 'mussel',
 'taboo2': 'clam',
 'taboo3': 'pearl',
 'taboo4': 'shell',
 'taboo5': 'cult'
 }}]}
-data['words'].[food].append({292: { 'word' : 'pan',
+data['words'][food].append({292: { 'word' : 'pan',
 'taboo1': 'peter',
 'taboo2': 'pot',
 'taboo3': 'fry',
 'taboo4': 'frying',
 'taboo5': 'cook'
 }}]}
-data['words'].[food].append({293: { 'word' : 'pancake',
+data['words'][food].append({293: { 'word' : 'pancake',
 'taboo1': 'syrup',
 'taboo2': 'waffle',
 'taboo3': 'breakfast',
 'taboo4': 'batter',
 'taboo5': 'turner'
 }}]}
-data['words'].[food].append({294: { 'word' : 'papaya',
+data['words'][food].append({294: { 'word' : 'papaya',
 'taboo1': 'fruit',
 'taboo2': 'mango',
 'taboo3': 'cantaloupe',
 'taboo4': 'carica',
 'taboo5': 'pineapple'
 }}]}
-data['words'].[food].append({295: { 'word' : 'parsley',
+data['words'][food].append({295: { 'word' : 'parsley',
 'taboo1': 'sage',
 'taboo2': 'garnish',
 'taboo3': 'herb',
 'taboo4': 'rosemary',
 'taboo5': 'green'
 }}]}
-data['words'].[food].append({296: { 'word' : 'parsnip',
+data['words'][food].append({296: { 'word' : 'parsnip',
 'taboo1': 'parsley',
 'taboo2': 'turnip',
 'taboo3': 'vegetable',
 'taboo4': 'carrot',
 'taboo5': 'potato'
 }}]}
-data['words'].[food].append({297: { 'word' : 'pasta',
+data['words'][food].append({297: { 'word' : 'pasta',
 'taboo1': 'noodles',
 'taboo2': 'spaghetti',
 'taboo3': 'sauce',
 'taboo4': 'rigatoni',
 'taboo5': 'italian'
 }}]}
-data['words'].[food].append({298: { 'word' : 'pastry',
+data['words'][food].append({298: { 'word' : 'pastry',
 'taboo1': 'danish',
 'taboo2': 'donut',
 'taboo3': 'chef',
 'taboo4': 'cake',
 'taboo5': 'pie'
 }}]}
-data['words'].[food].append({299: { 'word' : 'pate',
+data['words'][food].append({299: { 'word' : 'pate',
 'taboo1': 'liver',
 'taboo2': 'palate',
 'taboo3': 'goose',
 'taboo4': 'forehead',
 'taboo5': 'plate'
 }}]}
-data['words'].[food].append({300: { 'word' : 'patty',
+data['words'][food].append({300: { 'word' : 'patty',
 'taboo1': 'larceny',
 'taboo2': 'cake',
 'taboo3': 'hamburger',
 'taboo4': 'duke',
 'taboo5': 'burger'
 }}]}
-data['words'].[food].append({301: { 'word' : 'pea',
+data['words'][food].append({301: { 'word' : 'pea',
 'taboo1': 'pod',
 'taboo2': 'green',
 'taboo3': 'soup',
 'taboo4': 'carrot',
 'taboo5': 'pee'
 }}]}
-data['words'].[food].append({302: { 'word' : 'peach',
+data['words'][food].append({302: { 'word' : 'peach',
 'taboo1': 'fruit',
 'taboo2': 'fuzz',
 'taboo3': 'fuzzy',
 'taboo4': 'pear',
 'taboo5': 'plum'
 }}]}
-data['words'].[food].append({303: { 'word' : 'peanut',
+data['words'][food].append({303: { 'word' : 'peanut',
 'taboo1': 'butter',
 'taboo2': 'nut',
 'taboo3': 'almond',
 'taboo4': 'brittle',
 'taboo5': 'shell'
 }}]}
-data['words'].[food].append({304: { 'word' : 'pear',
+data['words'][food].append({304: { 'word' : 'pear',
 'taboo1': 'fruit',
 'taboo2': 'apple',
 'taboo3': 'peach',
 'taboo4': 'shape',
 'taboo5': 'shaped'
 }}]}
-data['words'].[food].append({305: { 'word' : 'pecan',
+data['words'][food].append({305: { 'word' : 'pecan',
 'taboo1': 'nut',
 'taboo2': 'pie',
 'taboo3': 'almond',
 'taboo4': 'walnut',
 'taboo5': 'nuts'
 }}]}
-data['words'].[food].append({306: { 'word' : 'pepper',
+data['words'][food].append({306: { 'word' : 'pepper',
 'taboo1': 'salt',
 'taboo2': 'shaker',
 'taboo3': 'spray',
 'taboo4': 'doctor',
 'taboo5': 'hot'
 }}]}
-data['words'].[food].append({307: { 'word' : 'pepperoni',
+data['words'][food].append({307: { 'word' : 'pepperoni',
 'taboo1': 'pizza',
 'taboo2': 'sausage',
 'taboo3': 'cheese',
 'taboo4': 'meat',
 'taboo5': 'salami'
 }}]}
-data['words'].[food].append({308: { 'word' : 'persimmon',
+data['words'][food].append({308: { 'word' : 'persimmon',
 'taboo1': 'fruit',
 'taboo2': 'city',
 'taboo3': 'code',
 'taboo4': 'do',
 'taboo5': 'fire'
 }}]}
-data['words'].[food].append({309: { 'word' : 'pickle',
+data['words'][food].append({309: { 'word' : 'pickle',
 'taboo1': 'cucumber',
 'taboo2': 'dill',
 'taboo3': 'onion',
 'taboo4': 'jar',
 'taboo5': 'green'
 }}]}
-data['words'].[food].append({310: { 'word' : 'picnic',
+data['words'][food].append({310: { 'word' : 'picnic',
 'taboo1': 'basket',
 'taboo2': 'park',
 'taboo3': 'table',
 'taboo4': 'blanket',
 'taboo5': 'ants'
 }}]}
-data['words'].[food].append({311: { 'word' : 'pie',
+data['words'][food].append({311: { 'word' : 'pie',
 'taboo1': 'cake',
 'taboo2': 'apple',
 'taboo3': 'american',
 'taboo4': 'cherry',
 'taboo5': 'pumpkin'
 }}]}
-data['words'].[food].append({312: { 'word' : 'pilaf',
+data['words'][food].append({312: { 'word' : 'pilaf',
 'taboo1': 'rice',
 'taboo2': 'bread',
 'taboo3': 'chicken',
 'taboo4': 'food',
 'taboo5': 'fried'
 }}]}
-data['words'].[food].append({313: { 'word' : 'pineapple',
+data['words'][food].append({313: { 'word' : 'pineapple',
 'taboo1': 'juice',
 'taboo2': 'fruit',
 'taboo3': 'canned',
 'taboo4': 'chunks',
 'taboo5': 'hawaii'
 }}]}
-data['words'].[food].append({314: { 'word' : 'pitcher',
+data['words'][food].append({314: { 'word' : 'pitcher',
 'taboo1': 'catcher',
 'taboo2': 'baseball',
 'taboo3': 'batter',
 'taboo4': 'jug',
 'taboo5': 'lemonade'
 }}]}
-data['words'].[food].append({315: { 'word' : 'pizza',
+data['words'][food].append({315: { 'word' : 'pizza',
 'taboo1': 'yum',
 'taboo2': 'pepperoni',
 'taboo3': 'pie',
 'taboo4': 'cheese',
 'taboo5': 'delivery'
 }}]}
-data['words'].[food].append({316: { 'word' : 'plate',
+data['words'][food].append({316: { 'word' : 'plate',
 'taboo1': 'meal',
 'taboo2': 'dinner',
 'taboo3': 'dish',
 'taboo4': 'food',
 'taboo5': 'fork'
 }}]}
-data['words'].[food].append({317: { 'word' : 'platter',
+data['words'][food].append({317: { 'word' : 'platter',
 'taboo1': 'plate',
 'taboo2': 'food',
 'taboo3': 'dish',
 'taboo4': 'handed',
 'taboo5': 'silver'
 }}]}
-data['words'].[food].append({318: { 'word' : 'plum',
+data['words'][food].append({318: { 'word' : 'plum',
 'taboo1': 'fruit',
 'taboo2': 'pudding',
 'taboo3': 'duff',
 'taboo4': 'purple',
 'taboo5': 'peach'
 }}]}
-data['words'].[food].append({319: { 'word' : 'poached',
+data['words'][food].append({319: { 'word' : 'poached',
 'taboo1': 'egg',
 'taboo2': 'eggs',
 'taboo3': 'fried',
 'taboo4': 'scrambled',
 'taboo5': 'boiled'
 }}]}
-data['words'].[food].append({320: { 'word' : 'pomegranate',
+data['words'][food].append({320: { 'word' : 'pomegranate',
 'taboo1': 'fruit',
 'taboo2': 'seeds',
 'taboo3': 'seed',
 'taboo4': 'juice',
 'taboo5': 'cantaloupe'
 }}]}
-data['words'].[food].append({321: { 'word' : 'pomelo',
+data['words'][food].append({321: { 'word' : 'pomelo',
 'taboo1': 'fruit',
 'taboo2': 'id',
 'taboo3': 'mushroom',
 'taboo4': 'nightjar',
 'taboo5': 'spanish'
 }}]}
-data['words'].[food].append({322: { 'word' : 'pop',
+data['words'][food].append({322: { 'word' : 'pop',
 'taboo1': 'music',
 'taboo2': 'soda',
 'taboo3': 'weasel',
 'taboo4': 'corn',
 'taboo5': 'tart'
 }}]}
-data['words'].[food].append({323: { 'word' : 'popcorn',
+data['words'][food].append({323: { 'word' : 'popcorn',
 'taboo1': 'butter',
 'taboo2': 'kernels',
 'taboo3': 'cinema',
 'taboo4': 'movie',
 'taboo5': 'food'
 }}]}
-data['words'].[food].append({324: { 'word' : 'popovers',
+data['words'][food].append({324: { 'word' : 'popovers',
 }}]}
-data['words'].[food].append({325: { 'word' : 'popsicle',
+data['words'][food].append({325: { 'word' : 'popsicle',
 'taboo1': 'ice',
 'taboo2': 'frozen',
 'taboo3': 'stick',
 'taboo4': 'cold',
 'taboo5': 'icicle'
 }}]}
-data['words'].[food].append({326: { 'word' : 'pork',
+data['words'][food].append({326: { 'word' : 'pork',
 'taboo1': 'beef',
 'taboo2': 'pig',
 'taboo3': 'chop',
 'taboo4': 'rinds',
 'taboo5': 'chops'
 }}]}
-data['words'].[food].append({327: { 'word' : 'pot',
+data['words'][food].append({327: { 'word' : 'pot',
 'taboo1': 'weed',
 'taboo2': 'smoke',
 'taboo3': 'pan',
 'taboo4': 'marijuana',
 'taboo5': 'stove'
 }}]}
-data['words'].[food].append({328: { 'word' : 'potato',
+data['words'][food].append({328: { 'word' : 'potato',
 'taboo1': 'spud',
 'taboo2': 'chips',
 'taboo3': 'tomato',
 'taboo4': 'salad',
 'taboo5': 'mashed'
 }}]}
-data['words'].[food].append({329: { 'word' : 'preserves',
+data['words'][food].append({329: { 'word' : 'preserves',
 'taboo1': 'jam',
 'taboo2': 'jelly',
 'taboo3': 'strawberry',
 'taboo4': 'saves',
 'taboo5': 'save'
 }}]}
-data['words'].[food].append({330: { 'word' : 'pretzel',
+data['words'][food].append({330: { 'word' : 'pretzel',
 'taboo1': 'salt',
 'taboo2': 'salty',
 'taboo3': 'twist',
 'taboo4': 'chewy',
 'taboo5': 'snack'
 }}]}
-data['words'].[food].append({331: { 'word' : 'protein',
+data['words'][food].append({331: { 'word' : 'protein',
 'taboo1': 'fat',
 'taboo2': 'shake',
 'taboo3': 'carbohydrate',
 'taboo4': 'meat',
 'taboo5': 'carbohydrates'
 }}]}
-data['words'].[food].append({332: { 'word' : 'provisions',
+data['words'][food].append({332: { 'word' : 'provisions',
 'taboo1': 'food',
 'taboo2': 'supplies',
 'taboo3': 'rations',
 'taboo4': 'trip',
 'taboo5': 'appropriate'
 }}]}
-data['words'].[food].append({333: { 'word' : 'prune',
+data['words'][food].append({333: { 'word' : 'prune',
 'taboo1': 'plum',
 'taboo2': 'raisin',
 'taboo3': 'juice',
 'taboo4': 'date',
 'taboo5': 'fruit'
 }}]}
-data['words'].[food].append({334: { 'word' : 'pudding',
+data['words'][food].append({334: { 'word' : 'pudding',
 'taboo1': 'vanilla',
 'taboo2': 'chocolate',
 'taboo3': 'pie',
 'taboo4': 'rice',
 'taboo5': 'jello'
 }}]}
-data['words'].[food].append({335: { 'word' : 'pumpernickel',
+data['words'][food].append({335: { 'word' : 'pumpernickel',
 'taboo1': 'bread',
 'taboo2': 'pumpkin',
 'taboo3': 'pump',
 'taboo4': 'rye',
 'taboo5': 'seed'
 }}]}
-data['words'].[food].append({336: { 'word' : 'pumpkin',
+data['words'][food].append({336: { 'word' : 'pumpkin',
 'taboo1': 'melon',
 'taboo2': 'pie',
 'taboo3': 'halloween',
 'taboo4': 'patch',
 'taboo5': 'orange'
 }}]}
-data['words'].[food].append({337: { 'word' : 'punch',
+data['words'][food].append({337: { 'word' : 'punch',
 'taboo1': 'hit',
 'taboo2': 'judy',
 'taboo3': 'kick',
 'taboo4': 'drunk',
 'taboo5': 'face'
 }}]}
-data['words'].[food].append({338: { 'word' : 'quiche',
+data['words'][food].append({338: { 'word' : 'quiche',
 'taboo1': 'cheese',
 'taboo2': 'egg',
 'taboo3': 'eggs',
 'taboo4': 'cliche',
 'taboo5': 'ham'
 }}]}
-data['words'].[food].append({339: { 'word' : 'quinoa',
+data['words'][food].append({339: { 'word' : 'quinoa',
 'taboo1': 'mistake',
 'taboo2': 'wrong',
 'taboo3': 'computer',
 'taboo4': 'trial',
 'taboo5': 'message'
 }}]}
-data['words'].[food].append({340: { 'word' : 'radish',
+data['words'][food].append({340: { 'word' : 'radish',
 'taboo1': 'vegetable',
 'taboo2': 'salad',
 'taboo3': 'red',
 'taboo4': 'horseradish',
 'taboo5': 'carrot'
 }}]}
-data['words'].[food].append({341: { 'word' : 'raisin',
+data['words'][food].append({341: { 'word' : 'raisin',
 'taboo1': 'grape',
 'taboo2': 'bran',
 'taboo3': 'sun',
 'taboo4': 'prune',
 'taboo5': 'dried'
 }}]}
-data['words'].[food].append({342: { 'word' : 'raspberry',
+data['words'][food].append({342: { 'word' : 'raspberry',
 'taboo1': 'fruit',
 'taboo2': 'strawberry',
 'taboo3': 'blueberry',
 'taboo4': 'berry',
 'taboo5': 'tart'
 }}]}
-data['words'].[food].append({343: { 'word' : 'rations',
+data['words'][food].append({343: { 'word' : 'rations',
 'taboo1': 'war',
 'taboo2': 'portions',
 'taboo3': 'food',
 'taboo4': 'army',
 'taboo5': 'meals'
 }}]}
-data['words'].[food].append({344: { 'word' : 'ravioli',
+data['words'][food].append({344: { 'word' : 'ravioli',
 'taboo1': 'beef',
 'taboo2': 'pasta',
 'taboo3': 'cheese',
 'taboo4': 'noodles',
 'taboo5': 'spaghetti'
 }}]}
-data['words'].[food].append({345: { 'word' : 'recipe',
+data['words'][food].append({345: { 'word' : 'recipe',
 'taboo1': 'ingredients',
 'taboo2': 'cook',
 'taboo3': 'food',
 'taboo4': 'disaster',
 'taboo5': 'book'
 }}]}
-data['words'].[food].append({346: { 'word' : 'refreshments',
+data['words'][food].append({346: { 'word' : 'refreshments',
 'taboo1': 'drinks',
 'taboo2': 'drink',
 'taboo3': 'soda',
 'taboo4': 'love',
 'taboo5': 'banquet'
 }}]}
-data['words'].[food].append({347: { 'word' : 'refrigerator',
+data['words'][food].append({347: { 'word' : 'refrigerator',
 'taboo1': 'freezer',
 'taboo2': 'cold',
 'taboo3': 'food',
 'taboo4': 'cool',
 'taboo5': 'kitchen'
 }}]}
-data['words'].[food].append({348: { 'word' : 'relish',
+data['words'][food].append({348: { 'word' : 'relish',
 'taboo1': 'pickle',
 'taboo2': 'mustard',
 'taboo3': 'hotdog',
 'taboo4': 'pickles',
 'taboo5': 'sauce'
 }}]}
-data['words'].[food].append({349: { 'word' : 'restaurant',
+data['words'][food].append({349: { 'word' : 'restaurant',
 'taboo1': 'meal',
 'taboo2': 'food',
 'taboo3': 'menu',
 'taboo4': 'cafe',
 'taboo5': 'eat'
 }}]}
-data['words'].[food].append({350: { 'word' : 'rhubarb',
+data['words'][food].append({350: { 'word' : 'rhubarb',
 'taboo1': 'pie',
 'taboo2': 'custard',
 'taboo3': 'strawberry',
 'taboo4': 'crumble',
 'taboo5': 'garden'
 }}]}
-data['words'].[food].append({351: { 'word' : 'ribs',
+data['words'][food].append({351: { 'word' : 'ribs',
 'taboo1': 'meat',
 'taboo2': 'pork',
 'taboo3': 'barbecue',
 'taboo4': 'cage',
 'taboo5': 'spare'
 }}]}
-data['words'].[food].append({352: { 'word' : 'rice',
+data['words'][food].append({352: { 'word' : 'rice',
 'taboo1': 'wheat',
 'taboo2': 'paddy',
 'taboo3': 'corn',
 'taboo4': 'china',
 'taboo5': 'pudding'
 }}]}
-data['words'].[food].append({353: { 'word' : 'roast',
+data['words'][food].append({353: { 'word' : 'roast',
 'taboo1': 'beef',
 'taboo2': 'pork',
 'taboo3': 'chicken',
 'taboo4': 'turkey',
 'taboo5': 'goose'
 }}]}
-data['words'].[food].append({354: { 'word' : 'roll',
+data['words'][food].append({354: { 'word' : 'roll',
 'taboo1': 'rock',
 'taboo2': 'ball',
 'taboo3': 'bread',
 'taboo4': 'over',
 'taboo5': 'dice'
 }}]}
-data['words'].[food].append({355: { 'word' : 'romaine',
+data['words'][food].append({355: { 'word' : 'romaine',
 'taboo1': 'rebecca',
 'taboo2': 'lettuce',
 'taboo3': 'salad',
 'taboo4': 'romanian',
 'taboo5': 'iceberg'
 }}]}
-data['words'].[food].append({356: { 'word' : 'rosemary',
+data['words'][food].append({356: { 'word' : 'rosemary',
 'taboo1': 'thyme',
 'taboo2': 'sage',
 'taboo3': 'baby',
 'taboo4': 'herb',
 'taboo5': 'parsley'
 }}]}
-data['words'].[food].append({357: { 'word' : 'rye',
+data['words'][food].append({357: { 'word' : 'rye',
 'taboo1': 'bread',
 'taboo2': 'wheat',
 'taboo3': 'corn',
 'taboo4': 'whiskey',
 'taboo5': 'catcher'
 }}]}
-data['words'].[food].append({358: { 'word' : 'saffron',
+data['words'][food].append({358: { 'word' : 'saffron',
 'taboo1': 'flower',
 'taboo2': 'spice',
 'taboo3': 'mad',
 'taboo4': 'rice',
 'taboo5': 'crocus'
 }}]}
-data['words'].[food].append({359: { 'word' : 'sage',
+data['words'][food].append({359: { 'word' : 'sage',
 'taboo1': 'rosemary',
 'taboo2': 'wise',
 'taboo3': 'scholar',
 'taboo4': 'parsley',
 'taboo5': 'onion'
 }}]}
-data['words'].[food].append({360: { 'word' : 'salad',
+data['words'][food].append({360: { 'word' : 'salad',
 'taboo1': 'lettuce',
 'taboo2': 'dressing',
 'taboo3': 'tuna',
 'taboo4': 'vegetable',
 'taboo5': 'green'
 }}]}
-data['words'].[food].append({361: { 'word' : 'salami',
+data['words'][food].append({361: { 'word' : 'salami',
 'taboo1': 'sausage',
 'taboo2': 'meat',
 'taboo3': 'ham',
 'taboo4': 'sandwich',
 'taboo5': 'pepperoni'
 }}]}
-data['words'].[food].append({362: { 'word' : 'salmon',
+data['words'][food].append({362: { 'word' : 'salmon',
 'taboo1': 'fish',
 'taboo2': 'trout',
 'taboo3': 'tuna',
 'taboo4': 'pink',
 'taboo5': 'fishing'
 }}]}
-data['words'].[food].append({363: { 'word' : 'salsa',
+data['words'][food].append({363: { 'word' : 'salsa',
 'taboo1': 'chips',
 'taboo2': 'sauce',
 'taboo3': 'dance',
 'taboo4': 'dip',
 'taboo5': 'spicy'
 }}]}
-data['words'].[food].append({364: { 'word' : 'salt',
+data['words'][food].append({364: { 'word' : 'salt',
 'taboo1': 'pepper',
 'taboo2': 'water',
 'taboo3': 'sugar',
 'taboo4': 'sea',
 'taboo5': 'vinegar'
 }}]}
-data['words'].[food].append({365: { 'word' : 'sandwich',
+data['words'][food].append({365: { 'word' : 'sandwich',
 'taboo1': 'bread',
 'taboo2': 'ham',
 'taboo3': 'hero',
 'taboo4': 'meat',
 'taboo5': 'cheese'
 }}]}
-data['words'].[food].append({366: { 'word' : 'sauce',
+data['words'][food].append({366: { 'word' : 'sauce',
 'taboo1': 'tomato',
 'taboo2': 'barbecue',
 'taboo3': 'tartar',
 'taboo4': 'spaghetti',
 'taboo5': 'ketchup'
 }}]}
-data['words'].[food].append({367: { 'word' : 'sauerkraut',
+data['words'][food].append({367: { 'word' : 'sauerkraut',
 'taboo1': 'cabbage',
 'taboo2': 'sausage',
 'taboo3': 'wieners',
 'taboo4': 'sour',
 'taboo5': 'german'
 }}]}
-data['words'].[food].append({368: { 'word' : 'sausage',
+data['words'][food].append({368: { 'word' : 'sausage',
 'taboo1': 'bacon',
 'taboo2': 'meat',
 'taboo3': 'links',
 'taboo4': 'link',
 'taboo5': 'pork'
 }}]}
-data['words'].[food].append({369: { 'word' : 'savory',
+data['words'][food].append({369: { 'word' : 'savory',
 'taboo1': 'tasty',
 'taboo2': 'meats',
 'taboo3': 'sweet',
 'taboo4': 'unsavory',
 'taboo5': 'salty'
 }}]}
-data['words'].[food].append({370: { 'word' : 'scallops',
+data['words'][food].append({370: { 'word' : 'scallops',
 'taboo1': 'mussels',
 'taboo2': 'potatoes',
 'taboo3': 'clams',
 'taboo4': 'fish',
 'taboo5': 'seafood'
 }}]}
-data['words'].[food].append({371: { 'word' : 'scrambled',
+data['words'][food].append({371: { 'word' : 'scrambled',
 'taboo1': 'eggs',
 'taboo2': 'fried',
 'taboo3': 'brains',
 'taboo4': 'egg',
 'taboo5': 'mixed'
 }}]}
-data['words'].[food].append({372: { 'word' : 'seaweed',
+data['words'][food].append({372: { 'word' : 'seaweed',
 'taboo1': 'sea',
 'taboo2': 'kelp',
 'taboo3': 'ocean',
 'taboo4': 'fish',
 'taboo5': 'green'
 }}]}
-data['words'].[food].append({373: { 'word' : 'seeds',
+data['words'][food].append({373: { 'word' : 'seeds',
 'taboo1': 'plants',
 'taboo2': 'plant',
 'taboo3': 'grow',
 'taboo4': 'sunflower',
 'taboo5': 'planting'
 }}]}
-data['words'].[food].append({374: { 'word' : 'shallots',
+data['words'][food].append({374: { 'word' : 'shallots',
 'taboo1': 'mallets',
 'taboo2': 'ballots',
 'taboo3': 'garlic',
 'taboo4': 'leeks',
 'taboo5': 'onions'
 }}]}
-data['words'].[food].append({375: { 'word' : 'sherbet',
+data['words'][food].append({375: { 'word' : 'sherbet',
 'taboo1': 'ice',
 'taboo2': 'orange',
 'taboo3': 'lemon',
 'taboo4': 'lime',
 'taboo5': 'cream'
 }}]}
-data['words'].[food].append({376: { 'word' : 'shrimp',
+data['words'][food].append({376: { 'word' : 'shrimp',
 'taboo1': 'cocktail',
 'taboo2': 'lobster',
 'taboo3': 'prawn',
 'taboo4': 'frozen',
 'taboo5': 'fish'
 }}]}
-data['words'].[food].append({377: { 'word' : 'slaw',
+data['words'][food].append({377: { 'word' : 'slaw',
 'taboo1': 'cole',
 'taboo2': 'salad',
 'taboo3': 'coleslaw',
 'taboo4': 'cabbage',
 'taboo5': 'saw'
 }}]}
-data['words'].[food].append({378: { 'word' : 'slice',
+data['words'][food].append({378: { 'word' : 'slice',
 'taboo1': 'cut',
 'taboo2': 'pizza',
 'taboo3': 'piece',
 'taboo4': 'dice',
 'taboo5': 'bread'
 }}]}
-data['words'].[food].append({379: { 'word' : 'smoked',
+data['words'][food].append({379: { 'word' : 'smoked',
 'taboo1': 'salmon',
 'taboo2': 'weed',
 'taboo3': 'ham',
 'taboo4': 'marijuana',
 'taboo5': 'bong'
 }}]}
-data['words'].[food].append({380: { 'word' : 'snack',
+data['words'][food].append({380: { 'word' : 'snack',
 'taboo1': 'based',
 'taboo2': 'food',
 'taboo3': 'chips',
 'taboo4': 'meal',
 'taboo5': 'bar'
 }}]}
-data['words'].[food].append({381: { 'word' : 'soda',
+data['words'][food].append({381: { 'word' : 'soda',
 'taboo1': 'pop',
 'taboo2': 'juice',
 'taboo3': 'coke',
 'taboo4': 'water',
 'taboo5': 'orange'
 }}]}
-data['words'].[food].append({382: { 'word' : 'sole',
+data['words'][food].append({382: { 'word' : 'sole',
 'taboo1': 'foot',
 'taboo2': 'shoe',
 'taboo3': 'soul',
 'taboo4': 'only',
 'taboo5': 'fish'
 }}]}
-data['words'].[food].append({383: { 'word' : 'sorbet',
+data['words'][food].append({383: { 'word' : 'sorbet',
 'taboo1': 'sherbet',
 'taboo2': 'ice',
 'taboo3': 'orange',
 'taboo4': 'cold',
 'taboo5': 'fruit'
 }}]}
-data['words'].[food].append({384: { 'word' : 'sorghum',
+data['words'][food].append({384: { 'word' : 'sorghum',
 'taboo1': 'sore',
 'taboo2': 'cum',
 'taboo3': 'flame',
 'taboo4': 'gum',
 'taboo5': 'mahogany'
 }}]}
-data['words'].[food].append({385: { 'word' : 'sorrel',
+data['words'][food].append({385: { 'word' : 'sorrel',
 }}]}
-data['words'].[food].append({386: { 'word' : 'soup',
+data['words'][food].append({386: { 'word' : 'soup',
 'taboo1': 'noodles',
 'taboo2': 'chicken',
 'taboo3': 'tomato',
 'taboo4': 'bowl',
 'taboo5': 'tureen'
 }}]}
-data['words'].[food].append({387: { 'word' : 'sour',
+data['words'][food].append({387: { 'word' : 'sour',
 'taboo1': 'bitter',
 'taboo2': 'sweet',
 'taboo3': 'cream',
 'taboo4': 'pickles',
 'taboo5': 'grapes'
 }}]}
-data['words'].[food].append({388: { 'word' : 'soy',
+data['words'][food].append({388: { 'word' : 'soy',
 'taboo1': 'bean',
 'taboo2': 'sauce',
 'taboo3': 'beans',
 'taboo4': 'milk',
 'taboo5': 'protein'
 }}]}
-data['words'].[food].append({389: { 'word' : 'soybeans',
+data['words'][food].append({389: { 'word' : 'soybeans',
 'taboo1': 'awakening',
 'taboo2': 'bean',
 'taboo3': 'beans',
 'taboo4': 'estrogen',
 'taboo5': 'farmer'
 }}]}
-data['words'].[food].append({390: { 'word' : 'spaghetti',
+data['words'][food].append({390: { 'word' : 'spaghetti',
 'taboo1': 'noodles',
 'taboo2': 'pasta',
 'taboo3': 'meatballs',
 'taboo4': 'sauce',
 'taboo5': 'meatball'
 }}]}
-data['words'].[food].append({391: { 'word' : 'spareribs',
+data['words'][food].append({391: { 'word' : 'spareribs',
 'taboo1': 'barbecue',
 'taboo2': 'sauce',
 'taboo3': 'food',
 'taboo4': 'meat',
 'taboo5': 'pork'
 }}]}
-data['words'].[food].append({392: { 'word' : 'spatula',
+data['words'][food].append({392: { 'word' : 'spatula',
 'taboo1': 'turner',
 'taboo2': 'fork',
 'taboo3': 'spoon',
 'taboo4': 'flip',
 'taboo5': 'pan'
 }}]}
-data['words'].[food].append({393: { 'word' : 'spices',
+data['words'][food].append({393: { 'word' : 'spices',
 'taboo1': 'herbs',
 'taboo2': 'cinnamon',
 'taboo3': 'chili',
 'taboo4': 'girls',
 'taboo5': 'flavors'
 }}]}
-data['words'].[food].append({394: { 'word' : 'spicy',
+data['words'][food].append({394: { 'word' : 'spicy',
 'taboo1': 'hot',
 'taboo2': 'chili',
 'taboo3': 'food',
 'taboo4': 'curry',
 'taboo5': 'pepper'
 }}]}
-data['words'].[food].append({395: { 'word' : 'spinach',
+data['words'][food].append({395: { 'word' : 'spinach',
 'taboo1': 'popeye',
 'taboo2': 'vegetable',
 'taboo3': 'green',
 'taboo4': 'gross',
 'taboo5': 'salad'
 }}]}
-data['words'].[food].append({396: { 'word' : 'spoon',
+data['words'][food].append({396: { 'word' : 'spoon',
 'taboo1': 'fork',
 'taboo2': 'bowl',
 'taboo3': 'ladle',
 'taboo4': 'knife',
 'taboo5': 'fed'
 }}]}
-data['words'].[food].append({397: { 'word' : 'spork',
+data['words'][food].append({397: { 'word' : 'spork',
 'taboo1': 'spoon',
 'taboo2': 'fork',
 'taboo3': 'knife',
 'taboo4': 'pork',
 'taboo5': 'plastic'
 }}]}
-data['words'].[food].append({398: { 'word' : 'sprinkles',
+data['words'][food].append({398: { 'word' : 'sprinkles',
 'taboo1': 'icing',
 'taboo2': 'cupcakes',
 'taboo3': 'cupcake',
 'taboo4': 'annie',
 'taboo5': 'cake'
 }}]}
-data['words'].[food].append({399: { 'word' : 'sprouts',
+data['words'][food].append({399: { 'word' : 'sprouts',
 'taboo1': 'brussels',
 'taboo2': 'grow',
 'taboo3': 'alfalfa',
 'taboo4': 'grows',
 'taboo5': 'bean'
 }}]}
-data['words'].[food].append({400: { 'word' : 'spuds',
+data['words'][food].append({400: { 'word' : 'spuds',
 'taboo1': 'potatoes',
 'taboo2': 'taters',
 'taboo3': 'potato',
 'taboo4': 'duds',
 'taboo5': 'eyes'
 }}]}
-data['words'].[food].append({401: { 'word' : 'squash',
+data['words'][food].append({401: { 'word' : 'squash',
 'taboo1': 'crush',
 'taboo2': 'pumpkin',
 'taboo3': 'gourd',
 'taboo4': 'vegetable',
 'taboo5': 'squish'
 }}]}
-data['words'].[food].append({402: { 'word' : 'squid',
+data['words'][food].append({402: { 'word' : 'squid',
 'taboo1': 'octopus',
 'taboo2': 'ink',
 'taboo3': 'fish',
 'taboo4': 'tentacles',
 'taboo5': 'calamari'
 }}]}
-data['words'].[food].append({403: { 'word' : 'steak',
+data['words'][food].append({403: { 'word' : 'steak',
 'taboo1': 'beef',
 'taboo2': 'meat',
 'taboo3': 'rare',
 'taboo4': 'filet',
 'taboo5': 'cow'
 }}]}
-data['words'].[food].append({404: { 'word' : 'stew',
+data['words'][food].append({404: { 'word' : 'stew',
 'taboo1': 'soup',
 'taboo2': 'beef',
 'taboo3': 'pot',
 'taboo4': 'meat',
 'taboo5': 'pottage'
 }}]}
-data['words'].[food].append({405: { 'word' : 'stomach',
+data['words'][food].append({405: { 'word' : 'stomach',
 'taboo1': 'belly',
 'taboo2': 'ache',
 'taboo3': 'abs',
 'taboo4': 'abdomen',
 'taboo5': 'acid'
 }}]}
-data['words'].[food].append({406: { 'word' : 'stove',
+data['words'][food].append({406: { 'word' : 'stove',
 'taboo1': 'oven',
 'taboo2': 'top',
 'taboo3': 'cook',
 'taboo4': 'pipe',
 'taboo5': 'hot'
 }}]}
-data['words'].[food].append({407: { 'word' : 'straw',
+data['words'][food].append({407: { 'word' : 'straw',
 'taboo1': 'grass',
 'taboo2': 'hay',
 'taboo3': 'hat',
 'taboo4': 'berry',
 'taboo5': 'drink'
 }}]}
-data['words'].[food].append({408: { 'word' : 'strawberry',
+data['words'][food].append({408: { 'word' : 'strawberry',
 'taboo1': 'fruit',
 'taboo2': 'shortcake',
 'taboo3': 'fields',
 'taboo4': 'raspberry',
 'taboo5': 'blueberry'
 }}]}
-data['words'].[food].append({409: { 'word' : 'stringy',
+data['words'][food].append({409: { 'word' : 'stringy',
 'taboo1': 'beanie',
 'taboo2': 'cheese',
 'taboo3': 'beany',
 'taboo4': 'hair',
 'taboo5': 'string'
 }}]}
-data['words'].[food].append({410: { 'word' : 'strudel',
+data['words'][food].append({410: { 'word' : 'strudel',
 'taboo1': 'pastry',
 'taboo2': 'apple',
 'taboo3': 'pie',
 'taboo4': 'toaster',
 'taboo5': 'german'
 }}]}
-data['words'].[food].append({411: { 'word' : 'succotash',
+data['words'][food].append({411: { 'word' : 'succotash',
 'taboo1': 'suffering',
 'taboo2': 'cat',
 'taboo3': 'corn',
 'taboo4': 'dish',
 'taboo5': 'sylvester'
 }}]}
-data['words'].[food].append({412: { 'word' : 'suet',
+data['words'][food].append({412: { 'word' : 'suet',
 'taboo1': 'bird',
 'taboo2': 'fat',
 'taboo3': 'birds',
 'taboo4': 'birdseed',
 'taboo5': 'sap'
 }}]}
-data['words'].[food].append({413: { 'word' : 'sugar',
+data['words'][food].append({413: { 'word' : 'sugar',
 'taboo1': 'sweet',
 'taboo2': 'spice',
 'taboo3': 'cane',
 'taboo4': 'daddy',
 'taboo5': 'refined'
 }}]}
-data['words'].[food].append({414: { 'word' : 'sundae',
+data['words'][food].append({414: { 'word' : 'sundae',
 'taboo1': 'sunday',
 'taboo2': 'ice',
 'taboo3': 'chocolate',
 'taboo4': 'fudge',
 'taboo5': 'cream'
 }}]}
-data['words'].[food].append({415: { 'word' : 'sunflower',
+data['words'][food].append({415: { 'word' : 'sunflower',
 'taboo1': 'seeds',
 'taboo2': 'seed',
 'taboo3': 'sun',
 'taboo4': 'yellow',
 'taboo5': 'flower'
 }}]}
-data['words'].[food].append({416: { 'word' : 'supper',
+data['words'][food].append({416: { 'word' : 'supper',
 'taboo1': 'dinner',
 'taboo2': 'lunch',
 'taboo3': 'breakfast',
 'taboo4': 'last',
 'taboo5': 'meal'
 }}]}
-data['words'].[food].append({417: { 'word' : 'sushi',
+data['words'][food].append({417: { 'word' : 'sushi',
 'taboo1': 'fish',
 'taboo2': 'raw',
 'taboo3': 'japanese',
 'taboo4': 'japan',
 'taboo5': 'rice'
 }}]}
-data['words'].[food].append({418: { 'word' : 'sustenance',
+data['words'][food].append({418: { 'word' : 'sustenance',
 'taboo1': 'sustain',
 'taboo2': 'nourishment',
 'taboo3': 'nutrition',
 'taboo4': 'food',
 'taboo5': 'eat'
 }}]}
-data['words'].[food].append({419: { 'word' : 'sweet',
+data['words'][food].append({419: { 'word' : 'sweet',
 'taboo1': 'sugar',
 'taboo2': 'sour',
 'taboo3': 'candy',
 'taboo4': 'tooth',
 'taboo5': 'adorable'
 }}]}
-data['words'].[food].append({420: { 'word' : 'syrup',
+data['words'][food].append({420: { 'word' : 'syrup',
 'taboo1': 'maple',
 'taboo2': 'waffle',
 'taboo3': 'pancake',
 'taboo4': 'pancakes',
 'taboo5': 'waffles'
 }}]}
-data['words'].[food].append({421: { 'word' : 'taco',
+data['words'][food].append({421: { 'word' : 'taco',
 'taboo1': 'bell',
 'taboo2': 'beef',
 'taboo3': 'burrito',
 'taboo4': 'mexican',
 'taboo5': 'mexico'
 }}]}
-data['words'].[food].append({422: { 'word' : 'tamale',
+data['words'][food].append({422: { 'word' : 'tamale',
 'taboo1': 'mexican',
 'taboo2': 'pepper',
 'taboo3': 'hot',
 'taboo4': 'food',
 'taboo5': 'burrito'
 }}]}
-data['words'].[food].append({423: { 'word' : 'tangerine',
+data['words'][food].append({423: { 'word' : 'tangerine',
 'taboo1': 'fruit',
 'taboo2': 'orange',
 'taboo3': 'nectarine',
 'taboo4': 'citrus',
 'taboo5': 'clementine'
 }}]}
-data['words'].[food].append({424: { 'word' : 'tapioca',
+data['words'][food].append({424: { 'word' : 'tapioca',
 'taboo1': 'rice',
 'taboo2': 'pudding',
 'taboo3': 'root',
 'taboo4': 'vanilla',
 'taboo5': 'desert'
 }}]}
-data['words'].[food].append({425: { 'word' : 'taro',
+data['words'][food].append({425: { 'word' : 'taro',
 'taboo1': 'card',
 'taboo2': 'cards',
 'taboo3': 'root',
 'taboo4': 'alien',
 'taboo5': 'ant'
 }}]}
-data['words'].[food].append({426: { 'word' : 'tarragon',
+data['words'][food].append({426: { 'word' : 'tarragon',
 'taboo1': 'spice',
 'taboo2': 'thyme',
 'taboo3': 'colour',
 'taboo4': 'dragons',
 'taboo5': 'herb'
 }}]}
-data['words'].[food].append({427: { 'word' : 'tart',
+data['words'][food].append({427: { 'word' : 'tart',
 'taboo1': 'slut',
 'taboo2': 'tramp',
 'taboo3': 'pop',
 'taboo4': 'sweet',
 'taboo5': 'sour'
 }}]}
-data['words'].[food].append({428: { 'word' : 'tea',
+data['words'][food].append({428: { 'word' : 'tea',
 'taboo1': 'coffee',
 'taboo2': 'bag',
 'taboo3': 'cup',
 'taboo4': 'green',
 'taboo5': 'drink'
 }}]}
-data['words'].[food].append({429: { 'word' : 'teapot',
+data['words'][food].append({429: { 'word' : 'teapot',
 'taboo1': 'tea',
 'taboo2': 'kettle',
 'taboo3': 'spout',
 'taboo4': 'cup',
 'taboo5': 'drink'
 }}]}
-data['words'].[food].append({430: { 'word' : 'teriyaki',
+data['words'][food].append({430: { 'word' : 'teriyaki',
 'taboo1': 'chicken',
 'taboo2': 'sauce',
 'taboo3': 'maui',
 'taboo4': 'japanese',
 'taboo5': 'chinese'
 }}]}
-data['words'].[food].append({431: { 'word' : 'thyme',
+data['words'][food].append({431: { 'word' : 'thyme',
 'taboo1': 'rosemary',
 'taboo2': 'herb',
 'taboo3': 'spice',
 'taboo4': 'parsley',
 'taboo5': 'rhyme'
 }}]}
-data['words'].[food].append({432: { 'word' : 'toast',
+data['words'][food].append({432: { 'word' : 'toast',
 'taboo1': 'bread',
 'taboo2': 'butter',
 'taboo3': 'jam',
 'taboo4': 'marmalade',
 'taboo5': 'burnt'
 }}]}
-data['words'].[food].append({433: { 'word' : 'toaster',
+data['words'][food].append({433: { 'word' : 'toaster',
 'taboo1': 'bread',
 'taboo2': 'toast',
 'taboo3': 'oven',
 'taboo4': 'strudel',
 'taboo5': 'pop'
 }}]}
-data['words'].[food].append({434: { 'word' : 'toffee',
+data['words'][food].append({434: { 'word' : 'toffee',
 'taboo1': 'candy',
 'taboo2': 'coffee',
 'taboo3': 'caramel',
 'taboo4': 'heath',
 'taboo5': 'apple'
 }}]}
-data['words'].[food].append({435: { 'word' : 'tofu',
+data['words'][food].append({435: { 'word' : 'tofu',
 'taboo1': 'vegetarian',
 'taboo2': 'soy',
 'taboo3': 'vegan',
 'taboo4': 'food',
 'taboo5': 'gross'
 }}]}
-data['words'].[food].append({436: { 'word' : 'tomatillo',
+data['words'][food].append({436: { 'word' : 'tomatillo',
 'taboo1': 'salsa',
 'taboo2': 'tomato',
 }}]}
-data['words'].[food].append({437: { 'word' : 'tomato',
+data['words'][food].append({437: { 'word' : 'tomato',
 'taboo1': 'sauce',
 'taboo2': 'red',
 'taboo3': 'paste',
 'taboo4': 'potato',
 'taboo5': 'soup'
 }}]}
-data['words'].[food].append({438: { 'word' : 'torte',
+data['words'][food].append({438: { 'word' : 'torte',
 'taboo1': 'cake',
 'taboo2': 'tort',
 'taboo3': 'turtle',
 'taboo4': 'bridge',
 'taboo5': 'dessert'
 }}]}
-data['words'].[food].append({439: { 'word' : 'tortilla',
+data['words'][food].append({439: { 'word' : 'tortilla',
 'taboo1': 'chips',
 'taboo2': 'chip',
 'taboo3': 'taco',
 'taboo4': 'mexican',
 'taboo5': 'burrito'
 }}]}
-data['words'].[food].append({440: { 'word' : 'tuber',
+data['words'][food].append({440: { 'word' : 'tuber',
 'taboo1': 'root',
 'taboo2': 'potato',
 'taboo3': 'tubal',
 'taboo4': 'tube',
 'taboo5': 'tuberculosis'
 }}]}
-data['words'].[food].append({441: { 'word' : 'tuna',
+data['words'][food].append({441: { 'word' : 'tuna',
 'taboo1': 'fish',
 'taboo2': 'salmon',
 'taboo3': 'sandwich',
 'taboo4': 'salad',
 'taboo5': 'can'
 }}]}
-data['words'].[food].append({442: { 'word' : 'turkey',
+data['words'][food].append({442: { 'word' : 'turkey',
 'taboo1': 'chicken',
 'taboo2': 'thanksgiving',
 'taboo3': 'gobble',
 'taboo4': 'gobbler',
 'taboo5': 'christmas'
 }}]}
-data['words'].[food].append({443: { 'word' : 'turmeric',
+data['words'][food].append({443: { 'word' : 'turmeric',
 'taboo1': 'spice',
 'taboo2': 'rosemary',
 'taboo3': 'tumor',
 'taboo4': 'alphabet',
 'taboo5': 'anal'
 }}]}
-data['words'].[food].append({444: { 'word' : 'turnip',
+data['words'][food].append({444: { 'word' : 'turnip',
 'taboo1': 'greens',
 'taboo2': 'vegetable',
 'taboo3': 'radish',
 'taboo4': 'carrot',
 'taboo5': 'potato'
 }}]}
-data['words'].[food].append({445: { 'word' : 'unleavened',
+data['words'][food].append({445: { 'word' : 'unleavened',
 'taboo1': 'dough',
 'taboo2': 'leavened',
 'taboo3': 'yeast',
 'taboo4': 'bread',
 'taboo5': 'flat'
 }}]}
-data['words'].[food].append({446: { 'word' : 'utensils',
+data['words'][food].append({446: { 'word' : 'utensils',
 'taboo1': 'tools',
 'taboo2': 'fork',
 'taboo3': 'kitchen',
 'taboo4': 'spoon',
 'taboo5': 'spoons'
 }}]}
-data['words'].[food].append({447: { 'word' : 'vanilla',
+data['words'][food].append({447: { 'word' : 'vanilla',
 'taboo1': 'pudding',
 'taboo2': 'chocolate',
 'taboo3': 'ice',
 'taboo4': 'cream',
 'taboo5': 'bean'
 }}]}
-data['words'].[food].append({448: { 'word' : 'veal',
+data['words'][food].append({448: { 'word' : 'veal',
 'taboo1': 'calf',
 'taboo2': 'beef',
 'taboo3': 'meat',
 'taboo4': 'cow',
 'taboo5': 'lamb'
 }}]}
-data['words'].[food].append({449: { 'word' : 'vegetable',
+data['words'][food].append({449: { 'word' : 'vegetable',
 'taboo1': 'lettuce',
 'taboo2': 'carrot',
 'taboo3': 'fruit',
 'taboo4': 'garden',
 'taboo5': 'soup'
 }}]}
-data['words'].[food].append({450: { 'word' : 'venison',
+data['words'][food].append({450: { 'word' : 'venison',
 'taboo1': 'deer',
 'taboo2': 'meat',
 'taboo3': 'beef',
 'taboo4': 'steak',
 'taboo5': 'antelope'
 }}]}
-data['words'].[food].append({451: { 'word' : 'vinegar',
+data['words'][food].append({451: { 'word' : 'vinegar',
 'taboo1': 'salt',
 'taboo2': 'sour',
 'taboo3': 'oil',
 'taboo4': 'chips',
 'taboo5': 'malt'
 }}]}
-data['words'].[food].append({452: { 'word' : 'vitamin',
+data['words'][food].append({452: { 'word' : 'vitamin',
 'taboo1': 'mineral',
 'taboo2': 'c',
 'taboo3': 'd',
 'taboo4': 'k',
 'taboo5': 'b'
 }}]}
-data['words'].[food].append({453: { 'word' : 'wafer',
+data['words'][food].append({453: { 'word' : 'wafer',
 'taboo1': 'communion',
 'taboo2': 'cookie',
 'taboo3': 'vanilla',
 'taboo4': 'cracker',
 'taboo5': 'biscuit'
 }}]}
-data['words'].[food].append({454: { 'word' : 'waffle',
+data['words'][food].append({454: { 'word' : 'waffle',
 'taboo1': 'pancake',
 'taboo2': 'syrup',
 'taboo3': 'cone',
 'taboo4': 'iron',
 'taboo5': 'house'
 }}]}
-data['words'].[food].append({455: { 'word' : 'walnut',
+data['words'][food].append({455: { 'word' : 'walnut',
 'taboo1': 'nut',
 'taboo2': 'peanut',
 'taboo3': 'almond',
 'taboo4': 'pecan',
 'taboo5': 'shell'
 }}]}
-data['words'].[food].append({456: { 'word' : 'wasabi',
+data['words'][food].append({456: { 'word' : 'wasabi',
 'taboo1': 'mistake',
 'taboo2': 'wrong',
 'taboo3': 'computer',
 'taboo4': 'trial',
 'taboo5': 'message'
 }}]}
-data['words'].[food].append({457: { 'word' : 'water',
+data['words'][food].append({457: { 'word' : 'water',
 'taboo1': 'drink',
 'taboo2': 'juice',
 'taboo3': 'orange',
 'taboo4': 'wet',
 'taboo5': 'ocean'
 }}]}
-data['words'].[food].append({458: { 'word' : 'watercress',
+data['words'][food].append({458: { 'word' : 'watercress',
 'taboo1': 'salad',
 'taboo2': 'chestnuts',
 'taboo3': 'water',
 'taboo4': 'advertising',
 'taboo5': 'bruges'
 }}]}
-data['words'].[food].append({459: { 'word' : 'watermelon',
+data['words'][food].append({459: { 'word' : 'watermelon',
 'taboo1': 'melon',
 'taboo2': 'seeds',
 'taboo3': 'cantaloupe',
 'taboo4': 'fruit',
 'taboo5': 'rind'
 }}]}
-data['words'].[food].append({460: { 'word' : 'wheat',
+data['words'][food].append({460: { 'word' : 'wheat',
 'taboo1': 'corn',
 'taboo2': 'bread',
 'taboo3': 'germ',
 'taboo4': 'grain',
 'taboo5': 'barley'
 }}]}
-data['words'].[food].append({461: { 'word' : 'whey',
+data['words'][food].append({461: { 'word' : 'whey',
 'taboo1': 'curds',
 'taboo2': 'protein',
 'taboo3': 'wheat',
 'taboo4': 'milk',
 'taboo5': 'spider'
 }}]}
-data['words'].[food].append({462: { 'word' : 'wok',
+data['words'][food].append({462: { 'word' : 'wok',
 'taboo1': 'chinese',
 'taboo2': 'new',
 'taboo3': 'cook',
 'taboo4': 'pan',
 'taboo5': 'food'
 }}]}
-data['words'].[food].append({463: { 'word' : 'yam',
+data['words'][food].append({463: { 'word' : 'yam',
 'taboo1': 'yeah',
 'taboo2': 'ham',
 'taboo3': 'potato',
 'taboo4': 'sweet',
 'taboo5': 'may'
 }}]}
-data['words'].[food].append({464: { 'word' : 'yeast',
+data['words'][food].append({464: { 'word' : 'yeast',
 'taboo1': 'infection',
 'taboo2': 'bread',
 'taboo3': 'protist',
 'taboo4': 'rise',
 'taboo5': 'mold'
 }}]}
-data['words'].[food].append({465: { 'word' : 'yogurt',
+data['words'][food].append({465: { 'word' : 'yogurt',
 'taboo1': 'pudding',
 'taboo2': 'gelatin',
 'taboo3': 'milk',
 'taboo4': 'strawberry',
 'taboo5': 'culture'
 }}]}
-data['words'].[food].append({466: { 'word' : 'yolk',
+data['words'][food].append({466: { 'word' : 'yolk',
 'taboo1': 'egg',
 'taboo2': 'white',
 'taboo3': 'yellow',
