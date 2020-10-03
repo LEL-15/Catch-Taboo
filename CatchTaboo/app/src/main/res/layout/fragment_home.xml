@@ -9,21 +9,23 @@
         android:id="@+id/hostGame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
         android:onClick="createGame"
         android:padding="5sp"
+        android:radius="3dip"
         android:text="@string/hostGame"
         app:layout_constraintBottom_toTopOf="@+id/joinGame"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/round_button"
+        />
 
     <Button
         android:id="@+id/joinGame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/round_button"
         android:onClick="joinGame"
         android:padding="5sp"
         android:text="@string/joinGame"
