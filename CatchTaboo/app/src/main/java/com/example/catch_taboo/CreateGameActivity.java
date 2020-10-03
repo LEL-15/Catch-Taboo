@@ -1,17 +1,27 @@
 package com.example.catch_taboo;
+import android.app.LauncherActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.util.SparseBooleanArray;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.CheckedTextView;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.example.catch_taboo.ui.user.GalleryViewModel;
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
@@ -19,20 +29,61 @@ import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
+import com.google.firebase.firestore.QuerySnapshot;
 
 import org.w3c.dom.Document;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class CreateGameActivity extends AppCompatActivity {
+    FirebaseFirestore db = FirebaseFirestore.getInstance();
+    ArrayList<String> names = new ArrayList<String>();
+    ArrayList<Boolean> picked = new ArrayList<Boolean>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //When this function is called
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_game);
+
+
+        //Populate the categories list
+        final Context hold = this;
+        DocumentReference codesRef = db.collection("categories").document("categories");
+        codesRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                if (task.isSuccessful()) {
+                    Map<String, Object> map = task.getResult().getData();
+                    for (Map.Entry<String, Object> entry : map.entrySet()) {
+                        Log.d("TAG", entry.getValue().toString());
+                        names.add(entry.getValue().toString());
+                        picked.add(false);
+                    }
+                    // Create an ArrayAdapter from List
+                    final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>
+                            (hold, android.R.layout.simple_list_item_multiple_choice, names);
+                    // DataBind ListView with items from ArrayAdapter
+                    final ListView lv = (ListView) findViewById(R.id.categories);
+                    lv.setAdapter(arrayAdapter);
+                }
+            }
+        });
+        ListView categories = (ListView)findViewById(R.id.categories);
+        categories.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                // change the checkbox state
+                CheckedTextView checkedTextView = ((CheckedTextView)view);
+                checkedTextView.setChecked(!checkedTextView.isChecked());
+                picked.set(position, checkedTextView.isChecked());
+            }
+        });
     }
 
     //Functions for each button pushed
@@ -75,10 +126,15 @@ public class CreateGameActivity extends AppCompatActivity {
             timeRemaining = 300;
         }
 
-
         final Context hold = this;
-
         final Map<String, Object> game = new HashMap<>();
+
+        //Get and set categories
+        for (int i = 0; i < picked.size(); i++) {
+            game.put(names.get(i), picked.get(i));
+        }
+
+        //Put all other game data
         game.put("name", gameName);
         game.put("timeRemaining", timeRemaining);
         game.put("teamOneScore", 0);
