@@ -9,8 +9,6 @@ import android.os.VibrationEffect;
 import android.os.Vibrator;
 import android.util.Log;
 import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -297,7 +295,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
         Log.d(TAG, "data is" + data);
         if(count > 0){
             //Got the word
-            if (!currentUserID.equals(data.get("activePlayer"))) {
+            if (currentUserID.equals(data.get("activePlayer"))) {
                 //Change Score
                 int scoreEarned = 100 - (int)((System.currentTimeMillis() - startTime) / 1000);
                 Log.d(TAG, "Score earned was: " + scoreEarned);
