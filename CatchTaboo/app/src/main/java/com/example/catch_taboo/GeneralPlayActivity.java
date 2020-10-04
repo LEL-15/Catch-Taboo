@@ -23,6 +23,7 @@ import com.example.catch_taboo.ui.user.GalleryViewModel;
 import com.example.catch_taboo.ui.wait.WaitFragment;
 import com.example.catch_taboo.ui.word.WordFragment;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -57,6 +58,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
     private String playerTurn;
     private int count = 0;
     private int number = 24;
+    private boolean gotWord = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) { //method gets triggered as soon as the activity is created
@@ -221,7 +223,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
         });
     }
 
-    private void pickLayout(Map<String, Object> data) {
+    private void pickLayout(Map<String, Object> data) { //controls change of screen
         if(registration != null){
             registration.remove();
         }
@@ -246,6 +248,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
     public void endTurn(View view) {
         Log.d(TAG, "in endturn");
         first = !first;
+        gotWord = true;
         //Switch which team goes first
         final Map<String, Object> data = new HashMap<>();
         data.put("teamOneActive", first);
@@ -253,6 +256,7 @@ public class GeneralPlayActivity extends AppCompatActivity {
         Random rand = new Random();
         Double randomNumber = rand.nextInt(number)+1.0;
         data.put("word", randomNumber);
+        //setRandNum();
         //Switch active player
         String teamFirst = "team2";
         if (first) {
@@ -269,18 +273,24 @@ public class GeneralPlayActivity extends AppCompatActivity {
                     // Generate random integers in range 0 to 999
                     int randomPlayer = rand.nextInt(task.getResult().size());
                     //For every plyaer in the database
-                    int count = 0;
+                    int endTurnCount = 0;
                     for (final QueryDocumentSnapshot document : task.getResult()) {
                         Log.d(TAG, "onComplete: per player");
-                        if (count == randomPlayer) {
+                        if (endTurnCount == randomPlayer) {
                             Log.d(TAG, "onComplete: found right player with id " + document.get("id"));
                             data.put("activePlayer", document.get("id"));
                         }
-                        count += 1;
+                        endTurnCount += 1;
                     }
                     Log.d(TAG, "data is " + data);
                     DocumentReference game = db.collection("games").document(gameName);
-                    game.update(data);
+                    //game.update(data); //update database with info from data which includes teamOneActive and activePlayerID
+                    game.update(data).addOnSuccessListener(new OnSuccessListener<Void>() {
+                        @Override
+                        public void onSuccess(Void aVoid) {
+                            Log.v("Data Upload", "Wait for data to finish upload after. Player guesses word correctly.");
+                        }
+                    });
                 }
                 //If failed to access firebase
                 else {
@@ -295,7 +305,9 @@ public class GeneralPlayActivity extends AppCompatActivity {
         Log.d(TAG, "data is" + data);
         if(count > 0){
             //Got the word
-            if (currentUserID.equals(data.get("activePlayer"))) {
+            if (gotWord) {
+                gotWord = false;
+                Log.d(TAG, "GOT THE WORD CORRECT!");
                 //Change Score
                 int scoreEarned = 100 - (int)((System.currentTimeMillis() - startTime) / 1000);
                 Log.d(TAG, "Score earned was: " + scoreEarned);
@@ -311,19 +323,19 @@ public class GeneralPlayActivity extends AppCompatActivity {
                     DocumentReference document = db.collection("games").document(gameName);
                     document.update("teamTwoScore", FieldValue.increment(scoreEarned));
                 }
-                pickLayout(data);
                 updateScore();
                 count = 0;
+                pickLayout(data);
             }
             //Got buzzed
             else{
                 Log.d(TAG, "updateActivePlayer: got buzzed");
-                pickLayout(data);
-                count = 0;
-                MediaPlayer buzz = MediaPlayer.create(this, R.raw.fail);
-                buzz.start();
+                MediaPlayer buzzerSound = MediaPlayer.create(this, R.raw.fail);
+                buzzerSound.start();
                 Vibrator vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
                 vibrator.vibrate(VibrationEffect.createOneShot(600, VibrationEffect.DEFAULT_AMPLITUDE));
+                count = 0;
+                pickLayout(data);
             }
         }
         else{
@@ -331,20 +343,23 @@ public class GeneralPlayActivity extends AppCompatActivity {
         }
     }
 
-    private void updateOtherPlayer(Map<String, Object> data) {
+    private void updateOtherPlayer(Map<String, Object> data) { //called everytime the database updates
         Log.d(TAG, "updateOtherPlayer: " + count);
         if(count > 1){
             pickLayout(data);
             updateScore();
             count = 0;
         }
+
         count++;
+
     }
-    public void buzz(View view){
+    public void buzz(View view){ //called when players with taboo words press their screen
+        Log.v("Taboo", "You got the word Wrong. In buzz function.");
         setRandNum();
         setLayoutOther();
     }
-    public void updateScore(){
+    public void updateScore(){ //update the score on the screen
         final DocumentReference docRef = db.collection("games").document(gameName);
         docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
@@ -371,14 +386,57 @@ public class GeneralPlayActivity extends AppCompatActivity {
             }
         });
     }
-    public int setRandNum() {
+    public int setRandNum() { //updates word number in database
         //Made new thing
         Random rand = new Random();
         Double randomNumber = rand.nextInt(number)+1.0;//range 1 to 5
         DocumentReference docRef = db.collection("games").document(gameName);
-        final Map<String, Object> game = new HashMap<>();
-        game.put("word", randomNumber);
-        docRef.update(game);
+        final Map<String, Object> data = new HashMap<>();
+        data.put("word", randomNumber);
+
+        docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>(){
+
+            @Override
+            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                if (task.isSuccessful()) {
+                    final DocumentSnapshot snapshotGame = task.getResult();
+                    if (snapshotGame.exists()) {
+
+                        String category = "";
+                        Integer catagoryValue = 1;
+                        while (category == "") {
+
+                            Random rand = new Random();
+                            Integer randCat = rand.nextInt(3) + 1;//range 1 to 5
+                            switch (randCat) {
+                                case 1:
+                                    if (snapshotGame.getBoolean("animals")) {
+                                        category = "animals";
+                                        catagoryValue = 1;
+                                    }
+                                    break;
+                                case 2:
+                                    if (snapshotGame.getBoolean("food")) {
+                                        category = "food";
+                                        catagoryValue = 2;
+                                    }
+                                    break;
+                                case 3:
+                                    if (snapshotGame.getBoolean("things")) {
+                                        category = "things";
+                                        catagoryValue = 3;
+                                    }
+                                    break;
+                            }
+                        }
+
+                        data.put("category", catagoryValue);
+                    }
+                }
+            }
+        });
+
+        docRef.update(data);
 
         return 1;
     }

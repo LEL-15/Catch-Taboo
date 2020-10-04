@@ -63,9 +63,9 @@ public class TabooViewModel extends ViewModel {
                         Log.v("RandNum", String.valueOf(randNum));
 
 
-                        Integer cat = snapshotGame.getDouble("category").intValue();
+                        Integer catValue = snapshotGame.getDouble("category").intValue();
                         String category = "";
-                        switch (cat) {
+                        switch (catValue) {
                             case 1:
                                 category = "animals";
                                 break;

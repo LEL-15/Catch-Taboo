@@ -234,7 +234,12 @@ public class JoinedGameActivity extends AppCompatActivity {
                     data.put("teamTwoScore", 0);
                     Log.d(TAG, "data is " + data);
                     DocumentReference game = db.collection("games").document(gameName);
-                    game.update(data);
+                    game.update(data).addOnSuccessListener(new OnSuccessListener<Void>() {
+                        @Override
+                        public void onSuccess(Void aVoid) {
+                            Log.v("Data Upload", "Start Game!");
+                        }
+                    });
                 }
                 //If failed to access firebase
                 else {

@@ -40,7 +40,7 @@ public class WordViewModel extends ViewModel {
         gameName = mGameName;
 
         mText = new MutableLiveData<>();
-        mText.setValue( "default"); //change word here!
+        //mText.setValue( "default"); //change word here!
 //        setRandNum();
 //        String wordChoice = String.valueOf(randNum);
 
@@ -58,32 +58,20 @@ public class WordViewModel extends ViewModel {
 
                         //roll a rand num for which collection to pick (1-3)
 
+                        Integer catValue = snapshotGame.getDouble("category").intValue();
                         String category = "";
-                        while(category == "") {
-                            Log.v("While", "While loop is running to long?");
-                            Random rand = new Random();
-                            Integer randCat = rand.nextInt(3)+1;//range 1 to 5
-                            switch (randCat) {
-                                case 1:
-                                    if (snapshotGame.getBoolean("animals")) {
-                                        category = "animals";
-                                        docRefGame.update("category", 1);
-                                    }
-                                    break;
-                                case 2:
-                                    if (snapshotGame.getBoolean("food")) {
-                                        category = "food";
-                                        docRefGame.update("category", 2);
-                                    }
-                                    break;
-                                case 3:
-                                    if (snapshotGame.getBoolean("things")) {
-                                        category = "things";
-                                        docRefGame.update("category", 3);
-                                    }
-                                    break;
-                            }
+                        switch (catValue) {
+                            case 1:
+                                category = "animals";
+                                break;
+                            case 2:
+                                category = "food";
+                                break;
+                            case 3:
+                                category = "things";
+                                break;
                         }
+
                         Log.v("category", category);
                         Log.v("wordChoice", wordChoice);
 
