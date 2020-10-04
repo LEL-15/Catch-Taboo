@@ -136,7 +136,7 @@ public class HomeActivity extends AppCompatActivity {
                     }
                 });
     }
-    public void createGame(View v){
+    public void createGameOptions(View v){
         Intent intent = new Intent(this, CreateGameActivity.class);
         startActivity(intent);
     }
@@ -144,5 +144,8 @@ public class HomeActivity extends AppCompatActivity {
         Intent intent = new Intent(this, JoinGameActivity.class);
         startActivity(intent);
     }
-
+    public void showInstructions(View v){
+        Intent intent = new Intent(this, InstructionsActivity.class);
+        startActivity(intent);
+    }
 }

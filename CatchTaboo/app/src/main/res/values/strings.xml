@@ -25,4 +25,10 @@
         <item>4 Minutes</item>
         <item>5 Minutes</item>
     </string-array>
+    <string name="instructions">Catch Taboo a multilayer, two teams party game. When you are the active player, you are trying to get the other players on your team to guess your word. No gestures are allowed, you may only
+        use your words. But look out! The other team has a list of words related to your word that you are not allowed to say! If you say any of those words, they will tap their screen to buzz you. When you get
+        buzzed, you have to start over with another word. If anybody on your team guesses your word, tap your screen to mark it complete. Then, one player on the other team will become active, and you will
+        have to watch for those taboo words! Whenever your team gets a word, you get points. However, the number of points decreases depending on the time it took your team to guess the word (including the time
+        for all the buzzed words)!
+    </string>
 </resources>

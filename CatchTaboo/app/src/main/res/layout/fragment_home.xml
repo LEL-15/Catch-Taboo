@@ -3,36 +3,57 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight">
 
     <Button
         android:id="@+id/hostGame"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="createGame"
+        android:layout_width="365dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_button_primary_color"
+        android:onClick="createGameOptions"
         android:padding="5sp"
         android:radius="3dip"
         android:text="@string/hostGame"
         app:layout_constraintBottom_toTopOf="@+id/joinGame"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/round_button"
-        />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/joinGame"
-        android:layout_width="wrap_content"
+        android:layout_width="365dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/round_button"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/round_button_primary_color"
         android:onClick="joinGame"
         android:padding="5sp"
         android:text="@string/joinGame"
+        app:layout_constraintBottom_toTopOf="@+id/instructions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="333dp"
+        android:layout_height="494dp"
+        app:layout_constraintBottom_toTopOf="@+id/hostGame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/alert_orange_round" />
+
+    <Button
+        android:id="@+id/instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/round_button_primary_color"
+        android:onClick="showInstructions"
+        android:padding="8sp"
+        android:text="Instructions"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/hostGame"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/hostGame"
-        app:layout_constraintTop_toBottomOf="@+id/hostGame" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

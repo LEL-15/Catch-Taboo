@@ -1,10 +1,9 @@
 package com.example.catch_taboo;
-import android.app.LauncherActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.util.SparseBooleanArray;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -12,27 +11,20 @@ import android.widget.CheckedTextView;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Spinner;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.ViewModelProviders;
-
-import com.example.catch_taboo.ui.user.GalleryViewModel;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.Timestamp;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.QueryDocumentSnapshot;
-import com.google.firebase.firestore.QuerySnapshot;
 
 import org.w3c.dom.Document;
 
@@ -53,12 +45,13 @@ import static com.google.firebase.Timestamp.now;
 public class CreateGameActivity extends AppCompatActivity {
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     ArrayList<String> names = new ArrayList<String>();
-    ArrayList<Boolean> picked = new ArrayList<Boolean>();
+    ArrayList<Boolean> picked = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //When this function is called
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_game);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
         //Populate the categories list
@@ -78,7 +71,7 @@ public class CreateGameActivity extends AppCompatActivity {
                     final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>
                             (hold, android.R.layout.simple_list_item_multiple_choice, names);
                     // DataBind ListView with items from ArrayAdapter
-                    final ListView lv = (ListView) findViewById(R.id.categories);
+                    final ListView lv = findViewById(R.id.categories);
                     lv.setAdapter(arrayAdapter);
                 }
             }
@@ -236,5 +229,14 @@ public class CreateGameActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
