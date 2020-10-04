@@ -213,14 +213,14 @@ public class JoinedGameActivity extends AppCompatActivity {
         team2.get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
             @Override
             public void onComplete(@NonNull Task<QuerySnapshot> task) {
-                //If succesfully accessed firebase
+                //If successfully accessed firebase
                 if (task.isSuccessful()) {
                     // create instance of Random class
                     Random rand = new Random();
                     // Generate random integers in range 0 to 999
                     int randomPlayer = rand.nextInt(task.getResult().size());
                     Log.d(TAG, "random player: " + randomPlayer);
-                    //For every plyaer in the database
+                    //For every player in the database
                     int count = 0;
                     for (final QueryDocumentSnapshot document : task.getResult()) {
                         Log.d(TAG, "onComplete: per player");

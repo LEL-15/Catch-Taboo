@@ -42,27 +42,26 @@
 
     <Button
         android:id="@+id/done"
-        android:layout_width="wrap_content"
+        android:layout_width="365dp"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_button_secondary_color"
         android:onClick="done"
         android:text="Done"
-        app:layout_constraintBottom_toBottomOf="@+id/replay"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/replay"
-        app:layout_constraintTop_toTopOf="@+id/replay" />
+        app:layout_constraintEnd_toEndOf="@+id/replay"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/replay"
+        app:layout_constraintTop_toBottomOf="@+id/replay" />
 
     <Button
         android:id="@+id/replay"
-        android:layout_width="wrap_content"
+        android:layout_width="365dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:background="@color/colorPrimary"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/round_button_secondary_color"
         android:onClick="restart"
         android:text="Replay"
-        app:layout_constraintEnd_toStartOf="@+id/done"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/secondTeamScore"
+        app:layout_constraintStart_toStartOf="@+id/secondTeamScore"
         app:layout_constraintTop_toBottomOf="@+id/secondTeamScore" />
 </androidx.constraintlayout.widget.ConstraintLayout>
