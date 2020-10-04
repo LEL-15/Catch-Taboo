@@ -14,6 +14,8 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+import java.util.Random;
+
 import static androidx.constraintlayout.widget.Constraints.TAG;
 
 
@@ -27,7 +29,7 @@ public class TabooViewModel extends ViewModel {
     private MutableLiveData<String> mTaboo5;
     private FirebaseFirestore db = FirebaseFirestore.getInstance(); //variable that gives me access to the database
     private FirebaseFirestore rootRef = db.getInstance();
-    private double randNum;
+    private Integer randNum;
 //    private String wordChoice;
 
     private String gameName;
@@ -57,14 +59,28 @@ public class TabooViewModel extends ViewModel {
                 if (task.isSuccessful()) {
                     DocumentSnapshot snapshotGame = task.getResult();
                     if (snapshotGame.exists()) {
-                        randNum = snapshotGame.getDouble("word");
+                        randNum = snapshotGame.getDouble("word").intValue();
                         Log.v("RandNum", String.valueOf(randNum));
 
 
+                        Integer cat = snapshotGame.getDouble("category").intValue();
+                        String category = "";
+                        switch (cat) {
+                            case 1:
+                                category = "animals";
+                                break;
+                            case 2:
+                                category = "food";
+                                break;
+                            case 3:
+                                category = "things";
+                                break;
+                        }
+                        Log.v("category", category);
 
                         String wordChoice = String.valueOf(randNum);
                         Log.v("WordChoice", wordChoice);
-                        DocumentReference docRef = db.collection("words").document(wordChoice);
+                        DocumentReference docRef = db.collection(category).document(wordChoice); //edit here to use array of current
                         docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>(){
 
                             @Override
@@ -102,7 +118,7 @@ public class TabooViewModel extends ViewModel {
                     }
                     else
                     {
-                        randNum = 1.0;
+                        randNum = 1;
                     }
                 }
             }

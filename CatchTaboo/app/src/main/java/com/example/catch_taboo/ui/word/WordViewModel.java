@@ -44,19 +44,50 @@ public class WordViewModel extends ViewModel {
 //        setRandNum();
 //        String wordChoice = String.valueOf(randNum);
 
-        DocumentReference docRefGame = db.collection("games").document(gameName);
+        final DocumentReference docRefGame = db.collection("games").document(gameName);
         docRefGame.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>(){
 
             @Override
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {
                 if (task.isSuccessful()) {
-                    DocumentSnapshot snapshotGame = task.getResult();
+                    final DocumentSnapshot snapshotGame = task.getResult();
                     if (snapshotGame.exists()) {
-                        randNum = snapshotGame.getDouble("word");
+                        randNum = snapshotGame.getDouble("word").intValue();
                         Log.v("RandNum", String.valueOf(randNum));
                         String wordChoice = String.valueOf(randNum);
 
-                        DocumentReference docRef = db.collection("words").document(wordChoice);
+                        //roll a rand num for which collection to pick (1-3)
+
+                        String category = "";
+                        while(category == "") {
+                            Log.v("While", "While loop is running to long?");
+                            Random rand = new Random();
+                            Integer randCat = rand.nextInt(3)+1;//range 1 to 5
+                            switch (randCat) {
+                                case 1:
+                                    if (snapshotGame.getBoolean("animals")) {
+                                        category = "animals";
+                                        docRefGame.update("category", 1);
+                                    }
+                                    break;
+                                case 2:
+                                    if (snapshotGame.getBoolean("food")) {
+                                        category = "food";
+                                        docRefGame.update("category", 2);
+                                    }
+                                    break;
+                                case 3:
+                                    if (snapshotGame.getBoolean("things")) {
+                                        category = "things";
+                                        docRefGame.update("category", 3);
+                                    }
+                                    break;
+                            }
+                        }
+                        Log.v("category", category);
+                        Log.v("wordChoice", wordChoice);
+
+                        DocumentReference docRef = db.collection(category).document(wordChoice);
                         docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>(){
 
                             @Override
@@ -96,7 +127,7 @@ public class WordViewModel extends ViewModel {
 
     private String gameName;
 
-    private double randNum = 1.0;
+    private Integer randNum = 1;
 
     public double getRandNum() {
         return randNum;
@@ -124,5 +155,6 @@ public class WordViewModel extends ViewModel {
 
         return mText;
     }
+
 
 }
