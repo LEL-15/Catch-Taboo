@@ -33,6 +33,7 @@
         <activity android:name=".JoinGameActivity" />
         <activity android:name=".JoinTeamActivity" />
         <activity android:name=".EndGameActivity" />
+        <activity android:name=".InstructionsActivity" />
     </application>
 
 </manifest>
